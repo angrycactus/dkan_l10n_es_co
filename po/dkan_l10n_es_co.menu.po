@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dkan_l10n_es_co-7.x.1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
+"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"Language: es_CO\n"
+
+# menu:item:1222:description
+msgctxt "item:1222:description"
+msgid "Education"
+msgstr "Educación"
+
+# menu:item:1222:title
+msgctxt "item:1222:title"
+msgid "Education"
+msgstr "Educación"
+
+# menu:item:1223:description
+msgctxt "item:1223:description"
+msgid "Finance and Budgeting"
+msgstr "Finanzas y presupuestación"
+
+# menu:item:1223:title
+msgctxt "item:1223:title"
+msgid "Finance and Budgeting"
+msgstr "Finanzas y presupuestación"
+
+# menu:item:1224:description
+msgctxt "item:1224:description"
+msgid "Health Care"
+msgstr "Atención médica"
+
+# menu:item:1224:title
+msgctxt "item:1224:title"
+msgid "Health Care"
+msgstr "Atención médica"
+
+# menu:item:1227:title
+msgctxt "item:1227:title"
+msgid "About"
+msgstr "Acerca de"
+
+# menu:item:1228:title
+msgctxt "item:1228:title"
+msgid "Datasets"
+msgstr "Conjuntos de datos"
+
+# menu:item:1229:title
+msgctxt "item:1229:title"
+msgid "Dashboards"
+msgstr "Cuadro de mando"
+
+# menu:item:1230:title
+msgctxt "item:1230:title"
+msgid "Stories"
+msgstr "Historias"
+
+# menu:item:1231:title
+msgctxt "item:1231:title"
+msgid "Groups"
+msgstr "Grupos"
+
+# menu:item:440:title
+msgctxt "item:440:title"
+msgid "Visualizations"
+msgstr "Visualizaciones"
+
+# menu:item:441:title
+msgctxt "item:441:title"
+msgid "People"
+msgstr "Personas"
+
+# menu:item:442:title
+msgctxt "item:442:title"
+msgid "Site Configuration"
+msgstr "Configuración del sitio"
+
+# menu:item:443:title
+msgctxt "item:443:title"
+msgid "DKAN"
+msgstr "DKAN"
+
+# menu:item:444:title
+msgctxt "item:444:title"
+msgid "Add content"
+msgstr "Añadir contenido"
+
+# menu:item:445:title
+msgctxt "item:445:title"
+msgid "Content"
+msgstr "Contenido"
+
+# menu:item:446:title
+msgctxt "item:446:title"
+msgid "Data Dashboards"
+msgstr "Cuadro de mando de datos"
+
+# menu:item:447:title
+msgctxt "item:447:title"
+msgid "Charts"
+msgstr "Gráficas"
+
+# menu:item:448:description
+msgctxt "item:448:description"
+msgid "Manage options for local and external DKAN resource previews"
+msgstr "Administrar opciones para previsualizaciones de recursos DKAN locales y externas"
+
+# menu:item:448:title
+msgctxt "item:448:title"
+msgid "Data Previews"
+msgstr "Previsualizaciones de datos"
+
+# menu:item:449:title
+msgctxt "item:449:title"
+msgid "Create user"
+msgstr "Crear usuario"
+
+# menu:item:450:description
+msgctxt "item:450:description"
+msgid "Customize site colors"
+msgstr "Personalizar los colores del sitio"
+
+# menu:item:450:title
+msgctxt "item:450:title"
+msgid "Colorizer"
+msgstr "Colorizer"
+
+# menu:item:451:title
+msgctxt "item:451:title"
+msgid "DKAN Dataset Forms"
+msgstr "Formularios del conjunto de datos de DKAN"
+
+# menu:item:452:description
+msgctxt "item:452:description"
+msgid "Customize site navigation menus"
+msgstr "Personalizar los menús de navegación del sitio"
+
+# menu:item:452:title
+msgctxt "item:452:title"
+msgid "Menus"
+msgstr "Menús"
+
+# menu:item:453:title
+msgctxt "item:453:title"
+msgid "Open Data Schema Mapper"
+msgstr "Abrir el mapeador de esquema de datos"
+
+# menu:item:454:title
+msgctxt "item:454:title"
+msgid "Manage Users"
+msgstr "Administrar usuarios"
+
+# menu:item:455:title
+msgctxt "item:455:title"
+msgid "Fonts"
+msgstr "Fuentes"
+
+# menu:item:456:title
+msgctxt "item:456:title"
+msgid "DKAN Harvest Dashboard"
+msgstr "Cuadro de mando de indicadores de la recolección DKAN"
+
+# menu:item:457:title
+msgctxt "item:457:title"
+msgid "DKAN Dataset API"
+msgstr "API del conjunto de datos de DKAN"
+
+# menu:item:458:title
+msgctxt "item:458:title"
+msgid "Visualization"
+msgstr "Visualización"
+
+# menu:item:459:title
+msgctxt "item:459:title"
+msgid "Featured Groups Sort Order"
+msgstr "Orden de clasificación de los grupos destacados"
+
+# menu:item:460:title
+msgctxt "item:460:title"
+msgid "Group"
+msgstr "Grupo"
+
+# menu:item:461:title
+msgctxt "item:461:title"
+msgid "Dataset"
+msgstr "Conjunto de datos"
+
+# menu:item:462:title
+msgctxt "item:462:title"
+msgid "Data Story"
+msgstr "Historial de datos"
+
+# menu:item:463:title
+msgctxt "item:463:title"
+msgid "Data Dashboard"
+msgstr "Cuadro de mandos de datos"
+
+# menu:item:464:title
+msgctxt "item:464:title"
+msgid "Page"
+msgstr "Página"
+
+# menu:item:465:title
+msgctxt "item:465:title"
+msgid "Harvest Source"
+msgstr "Fuente de recolección"
+
+# menu:item:466:title
+msgctxt "item:466:title"
+msgid "Theme Settings"
+msgstr "Configuración del tema"
+
+# menu:item:467:title
+msgctxt "item:467:title"
+msgid "Site Information"
+msgstr "Información del sitio"
+
+# menu:item:468:description
+msgctxt "item:468:description"
+msgid "Manage tags, topics and other categorization"
+msgstr "Administrar etiquetas, temas y otra categorización"
+
+# menu:item:468:title
+msgctxt "item:468:title"
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+# menu:item:469:title
+msgctxt "item:469:title"
+msgid "Resource"
+msgstr "Recurso"
+
+# menu:item:470:title
+msgctxt "item:470:title"
+msgid "Recline Configuration"
+msgstr "Configuración de reclinación"
+
+# menu:item:471:title
+msgctxt "item:471:title"
+msgid "DCAT validation"
+msgstr "Validación DCAT"
+
+# menu:item:472:title
+msgctxt "item:472:title"
+msgid "Datasets"
+msgstr "Conjuntos de datos"
+
+# menu:item:473:title
+msgctxt "item:473:title"
+msgid "Project Open Data Validation"
+msgstr "Validación de Project Open Data"
+
+# menu:item:474:title
+msgctxt "item:474:title"
+msgid "Chart"
+msgstr "Gráfica"
+
+# menu:menu:devel:description
+msgctxt "menu:devel:description"
+msgid "Development link"
+msgstr "Enlace de desarrollo"
+
+# menu:menu:devel:title
+msgctxt "menu:devel:title"
+msgid "Development"
+msgstr "Desarrollo"
+
+# menu:menu:features:description
+msgctxt "menu:features:description"
+msgid "Menu items for any enabled features."
+msgstr "Elementos de menú para cualquiera de las características habilitadas."
+
+# menu:menu:features:title
+msgctxt "menu:features:title"
+msgid "Features"
+msgstr "Características"
+
+# menu:menu:main-menu:description
+msgctxt "menu:main-menu:description"
+msgid "The <em>Main</em> menu is used on many sites to show the major sections of the site, often in a top navigation bar."
+msgstr "El menú <em>Principal</em> se utiliza en muchos sitios para mostrar las secciones principales del sitio, a menudo en una barra de navegación superior."
+
+# menu:menu:main-menu:title
+msgctxt "menu:main-menu:title"
+msgid "Main menu"
+msgstr "Menú principal"
+
+# menu:menu:management:description
+msgctxt "menu:management:description"
+msgid "The <em>Management</em> menu contains links for administrative tasks."
+msgstr "El menú <em>Administración</em> contiene enlaces para las tareas administrativas."
+
+# menu:menu:management:title
+msgctxt "menu:management:title"
+msgid "Management"
+msgstr "Gestión"
+
+# menu:menu:menu-command-center-menu:description
+msgctxt "menu:menu-command-center-menu:description"
+msgid "Alternative admin menu for non admin users."
+msgstr "Menú de administración alternativo para usuarios no administradores."
+
+# menu:menu:menu-command-center-menu:title
+msgctxt "menu:menu-command-center-menu:title"
+msgid "Command Center Menu"
+msgstr "Menú del centro de comandos"
+
+# menu:menu:navigation:description
+msgctxt "menu:navigation:description"
+msgid "The <em>Navigation</em> menu contains links intended for site visitors. Links are added to the <em>Navigation</em> menu automatically by some modules."
+msgstr "El menú <em>Navegación</em> contiene enlaces destinados a los visitantes del sitio. Los enlaces son agregados al menú <em>Navegación</em> automáticamente por algunos módulos."
+
+# menu:menu:navigation:title
+msgctxt "menu:navigation:title"
+msgid "Navigation"
+msgstr "Navegación"
+
+# menu:menu:user-menu:description
+msgctxt "menu:user-menu:description"
+msgid "The <em>User</em> menu contains links related to the user's account, as well as the 'Log out' link."
+msgstr "El menú <em>Usuario</em> contiene enlaces relacionados con la cuenta del usuario, así como el enlace 'Cerrar sesión'."
+
+# menu:menu:user-menu:title
+msgctxt "menu:user-menu:title"
+msgid "User menu"
+msgstr "Menú de usuario"

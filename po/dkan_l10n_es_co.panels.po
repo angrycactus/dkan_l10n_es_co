@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dkan_l10n_es_co-7.x.1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
+"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"Language: es_CO\n"
+
+# panels:display_configuration:2b15dd64-2e38-4fef-b312-eba3d938312f:title
+msgctxt "display_configuration:2b15dd64-2e38-4fef-b312-eba3d938312f:title"
+msgid "%node:title"
+msgstr "%node:título"
+
+# panels:display_configuration:903225a4-77c6-466f-a0b8-201b722bde0b:title
+msgctxt "display_configuration:903225a4-77c6-466f-a0b8-201b722bde0b:title"
+msgid "Add a %node:content-type"
+msgstr "Agrega un %node: tipo-de-contenido"
+
+# panels:display_configuration:9efb0f32-3597-48d6-9201-bc0c0b463e89:title
+msgctxt "display_configuration:9efb0f32-3597-48d6-9201-bc0c0b463e89:title"
+msgid "%node:title"
+msgstr "%node:título"
+
+# panels:display_configuration:a3180d51-5e38-4887-8a53-9f3561b1a654:title
+msgctxt "display_configuration:a3180d51-5e38-4887-8a53-9f3561b1a654:title"
+msgid "Groups"
+msgstr "Grupos"
+
+# panels:display_configuration:bb105d8e-a7ef-405d-9f67-42ec8c1f968a:title
+msgctxt "display_configuration:bb105d8e-a7ef-405d-9f67-42ec8c1f968a:title"
+msgid "%node:title"
+msgstr "%node:título"
+
+# panels:pane_configuration:0541c9a5-2e8c-488f-8db4-4cd064bdc903:override_title_text
+msgctxt "pane_configuration:0541c9a5-2e8c-488f-8db4-4cd064bdc903:override_title_text"
+msgid "License"
+msgstr "Licencia"
+
+# panels:pane_configuration:0541c9a5-2e8c-488f-8db4-4cd064bdc903:title
+msgctxt "pane_configuration:0541c9a5-2e8c-488f-8db4-4cd064bdc903:title"
+msgid "License"
+msgstr "Licencia"
+
+# panels:pane_configuration:0720de5b-6051-4f54-948b-c62d1074f82e:override_title_text
+msgctxt "pane_configuration:0720de5b-6051-4f54-948b-c62d1074f82e:override_title_text"
+msgid "Format"
+msgstr "Formato"
+
+# panels:pane_configuration:0720de5b-6051-4f54-948b-c62d1074f82e:title
+msgctxt "pane_configuration:0720de5b-6051-4f54-948b-c62d1074f82e:title"
+msgid "Format"
+msgstr "Formato"
+
+# panels:pane_configuration:1946db71-2c78-4c13-8d68-fa4eb5d7b8fd:override_title_text
+msgctxt "pane_configuration:1946db71-2c78-4c13-8d68-fa4eb5d7b8fd:override_title_text"
+msgid "Content Types"
+msgstr "Tipos de contenido"
+
+# panels:pane_configuration:1946db71-2c78-4c13-8d68-fa4eb5d7b8fd:title
+msgctxt "pane_configuration:1946db71-2c78-4c13-8d68-fa4eb5d7b8fd:title"
+msgid "Content Types"
+msgstr "Tipos de contenido"
+
+# panels:pane_configuration:1dd44b86-bd6f-4a06-86bf-741c89c980f2:override_title_text
+msgctxt "pane_configuration:1dd44b86-bd6f-4a06-86bf-741c89c980f2:override_title_text"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# panels:pane_configuration:1dd44b86-bd6f-4a06-86bf-741c89c980f2:title
+msgctxt "pane_configuration:1dd44b86-bd6f-4a06-86bf-741c89c980f2:title"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# panels:pane_configuration:3b15fd88-4e94-4c1e-9cd0-603f26518943:override_title_text
+msgctxt "pane_configuration:3b15fd88-4e94-4c1e-9cd0-603f26518943:override_title_text"
+msgid "%user:name's content"
+msgstr "%user:contenido del nombre"
+
+# panels:pane_configuration:3b15fd88-4e94-4c1e-9cd0-603f26518943:title
+msgctxt "pane_configuration:3b15fd88-4e94-4c1e-9cd0-603f26518943:title"
+msgid "%user:name's content"
+msgstr "%user:contenido del nombre"
+
+# panels:pane_configuration:3c7762b7-844a-4f01-afc0-36da301160e6:override_title_text
+msgctxt "pane_configuration:3c7762b7-844a-4f01-afc0-36da301160e6:override_title_text"
+msgid "Groups"
+msgstr "Grupos"
+
+# panels:pane_configuration:3c7762b7-844a-4f01-afc0-36da301160e6:title
+msgctxt "pane_configuration:3c7762b7-844a-4f01-afc0-36da301160e6:title"
+msgid "Groups"
+msgstr "Grupos"
+
+# panels:pane_configuration:3e8ea599-5b82-4fb2-af0f-ce8f0a6b58be:override_title_text
+msgctxt "pane_configuration:3e8ea599-5b82-4fb2-af0f-ce8f0a6b58be:override_title_text"
+msgid "Date Changed"
+msgstr "Fecha de modificación"
+
+# panels:pane_configuration:3e8ea599-5b82-4fb2-af0f-ce8f0a6b58be:title
+msgctxt "pane_configuration:3e8ea599-5b82-4fb2-af0f-ce8f0a6b58be:title"
+msgid "Date Changed"
+msgstr "Fecha de modificación"
+
+# panels:pane_configuration:4c00a6e4-2503-40e8-b227-89ccce65df1e:override_title_text
+msgctxt "pane_configuration:4c00a6e4-2503-40e8-b227-89ccce65df1e:override_title_text"
+msgid "Latest Data Stories"
+msgstr "Últimas historias de datos"
+
+# panels:pane_configuration:4c00a6e4-2503-40e8-b227-89ccce65df1e:title
+msgctxt "pane_configuration:4c00a6e4-2503-40e8-b227-89ccce65df1e:title"
+msgid "Latest Data Stories"
+msgstr "Últimas historias de datos"
+
+# panels:pane_configuration:4f78ddf7-f8ca-4e4b-b0b5-a2611cfc4d58:override_title_text
+msgctxt "pane_configuration:4f78ddf7-f8ca-4e4b-b0b5-a2611cfc4d58:override_title_text"
+msgid "Dashboards"
+msgstr "Cuadro de mando"
+
+# panels:pane_configuration:4f78ddf7-f8ca-4e4b-b0b5-a2611cfc4d58:title
+msgctxt "pane_configuration:4f78ddf7-f8ca-4e4b-b0b5-a2611cfc4d58:title"
+msgid "Dashboards"
+msgstr "Cuadro de mando"
+
+# panels:pane_configuration:51f2a5b5-ab6a-474a-b0f8-4a0b297160a8:override_title_text
+msgctxt "pane_configuration:51f2a5b5-ab6a-474a-b0f8-4a0b297160a8:override_title_text"
+msgid "Author"
+msgstr "Autor"
+
+# panels:pane_configuration:51f2a5b5-ab6a-474a-b0f8-4a0b297160a8:title
+msgctxt "pane_configuration:51f2a5b5-ab6a-474a-b0f8-4a0b297160a8:title"
+msgid "Author"
+msgstr "Autor"
+
+# panels:pane_configuration:549159dd-e073-4e10-9307-b13fad742409:override_title_text
+msgctxt "pane_configuration:549159dd-e073-4e10-9307-b13fad742409:override_title_text"
+msgid "Format"
+msgstr "Formato"
+
+# panels:pane_configuration:549159dd-e073-4e10-9307-b13fad742409:title
+msgctxt "pane_configuration:549159dd-e073-4e10-9307-b13fad742409:title"
+msgid "Format"
+msgstr "Formato"
+
+# panels:pane_configuration:58708ed1-8465-4976-887b-a764f6bc6e4f:override_title_text
+msgctxt "pane_configuration:58708ed1-8465-4976-887b-a764f6bc6e4f:override_title_text"
+msgid "Author"
+msgstr "Autor"
+
+# panels:pane_configuration:58708ed1-8465-4976-887b-a764f6bc6e4f:title
+msgctxt "pane_configuration:58708ed1-8465-4976-887b-a764f6bc6e4f:title"
+msgid "Author"
+msgstr "Autor"
+
+# panels:pane_configuration:5b7571be-ff82-48eb-8855-16ddcd379a9d:override_title_text
+msgctxt "pane_configuration:5b7571be-ff82-48eb-8855-16ddcd379a9d:override_title_text"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# panels:pane_configuration:5b7571be-ff82-48eb-8855-16ddcd379a9d:title
+msgctxt "pane_configuration:5b7571be-ff82-48eb-8855-16ddcd379a9d:title"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# panels:pane_configuration:6747719a-d11c-4809-94e7-a3feb44f3e08:title
+msgctxt "pane_configuration:6747719a-d11c-4809-94e7-a3feb44f3e08:title"
+msgid "Storytelling and Insights"
+msgstr "Narración de Cuentos y Perspectivas"
+
+# panels:pane_configuration:71f9a7ce-d5d4-4f6f-9c8c-2f17606e12dd:title
+msgctxt "pane_configuration:71f9a7ce-d5d4-4f6f-9c8c-2f17606e12dd:title"
+msgid "Data Publishing and Management Features"
+msgstr "Funciones de publicación y gestión de datos"
+
+# panels:pane_configuration:7a0c91ca-bf36-42df-b89a-f4d3a73f44a8:override_title_text
+msgctxt "pane_configuration:7a0c91ca-bf36-42df-b89a-f4d3a73f44a8:override_title_text"
+msgid "%node:title"
+msgstr "%node:título"
+
+# panels:pane_configuration:7a0c91ca-bf36-42df-b89a-f4d3a73f44a8:title
+msgctxt "pane_configuration:7a0c91ca-bf36-42df-b89a-f4d3a73f44a8:title"
+msgid "%node:title"
+msgstr "%node:título"
+
+# panels:pane_configuration:7c352aa7-4c3a-44d6-9063-2b61cfcb4aba:override_title_text
+msgctxt "pane_configuration:7c352aa7-4c3a-44d6-9063-2b61cfcb4aba:override_title_text"
+msgid "Welcome to DKAN"
+msgstr "Bienvenido a DKAN"
+
+# panels:pane_configuration:7c352aa7-4c3a-44d6-9063-2b61cfcb4aba:title
+msgctxt "pane_configuration:7c352aa7-4c3a-44d6-9063-2b61cfcb4aba:title"
+msgid "Welcome to DKAN"
+msgstr "Bienvenido a DKAN"
+
+# panels:pane_configuration:9602946a-fe91-45cf-9744-a01fdf79436a:override_title_text
+msgctxt "pane_configuration:9602946a-fe91-45cf-9744-a01fdf79436a:override_title_text"
+msgid "Publisher"
+msgstr "Editor"
+
+# panels:pane_configuration:9602946a-fe91-45cf-9744-a01fdf79436a:title
+msgctxt "pane_configuration:9602946a-fe91-45cf-9744-a01fdf79436a:title"
+msgid "Publisher"
+msgstr "Editor"
+
+# panels:pane_configuration:af542600-62f2-4baf-b2c3-12b9ee1d59ba:override_title_text
+msgctxt "pane_configuration:af542600-62f2-4baf-b2c3-12b9ee1d59ba:override_title_text"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# panels:pane_configuration:af542600-62f2-4baf-b2c3-12b9ee1d59ba:title
+msgctxt "pane_configuration:af542600-62f2-4baf-b2c3-12b9ee1d59ba:title"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# panels:pane_configuration:b0fb8ba0-c78f-4b2e-9ae3-e4cc61f06345:override_title_text
+msgctxt "pane_configuration:b0fb8ba0-c78f-4b2e-9ae3-e4cc61f06345:override_title_text"
+msgid "Publisher"
+msgstr "Editor"
+
+# panels:pane_configuration:b0fb8ba0-c78f-4b2e-9ae3-e4cc61f06345:title
+msgctxt "pane_configuration:b0fb8ba0-c78f-4b2e-9ae3-e4cc61f06345:title"
+msgid "Publisher"
+msgstr "Editor"
+
+# panels:pane_configuration:b5ed2517-658a-473d-932e-dd69b664a49e:override_title_text
+msgctxt "pane_configuration:b5ed2517-658a-473d-932e-dd69b664a49e:override_title_text"
+msgid "License"
+msgstr "Licencia"
+
+# panels:pane_configuration:b5ed2517-658a-473d-932e-dd69b664a49e:title
+msgctxt "pane_configuration:b5ed2517-658a-473d-932e-dd69b664a49e:title"
+msgid "License"
+msgstr "Licencia"
+
+# panels:pane_configuration:b77564f7-b847-4b0d-a2e3-a88c83ac8ee2:override_title_text
+msgctxt "pane_configuration:b77564f7-b847-4b0d-a2e3-a88c83ac8ee2:override_title_text"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# panels:pane_configuration:b77564f7-b847-4b0d-a2e3-a88c83ac8ee2:title
+msgctxt "pane_configuration:b77564f7-b847-4b0d-a2e3-a88c83ac8ee2:title"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# panels:pane_configuration:c224948f-eb0d-4533-b934-596029447fce:title
+msgctxt "pane_configuration:c224948f-eb0d-4533-b934-596029447fce:title"
+msgid "What is DKAN, how does it work?"
+msgstr "¿Qué es DKAN?, ¿cómo funciona?"
+
+# panels:pane_configuration:ce0b4e74-ec33-4347-a132-628e2daac398:title
+msgctxt "pane_configuration:ce0b4e74-ec33-4347-a132-628e2daac398:title"
+msgid "Modular Customization Features"
+msgstr "Características de la personalización modular"
+
+# panels:pane_configuration:d6f746e0-dffc-4ae9-a4fb-b4d70474a18d:override_title_text
+msgctxt "pane_configuration:d6f746e0-dffc-4ae9-a4fb-b4d70474a18d:override_title_text"
+msgid "Format"
+msgstr "Formato"
+
+# panels:pane_configuration:d6f746e0-dffc-4ae9-a4fb-b4d70474a18d:title
+msgctxt "pane_configuration:d6f746e0-dffc-4ae9-a4fb-b4d70474a18d:title"
+msgid "Format"
+msgstr "Formato"
+
+# panels:pane_configuration:db6320a3-b990-4a5a-919c-9d55673f9c43:title
+msgctxt "pane_configuration:db6320a3-b990-4a5a-919c-9d55673f9c43:title"
+msgid "Storytelling and Insights Features"
+msgstr "Características de la Narración de Cuentos y de las Perspectivas"
+
+# panels:pane_configuration:dbba36e8-a75c-4fec-b189-d8c3cae601e9:override_title_text
+msgctxt "pane_configuration:dbba36e8-a75c-4fec-b189-d8c3cae601e9:override_title_text"
+msgid "%node:title"
+msgstr "%node:título"
+
+# panels:pane_configuration:dbba36e8-a75c-4fec-b189-d8c3cae601e9:title
+msgctxt "pane_configuration:dbba36e8-a75c-4fec-b189-d8c3cae601e9:title"
+msgid "%node:title"
+msgstr "%node:título"
+
+# panels:pane_configuration:dff3ab78-497e-4b4b-9821-3c971ad02b5a:override_title_text
+msgctxt "pane_configuration:dff3ab78-497e-4b4b-9821-3c971ad02b5a:override_title_text"
+msgid "Author"
+msgstr "Autor"
+
+# panels:pane_configuration:dff3ab78-497e-4b4b-9821-3c971ad02b5a:title
+msgctxt "pane_configuration:dff3ab78-497e-4b4b-9821-3c971ad02b5a:title"
+msgid "Author"
+msgstr "Autor"
+
+# panels:pane_configuration:e45889c4-5bef-46a6-b7d5-a28b62c8f768:title
+msgctxt "pane_configuration:e45889c4-5bef-46a6-b7d5-a28b62c8f768:title"
+msgid "What's DKAN for?"
+msgstr "¿Para qué sirve DKAN?"
+
+# panels:pane_configuration:e951bbc0-25dc-4166-8ab0-643f29e9cf23:title
+msgctxt "pane_configuration:e951bbc0-25dc-4166-8ab0-643f29e9cf23:title"
+msgid "Modular Customization"
+msgstr "Personalización modular"
+
+# panels:pane_configuration:ed56ce7e-efd1-40c9-b826-071fbbd30cef:title
+msgctxt "pane_configuration:ed56ce7e-efd1-40c9-b826-071fbbd30cef:title"
+msgid "What's in the demo?"
+msgstr "¿Qué hay en la demostración?"
+
+# panels:pane_configuration:fa435b1e-9345-43f5-9d05-9f33d1addbd4:title
+msgctxt "pane_configuration:fa435b1e-9345-43f5-9d05-9f33d1addbd4:title"
+msgid "Data Publishing and Management"
+msgstr "Publicación y gestión de datos"

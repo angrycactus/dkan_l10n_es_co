@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dkan_l10n_es_co-7.x.1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
+"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"Language: es_CO\n"
+
+# workbench_moderation:moderation_state:draft:description
+msgctxt "moderation_state:draft:description"
+msgid "Work in progress"
+msgstr "Trabajo en progreso"
+
+# workbench_moderation:moderation_state:draft:label
+msgctxt "moderation_state:draft:label"
+msgid "Draft"
+msgstr "Borrador"
+
+# workbench_moderation:moderation_state:needs_review:description
+msgctxt "moderation_state:needs_review:description"
+msgid "Ready for moderation"
+msgstr "Listo para la moderación"
+
+# workbench_moderation:moderation_state:needs_review:label
+msgctxt "moderation_state:needs_review:label"
+msgid "Needs Review"
+msgstr "Necesita revisión"
+
+# workbench_moderation:moderation_state:published:description
+msgctxt "moderation_state:published:description"
+msgid "Make this version live"
+msgstr "Hacer esta versión en vivo"
+
+# workbench_moderation:moderation_state:published:label
+msgctxt "moderation_state:published:label"
+msgid "Published"
+msgstr "Publicado"

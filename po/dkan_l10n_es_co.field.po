@@ -1,0 +1,802 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dkan_l10n_es_co-7.x.1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
+"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"Language: es_CO\n"
+
+# field:body:dataset:label
+msgctxt "body:dataset:label"
+msgid "Description"
+msgstr "Descripción"
+
+# field:body:data_dashboard:label
+msgctxt "body:data_dashboard:label"
+msgid "Description"
+msgstr "Descripción"
+
+# field:body:dkan_data_story:label
+msgctxt "body:dkan_data_story:label"
+msgid "Body"
+msgstr "Cuerpo de página"
+
+# field:body:feedback:label
+msgctxt "body:feedback:label"
+msgid "Feedback"
+msgstr "Comentario"
+
+# field:body:group:label
+msgctxt "body:group:label"
+msgid "Description"
+msgstr "Descripción"
+
+# field:body:harvest_source:label
+msgctxt "body:harvest_source:label"
+msgid "Description"
+msgstr "Descripción"
+
+# field:body:page:label
+msgctxt "body:page:label"
+msgid "Body"
+msgstr "Cuerpo de página"
+
+# field:body:resource:label
+msgctxt "body:resource:label"
+msgid "Description"
+msgstr "Descripción"
+
+# field:comment_body:comment_node_dataset:label
+msgctxt "comment_body:comment_node_dataset:label"
+msgid "Comment"
+msgstr "Comentario"
+
+# field:comment_body:comment_node_data_dashboard:label
+msgctxt "comment_body:comment_node_data_dashboard:label"
+msgid "Comment"
+msgstr "Comentario"
+
+# field:comment_body:comment_node_dkan_data_story:label
+msgctxt "comment_body:comment_node_dkan_data_story:label"
+msgid "Comment"
+msgstr "Comentario"
+
+# field:comment_body:comment_node_feedback:label
+msgctxt "comment_body:comment_node_feedback:label"
+msgid "Comment"
+msgstr "Comentario"
+
+# field:comment_body:comment_node_group:label
+msgctxt "comment_body:comment_node_group:label"
+msgid "Comment"
+msgstr "Comentario"
+
+# field:comment_body:comment_node_harvest_source:label
+msgctxt "comment_body:comment_node_harvest_source:label"
+msgid "Comment"
+msgstr "Comentario"
+
+# field:comment_body:comment_node_page:label
+msgctxt "comment_body:comment_node_page:label"
+msgid "Comment"
+msgstr "Comentario"
+
+# field:comment_body:comment_node_resource:label
+msgctxt "comment_body:comment_node_resource:label"
+msgid "Comment"
+msgstr "Comentario"
+
+# field:field_about:user:label
+msgctxt "field_about:user:label"
+msgid "About"
+msgstr "Acerca de"
+
+# field:field_additional_info:dataset:label
+msgctxt "field_additional_info:dataset:label"
+msgid "Additional Info"
+msgstr "Información adicional"
+
+# field:field_author:dataset:description
+msgctxt "field_author:dataset:description"
+msgid "This is the author of the dataset."
+msgstr "Este es el autor del conjunto de datos."
+
+# field:field_author:dataset:label
+msgctxt "field_author:dataset:label"
+msgid "Author"
+msgstr "Autor"
+
+# field:field_basic_file_file:basic_file:label
+msgctxt "field_basic_file_file:basic_file:label"
+msgid "File"
+msgstr "Archivo"
+
+# field:field_basic_file_text:basic_file:label
+msgctxt "field_basic_file_text:basic_file:label"
+msgid "Text"
+msgstr "Texto"
+
+# field:field_basic_image_caption:image:label
+msgctxt "field_basic_image_caption:image:label"
+msgid "Caption"
+msgstr "Subtítulo"
+
+# field:field_basic_image_image:image:label
+msgctxt "field_basic_image_image:image:label"
+msgid "Image"
+msgstr "Imagen"
+
+# field:field_basic_image_link:image:description
+msgctxt "field_basic_image_link:image:description"
+msgid "Full URL or relative path (ex. <em>node/123</em>) to link the image to. If left blank, the image won't be a link."
+msgstr "URL completa o ruta relativa (por ejemplo, <em>nodo/123</em>) para vincular la imagen. Si se deja en blanco, la imagen no será un enlace."
+
+# field:field_basic_image_link:image:label
+msgctxt "field_basic_image_link:image:label"
+msgid "Link"
+msgstr "Enlace"
+
+# field:field_basic_spotlight_duration:spotlight:label
+msgctxt "field_basic_spotlight_duration:spotlight:label"
+msgid "Slide Duration"
+msgstr "Duración de la diapositiva"
+
+# field:field_basic_spotlight_items:spotlight:label
+msgctxt "field_basic_spotlight_items:spotlight:label"
+msgid "Items"
+msgstr "Elementos"
+
+# field:field_basic_spotlight_pager:#allowed_values:full
+msgctxt "field_basic_spotlight_pager:#allowed_values:full"
+msgid "Full pager (slide numbers)"
+msgstr "Paginador completo (números de diapositivas)"
+
+# field:field_basic_spotlight_pager:#allowed_values:hide
+msgctxt "field_basic_spotlight_pager:#allowed_values:hide"
+msgid "Hidden (no way to manually change the slide)"
+msgstr "Ocultos (no hay manera de cambiar manualmente la diapositiva)"
+
+# field:field_basic_spotlight_pager:#allowed_values:mini
+msgctxt "field_basic_spotlight_pager:#allowed_values:mini"
+msgid "Mini pager (previous/next buttons)"
+msgstr "Mini paginador (botones anterior/siguiente)"
+
+# field:field_basic_spotlight_pager:spotlight:description
+msgctxt "field_basic_spotlight_pager:spotlight:description"
+msgid "How would you like the pager to appear?"
+msgstr "¿Cómo le gustaría que apareciera el paginador?"
+
+# field:field_basic_spotlight_pager:spotlight:label
+msgctxt "field_basic_spotlight_pager:spotlight:label"
+msgid "Pager Style"
+msgstr "Estilo del paginador"
+
+# field:field_basic_table_table:table:label
+msgctxt "field_basic_table_table:table:label"
+msgid "Table"
+msgstr "Tabla"
+
+# field:field_basic_text_text:text:label
+msgctxt "field_basic_text_text:text:label"
+msgid "Text"
+msgstr "Texto"
+
+# field:field_conforms_to:dataset:description
+msgctxt "field_conforms_to:dataset:description"
+msgid "This is used to identify a standardized specification the dataset conforms to. If this is a technical specification associated with a particular serialization of a distribution, this should be specified with <a href=\"#distribution-conformsTo\">conformsTo</a> at the distribution level. It’s recommended that this be a URI that serves as a unique identifier for the standard. The URI may or may not also be a URL that provides documentation of the specification. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
+msgstr "Esto se utiliza para identificar una especificación estandarizada a la que se ajusta el conjunto de datos. Si se trata de una especificación técnica asociada a una serialización particular de una distribución, se debe especificar con <a href=\"#distribution-conformsTo\">conformsTo</a> en el nivel de distribución. Se recomienda que sea un URI que sirva como un identificador único para el estándar. La URI puede o no ser también una URL que proporcione la documentación de la especificación. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
+
+# field:field_conforms_to:dataset:label
+msgctxt "field_conforms_to:dataset:label"
+msgid "Data Standard"
+msgstr "Estándar de datos"
+
+# field:field_contact_email:dataset:description
+msgctxt "field_contact_email:dataset:description"
+msgid "Contact person’s email address. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info."
+msgstr "Dirección de correo electrónico de la persona de contacto. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información."
+
+# field:field_contact_email:dataset:label
+msgctxt "field_contact_email:dataset:label"
+msgid "Contact Email"
+msgstr "Correo electrónico del contacto"
+
+# field:field_contact_email:feedback:label
+msgctxt "field_contact_email:feedback:label"
+msgid "Email"
+msgstr "Correo electrónico"
+
+# field:field_contact_name:dataset:description
+msgctxt "field_contact_name:dataset:description"
+msgid "Contact person’s name for the asset. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info. Name should be formatted as Last, First."
+msgstr "Nombre de la persona de contacto para el activo. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información. El nombre debe formatearse como Apellido, Nombre."
+
+# field:field_contact_name:dataset:label
+msgctxt "field_contact_name:dataset:label"
+msgid "Contact Name"
+msgstr "Nombre del contacto"
+
+# field:field_dataset_ref:resource:label
+msgctxt "field_dataset_ref:resource:label"
+msgid "Dataset"
+msgstr "Conjunto de datos"
+
+# field:field_datastore_status:resource:label
+msgctxt "field_datastore_status:resource:label"
+msgid "Datastore Status"
+msgstr "Estado del almacén de datos"
+
+# field:field_data_dictionary:dataset:description
+msgctxt "field_data_dictionary:dataset:description"
+msgid "Provides some sort of description that helps understanding the data. This can be a URL to such a resource. See Project Open Data <a href=\"http://project-open-data.github.io/schema/#common-core-required-if-applicable-fields\">data dictionary</a> for more info."
+msgstr "Proporciona algún tipo de descripción que ayuda a comprender los datos. Esto puede ser una dirección URL de dicho recurso. Consulte Project Open Data <a href=\"http://project-open-data.github.io/schema/#common-core-required-if-applicable-fields\">diccionario de datos</a> para obtener más información."
+
+# field:field_data_dictionary:dataset:label
+msgctxt "field_data_dictionary:dataset:label"
+msgid "Data Dictionary"
+msgstr "Diccionario de datos"
+
+# field:field_data_dictionary_type:dataset:description
+msgctxt "field_data_dictionary_type:dataset:description"
+msgid "This is used to identify the media type (IANA Media Type also known as MIME Type) of the URL used for the dataset’s describedBy field. This should be specified if describedBy is not an HTML webpage."
+msgstr "Esto se utiliza para identificar el tipo de medio (tipo de medio IANA también conocido como tipo MIME) de la URL utilizada para el campo describedBy del conjunto de datos. Esto se debe especificar si describedBy no es una página web HTML."
+
+# field:field_data_dictionary_type:dataset:label
+msgctxt "field_data_dictionary_type:dataset:label"
+msgid "Data Dictionary Type"
+msgstr "Tipo de diccionario de datos"
+
+# field:field_description:ve_chart:label
+msgctxt "field_description:ve_chart:label"
+msgid "Description"
+msgstr "Descripción"
+
+# field:field_dkan_harveset_type:harvest_source:description
+msgctxt "field_dkan_harveset_type:harvest_source:description"
+msgid "Type of source we are harvesting."
+msgstr "Tipo de fuente que estamos recolectando."
+
+# field:field_dkan_harveset_type:harvest_source:label
+msgctxt "field_dkan_harveset_type:harvest_source:label"
+msgid "Type"
+msgstr "Tipo"
+
+# field:field_dkan_harvest_defaults:harvest_source:description
+msgctxt "field_dkan_harvest_defaults:harvest_source:description"
+msgid "Set a default value to be used when the specified field is empty."
+msgstr "Establece un valor predeterminado que se utilizará cuando el campo especificado esté vacío."
+
+# field:field_dkan_harvest_defaults:harvest_source:label
+msgctxt "field_dkan_harvest_defaults:harvest_source:label"
+msgid "Defaults"
+msgstr "Predeterminados"
+
+# field:field_dkan_harvest_excludes:harvest_source:description
+msgctxt "field_dkan_harvest_excludes:harvest_source:description"
+msgid "Exclude a specific field and value from your harvest. Using this will import all fields except the ones listed."
+msgstr "Excluye un campo específico y el valor de su recolección. El uso de esto importará todos los campos excepto aquellos que estén listados."
+
+# field:field_dkan_harvest_excludes:harvest_source:label
+msgctxt "field_dkan_harvest_excludes:harvest_source:label"
+msgid "Excludes"
+msgstr "Excluye"
+
+# field:field_dkan_harvest_filters:harvest_source:description
+msgctxt "field_dkan_harvest_filters:harvest_source:description"
+msgid "Add one or more filters to narrow a harvest to a specific subset of fields and values."
+msgstr "Agrega uno o más filtros para restringir una recolección a un subconjunto específico de campos y valores."
+
+# field:field_dkan_harvest_filters:harvest_source:label
+msgctxt "field_dkan_harvest_filters:harvest_source:label"
+msgid "Filters"
+msgstr "Filtros"
+
+# field:field_dkan_harvest_machine_name:harvest_source:label
+msgctxt "field_dkan_harvest_machine_name:harvest_source:label"
+msgid "Machine Name"
+msgstr "Nombre de máquina"
+
+# field:field_dkan_harvest_overrides:harvest_source:description
+msgctxt "field_dkan_harvest_overrides:harvest_source:description"
+msgid "Determine replacement field values that will be overwritten when you harvest."
+msgstr "Determina los valores del campo de reemplazo que se sobrescribirán cuando realice la recolección."
+
+# field:field_dkan_harvest_overrides:harvest_source:label
+msgctxt "field_dkan_harvest_overrides:harvest_source:label"
+msgid "Overrides"
+msgstr "Anulaciones"
+
+# field:field_dkan_harvest_source_uri:harvest_source:label
+msgctxt "field_dkan_harvest_source_uri:harvest_source:label"
+msgid "Source URI"
+msgstr "URI de origen"
+
+# field:field_feedback_entity_reference:feedback:description
+msgctxt "field_feedback_entity_reference:feedback:description"
+msgid "If this feedback is related to a dataset or resource, type its name here."
+msgstr "Si este comentario está relacionado con un conjunto de datos o recurso, escriba su nombre aquí."
+
+# field:field_feedback_entity_reference:feedback:label
+msgctxt "field_feedback_entity_reference:feedback:label"
+msgid "Dataset"
+msgstr "Conjunto de datos"
+
+# field:field_feedback_type:feedback:label
+msgctxt "field_feedback_type:feedback:label"
+msgid "Feedback Type"
+msgstr "Tipo de comentario"
+
+# field:field_file:ve_chart:label
+msgctxt "field_file:ve_chart:label"
+msgid "File"
+msgstr "Archivo"
+
+# field:field_file_image_alt_text:image:description
+msgctxt "field_file_image_alt_text:image:description"
+msgid "Alternative text is used by screen readers, search engines, and when the image cannot be loaded. By adding alt text you improve accessibility and search engine optimization."
+msgstr "El texto alternativo es usado por los lectores de pantalla, los motores de búsqueda y cuando no se puede cargar la imagen. Al añadir texto alternativo, usted mejora la accesibilidad y la optimización de los motores de búsqueda."
+
+# field:field_file_image_alt_text:image:label
+msgctxt "field_file_image_alt_text:image:label"
+msgid "Alt Text"
+msgstr "Texto alternativo"
+
+# field:field_file_image_title_text:image:description
+msgctxt "field_file_image_title_text:image:description"
+msgid "Title text is used in the tool tip when a user hovers their mouse over the image. Adding title text makes it easier to understand the context of an image and improves usability."
+msgstr "El texto del título se utiliza en la herramienta de aviso cuando un usuario pasa el ratón sobre la imagen. Añadir el texto del título hace que sea más fácil de entender el contexto de una imagen y mejora la usabilidad."
+
+# field:field_file_image_title_text:image:label
+msgctxt "field_file_image_title_text:image:label"
+msgid "Title Text"
+msgstr "Texto del título"
+
+# field:field_format:resource:label
+msgctxt "field_format:resource:label"
+msgid "Format"
+msgstr "Formato"
+
+# field:field_frequency:#allowed_values:0
+msgctxt "field_frequency:#allowed_values:0"
+msgid "Daily"
+msgstr "Diario"
+
+# field:field_frequency:#allowed_values:1
+msgctxt "field_frequency:#allowed_values:1"
+msgid "Weekly"
+msgstr "Semanal"
+
+# field:field_frequency:#allowed_values:10
+msgctxt "field_frequency:#allowed_values:10"
+msgid "Biweekly"
+msgstr "Quincenal"
+
+# field:field_frequency:#allowed_values:11
+msgctxt "field_frequency:#allowed_values:11"
+msgid "Semiannual"
+msgstr "Semestral"
+
+# field:field_frequency:#allowed_values:12
+msgctxt "field_frequency:#allowed_values:12"
+msgid "Biennial"
+msgstr "Bienal"
+
+# field:field_frequency:#allowed_values:13
+msgctxt "field_frequency:#allowed_values:13"
+msgid "Triennial"
+msgstr "Trienal"
+
+# field:field_frequency:#allowed_values:14
+msgctxt "field_frequency:#allowed_values:14"
+msgid "Three times a week"
+msgstr "Tres veces por semana"
+
+# field:field_frequency:#allowed_values:15
+msgctxt "field_frequency:#allowed_values:15"
+msgid "Three times a month"
+msgstr "Tres veces al mes"
+
+# field:field_frequency:#allowed_values:16
+msgctxt "field_frequency:#allowed_values:16"
+msgid "Quarterly"
+msgstr "Por trimestre"
+
+# field:field_frequency:#allowed_values:17
+msgctxt "field_frequency:#allowed_values:17"
+msgid "Three times a year"
+msgstr "Tres veces al año"
+
+# field:field_frequency:#allowed_values:18
+msgctxt "field_frequency:#allowed_values:18"
+msgid "Semimonthly"
+msgstr "Semi mensual"
+
+# field:field_frequency:#allowed_values:2
+msgctxt "field_frequency:#allowed_values:2"
+msgid "Monthly"
+msgstr "Mensualmente"
+
+# field:field_frequency:#allowed_values:3
+msgctxt "field_frequency:#allowed_values:3"
+msgid "Annually"
+msgstr "Anualmente"
+
+# field:field_frequency:#allowed_values:4
+msgctxt "field_frequency:#allowed_values:4"
+msgid "Continuously"
+msgstr "Continuamente"
+
+# field:field_frequency:#allowed_values:5
+msgctxt "field_frequency:#allowed_values:5"
+msgid "Irregularly"
+msgstr "Irregularmente"
+
+# field:field_frequency:#allowed_values:6
+msgctxt "field_frequency:#allowed_values:6"
+msgid "Decennial"
+msgstr "Decenal"
+
+# field:field_frequency:#allowed_values:7
+msgctxt "field_frequency:#allowed_values:7"
+msgid "Quadrennial"
+msgstr "Cuadrienal"
+
+# field:field_frequency:#allowed_values:8
+msgctxt "field_frequency:#allowed_values:8"
+msgid "Bimonthly"
+msgstr "Quincenal"
+
+# field:field_frequency:#allowed_values:9
+msgctxt "field_frequency:#allowed_values:9"
+msgid "Semiweekly"
+msgstr "Bisemanal"
+
+# field:field_frequency:dataset:description
+msgctxt "field_frequency:dataset:description"
+msgid "The frequency with which dataset is published.See <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> for more info."
+msgstr "La frecuencia con la que se publica el conjunto de datos. Consulte <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> para obtener más información."
+
+# field:field_frequency:dataset:label
+msgctxt "field_frequency:dataset:label"
+msgid "Frequency"
+msgstr "Frecuencia"
+
+# field:field_granularity:dataset:description
+msgctxt "field_granularity:dataset:description"
+msgid "This is usually geographical or temporal but can also be other dimension e.g. Person can be used to describe granularity of a dataset about average income. See <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> for more info."
+msgstr "Esto suele ser geográfico o temporal, pero también puede ser de otra dimensión, por ejemplo, la persona se puede utilizar para describir la granularidad de un conjunto de datos sobre el ingreso promedio. Consulte <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> para obtener más información."
+
+# field:field_granularity:dataset:label
+msgctxt "field_granularity:dataset:label"
+msgid "Granularity"
+msgstr "Granularidad"
+
+# field:field_harvest_source_issued:dataset:label
+msgctxt "field_harvest_source_issued:dataset:label"
+msgid "Harvest Source Issued"
+msgstr "Fuente de recolección emitida"
+
+# field:field_harvest_source_modified:dataset:label
+msgctxt "field_harvest_source_modified:dataset:label"
+msgid "Harvest Source Modified"
+msgstr "Fuente de recolección modificada"
+
+# field:field_harvest_source_ref:dataset:label
+msgctxt "field_harvest_source_ref:dataset:label"
+msgid "Harvest Source"
+msgstr "Fuente de recolección"
+
+# field:field_icon_type:#allowed_values:font
+msgctxt "field_icon_type:#allowed_values:font"
+msgid "Font Icon"
+msgstr "Icono de la fuente"
+
+# field:field_icon_type:#allowed_values:image
+msgctxt "field_icon_type:#allowed_values:image"
+msgid "Image"
+msgstr "Imagen"
+
+# field:field_icon_type:dkan_topics:label
+msgctxt "field_icon_type:dkan_topics:label"
+msgid "Icon Type"
+msgstr "Tipo de icono"
+
+# field:field_image:dkan_data_story:label
+msgctxt "field_image:dkan_data_story:label"
+msgid "Image"
+msgstr "Imagen"
+
+# field:field_image:dkan_topics:label
+msgctxt "field_image:dkan_topics:label"
+msgid "Image"
+msgstr "Imagen"
+
+# field:field_image:group:label
+msgctxt "field_image:group:label"
+msgid "Image"
+msgstr "Imagen"
+
+# field:field_is_part_of:dataset:description
+msgctxt "field_is_part_of:dataset:description"
+msgid "This field allows the grouping of multiple datasets into a “collection”. This field should be employed by the individual datasets that together make up a collection. The value for this field should match the identifier of the parent dataset."
+msgstr "Este campo permite agrupar varios conjuntos de datos en una \"colección\". Este campo debe ser empleado por los conjuntos de datos individuales que juntos forman una colección. El valor de este campo debe coincidir con el identificador del conjunto de datos principal."
+
+# field:field_is_part_of:dataset:label
+msgctxt "field_is_part_of:dataset:label"
+msgid "Is Part Of"
+msgstr "Es parte de"
+
+# field:field_landing_page:dataset:description
+msgctxt "field_landing_page:dataset:description"
+msgid "This field is not intended for an agency’s homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset."
+msgstr "Este campo no está destinado a la página principal de una agencia (por ejemplo, www.agency.gov), sino más bien si un conjunto de datos tiene un hub o una página de aterrizaje amigable a la que los usuarios pueden dirigirse para todos los recursos vinculados al conjunto de datos."
+
+# field:field_landing_page:dataset:label
+msgctxt "field_landing_page:dataset:label"
+msgid "Homepage URL"
+msgstr "URL de la página principal"
+
+# field:field_language:dataset:description
+msgctxt "field_language:dataset:description"
+msgid "This should adhere to the RFC 5646 standard. This language subtag lookup provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English)."
+msgstr "Esto debe adherirse a la norma RFC 5646. Esta búsqueda de subetiquetas de idioma proporciona una buena herramienta para comprobar y verificar los códigos de idioma. Una etiqueta de idioma se compone de una o dos partes, la subetiqueta de idioma (como en para inglés, sp para español, wo para wólof) y la subetiqueta regional (como US para Estados Unidos, GB para Gran Bretaña, MX para México), separadas por un guión. Las subetiquetas regionales solo deben proporcionarse cuando sea necesario para distinguir una etiqueta de idioma de otra (como el inglés estadounidense vs. el inglés británico)."
+
+# field:field_language:dataset:label
+msgctxt "field_language:dataset:label"
+msgid "Language"
+msgstr "Idioma"
+
+# field:field_license:dataset:default_value
+msgctxt "field_license:dataset:default_value"
+msgid "notspecified"
+msgstr "no especificado"
+
+# field:field_license:dataset:description
+msgctxt "field_license:dataset:description"
+msgid "License definitions and additional information can be found at <a href=\"http://opendefinition.org\">opendefinition.org</a>"
+msgstr "Las definiciones de licencias y la información adicional se pueden encontrar en <a href=\"http://opendefinition.org\">opendefinition.org</a>"
+
+# field:field_license:dataset:label
+msgctxt "field_license:dataset:label"
+msgid "License"
+msgstr "Licencia"
+
+# field:field_link_api:resource:label
+msgctxt "field_link_api:resource:label"
+msgid "Link API"
+msgstr "API de enlace"
+
+# field:field_link_remote_file:resource:label
+msgctxt "field_link_remote_file:resource:label"
+msgid "Link File"
+msgstr "Archivo de enlace"
+
+# field:field_map_address:map:description
+msgctxt "field_map_address:map:description"
+msgid "The street address of the location you wish to map. This widget will contact Google and try to do its best to create a map!"
+msgstr "La dirección de la ubicación que desea asignar. ¡Este widget se conecta con Google y trata de hacer todo lo posible para crear un mapa!"
+
+# field:field_map_address:map:label
+msgctxt "field_map_address:map:label"
+msgid "Address"
+msgstr "Dirección"
+
+# field:field_map_information:map:label
+msgctxt "field_map_information:map:label"
+msgid "Information"
+msgstr "Información"
+
+# field:field_orphan:dataset:label
+msgctxt "field_orphan:dataset:label"
+msgid "Orphan"
+msgstr "Orphan"
+
+# field:field_orphan:resource:label
+msgctxt "field_orphan:resource:label"
+msgid "Orphan"
+msgstr "Orphan"
+
+# field:field_pod_theme:dataset:label
+msgctxt "field_pod_theme:dataset:label"
+msgid "POD Theme"
+msgstr "Tema POD"
+
+# field:field_public_access_level:#allowed_values:private
+msgctxt "field_public_access_level:#allowed_values:private"
+msgid "Private"
+msgstr "Privado"
+
+# field:field_public_access_level:#allowed_values:public
+msgctxt "field_public_access_level:#allowed_values:public"
+msgid "Public"
+msgstr "Público"
+
+# field:field_public_access_level:#allowed_values:restricted
+msgctxt "field_public_access_level:#allowed_values:restricted"
+msgid "Restricted"
+msgstr "Restringido"
+
+# field:field_public_access_level:dataset:description
+msgctxt "field_public_access_level:dataset:description"
+msgid "The degree to which this dataset <em>could</em> be made publicly-available, regardless of whether it has been made available. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info."
+msgstr "El grado en que este conjunto de datos <em>podría</em> estar disponible públicamente, independientemente de si se ha puesto a disposición. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información."
+
+# field:field_public_access_level:dataset:label
+msgctxt "field_public_access_level:dataset:label"
+msgid "Public Access Level"
+msgstr "Nivel de Acceso Público"
+
+# field:field_quick_links_links:quick_links:label
+msgctxt "field_quick_links_links:quick_links:label"
+msgid "Links"
+msgstr "Enlaces"
+
+# field:field_related_content:dataset:description
+msgctxt "field_related_content:dataset:description"
+msgid "An internal link or link to an outside resource that provides additional context to the dataset."
+msgstr "Un enlace o enlace interno a un recurso externo que proporciona contexto adicional al conjunto de datos."
+
+# field:field_related_content:dataset:label
+msgctxt "field_related_content:dataset:label"
+msgid "Related Content"
+msgstr "Contenido relacionado"
+
+# field:field_resources:dataset:label
+msgctxt "field_resources:dataset:label"
+msgid "Resources"
+msgstr "Recursos"
+
+# field:field_rights:dataset:description
+msgctxt "field_rights:dataset:description"
+msgid "If you set your dataset to a public access level other than \"public\", you must provide an explanation for why this dataset cannot be made fully public. Include any useful information regarding access or restrictions based on privacy, security, or other policies. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
+msgstr "Si establece su conjunto de datos a un nivel de acceso público distinto de \"público\", debe proporcionar una explicación de por qué este conjunto de datos no puede hacerse completamente público. Incluya cualquier información útil relacionada con el acceso o las restricciones basadas en la privacidad, la seguridad u otras políticas. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
+
+# field:field_rights:dataset:label
+msgctxt "field_rights:dataset:label"
+msgid "Rights"
+msgstr "Derechos"
+
+# field:field_spatial:dataset:description
+msgctxt "field_spatial:dataset:description"
+msgid "Spatial coverage of the dataset. Will be rendered as GeoJSON. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
+msgstr "Cobertura espacial del conjunto de datos. Se renderizará como GeoJSON. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
+
+# field:field_spatial:dataset:label
+msgctxt "field_spatial:dataset:label"
+msgid "Spatial / Geographical Coverage Area"
+msgstr "Área de cobertura geográfica/espacial"
+
+# field:field_spatial_geographical_cover:dataset:description
+msgctxt "field_spatial_geographical_cover:dataset:description"
+msgid "Spatial location of the dataset. Could be Address, City, State, part of the world or other description. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
+msgstr "Ubicación espacial del conjunto de datos. Podría ser Dirección, Ciudad, Estado, parte del mundo u otra descripción. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
+
+# field:field_spatial_geographical_cover:dataset:label
+msgctxt "field_spatial_geographical_cover:dataset:label"
+msgid "Spatial / Geographical Coverage Location"
+msgstr "Ubicación de la cobertura geográfica/espacial"
+
+# field:field_tags:dataset:label
+msgctxt "field_tags:dataset:label"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# field:field_tags:dkan_data_story:label
+msgctxt "field_tags:dkan_data_story:label"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# field:field_tags:feedback:label
+msgctxt "field_tags:feedback:label"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# field:field_temporal_coverage:dataset:description
+msgctxt "field_temporal_coverage:dataset:description"
+msgid "The temporal period that the dataset covers. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> for more info."
+msgstr "El período temporal que cubre el conjunto de datos. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> para obtener más información."
+
+# field:field_temporal_coverage:dataset:label
+msgctxt "field_temporal_coverage:dataset:label"
+msgid "Temporal Coverage"
+msgstr "Cobertura temporal"
+
+# field:field_topic:dataset:label
+msgctxt "field_topic:dataset:label"
+msgid "Topics"
+msgstr "Temas"
+
+# field:field_topic:data_dashboard:label
+msgctxt "field_topic:data_dashboard:label"
+msgid "Topics"
+msgstr "Temas"
+
+# field:field_topic:dkan_data_story:label
+msgctxt "field_topic:dkan_data_story:label"
+msgid "Topics"
+msgstr "Temas"
+
+# field:field_topic_icon:dkan_topics:label
+msgctxt "field_topic_icon:dkan_topics:label"
+msgid "Icon"
+msgstr "Icono"
+
+# field:field_topic_icon_color:dkan_topics:label
+msgctxt "field_topic_icon_color:dkan_topics:label"
+msgid "Icon Color"
+msgstr "Color del icono"
+
+# field:field_upload:resource:label
+msgctxt "field_upload:resource:label"
+msgid "Upload"
+msgstr "Subir"
+
+# field:field_uuid_resource:ve_chart:label
+msgctxt "field_uuid_resource:ve_chart:label"
+msgid "Existing resource"
+msgstr "Recurso existente"
+
+# field:field_ve_settings:ve_chart:label
+msgctxt "field_ve_settings:ve_chart:label"
+msgid "Settings"
+msgstr "Configuración"
+
+# field:field_video_file:video:label
+msgctxt "field_video_file:video:label"
+msgid "Video"
+msgstr "Video"
+
+# field:group_group:#allowed_values:0
+msgctxt "group_group:#allowed_values:0"
+msgid "Not a group"
+msgstr "No es un grupo"
+
+# field:group_group:#allowed_values:1
+msgctxt "group_group:#allowed_values:1"
+msgid "Group"
+msgstr "Grupo"
+
+# field:group_group:group:description
+msgctxt "group_group:group:description"
+msgid "Determine if this is an OG group."
+msgstr "Determina si se trata de un grupo OG."
+
+# field:group_group:group:label
+msgctxt "group_group:group:label"
+msgid "Group"
+msgstr "Grupo"
+
+# field:og_group_ref:dataset:label
+msgctxt "og_group_ref:dataset:label"
+msgid "Publisher"
+msgstr "Editor"
+
+# field:og_group_ref:feedback:label
+msgctxt "og_group_ref:feedback:label"
+msgid "Agency"
+msgstr "Agencia"
+
+# field:og_group_ref:resource:label
+msgctxt "og_group_ref:resource:label"
+msgid "Groups audience"
+msgstr "Audiencia de grupos"
+
+# field:og_membership_request:og_membership_type_default:description
+msgctxt "og_membership_request:og_membership_type_default:description"
+msgid "This is the text a user may send to the group administrators."
+msgstr "Este es el texto que un usuario puede enviar a los administradores del grupo."
+
+# field:og_membership_request:og_membership_type_default:label
+msgctxt "og_membership_request:og_membership_type_default:label"
+msgid "Request message"
+msgstr "Mensaje de solicitud"
+
+# field:og_user_node:user:label
+msgctxt "og_user_node:user:label"
+msgid "Group membership"
+msgstr "Membresía de grupo"

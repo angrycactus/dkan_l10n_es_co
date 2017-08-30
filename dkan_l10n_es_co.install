@@ -1,0 +1,71 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ * Implements hook_install().
+ */
+function dkan_l10n_es_co_install() {
+
+  $languages = language_list();
+
+  if (!array_key_exists(DKAN_L10N_ES_CO_LANGCODE, $languages)) {
+    // Add the spanish language.
+    locale_add_language(DKAN_L10N_ES_CO_LANGCODE);
+
+    // See if we have language files to import for the newly added
+    // language, collect and import them.
+    if ($batch = locale_batch_by_language(DKAN_L10N_ES_CO_LANGCODE)) {
+      batch_set($batch);
+    }
+    watchdog('dkan_l10n_es_co', 'Added language: !language.', array('!language' => DKAN_L10N_ES_CO_LANGCODE));
+  }
+
+  // Check for translation updates.
+  module_load_include('compare.inc', 'l10n_update');
+  l10n_update_flush_projects();
+  l10n_update_check_projects_local();
+
+  // Import translation updates.
+  module_load_include('fetch.inc', 'l10n_update');
+  $batch = l10n_update_batch_fetch_build();
+  batch_set($batch);
+
+  // Make sure spanish is enabled.
+  db_update('languages')
+    ->fields(array(
+      'enabled' => '1',
+    ))
+    ->condition('language', DKAN_L10N_ES_CO_LANGCODE)
+    ->execute();
+
+  // Change the translation mode of 'main-menu' to 'Translate and Localize'
+  // to enable the translation of menu items.
+  if (module_exists('i18n_menu')) {
+    $menu = menu_load('main-menu');
+    $menu['i18n_mode'] = '5';
+    i18n_menu_menu_update($menu);
+  }
+  else {
+    watchdog('dkan_l10n_es_co', '\'i18n_menu\' module is disabled. Menu items will not be translated.', array(), WATCHDOG_WARNING);
+  }
+
+  // Import po file from default source directory.
+  dkan_l10n_es_co_import_po_from_dir();
+
+  // For translations to take effect on existing
+  // menu links we need to update all of them.
+  if (module_exists('i18n_menu')) {
+    $links = menu_load_links('main-menu');
+    foreach ($links as $link) {
+      $mlid = $link['mlid'];
+      $link = menu_link_load($mlid);
+      i18n_menu_menu_link_update($link);
+    }
+  }
+  else {
+    watchdog('dkan_l10n_es_co', '\'i18n_menu\' module is disabled. Menu items will not be translated.', array(), WATCHDOG_WARNING);
+  }
+}

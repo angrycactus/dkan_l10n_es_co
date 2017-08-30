@@ -1,0 +1,3512 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dkan_l10n_es_co-7.x.1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
+"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"Language: es_CO\n"
+
+# dkan_data_dashboard/dkan_data_dashboard.features.field_instance.inc:64 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1848 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:272 dkan_harvest/dkan_harvest.features.field_instance.inc:667
+msgid "Description"
+msgstr "Descripción"
+
+# dkan_data_dashboard/dkan_data_dashboard.features.inc:33 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:791
+msgid "Data Dashboard"
+msgstr "Cuadro de mandos de datos"
+
+# dkan_data_dashboard/dkan_data_dashboard.features.inc:35
+msgid "Content type for creation of Data Dashboards."
+msgstr "Tipo de contenido para la creación de cuadro de mandol de datos."
+
+# dkan_feedback.features.inc:114
+msgid "Title"
+msgstr "Título"
+
+# dkan_data_dashboard/dkan_data_dashboard.info:0
+msgid "DKAN Data Dashboard"
+msgstr "Cuadro de mando de datos de DKAN"
+
+# dkan_data_dashboard/dkan_data_dashboard.info:0
+msgid "DKAN module for Data Dashboard content type"
+msgstr "Módulo de DKAN para el tipo de contenido de cuadro de mando de datos"
+
+# dkan_feedback.info:0 modules/dkan_feedback_permissions/dkan_feedback_permissions.info:0
+msgid "DKAN"
+msgstr "DKAN"
+
+# dkan_data_story/dkan_data_story.features.field_instance.inc:207 dkan_sitewide/dkan_sitewide.features.field.inc:89 dkan_sitewide/dkan_sitewide.features.field_instance.inc:65
+msgid "Body"
+msgstr "Cuerpo de página"
+
+# dkan_data_story/dkan_data_story.features.field_instance.inc:208 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:275 dkan_ipe/dkan_ipe.module:31 dkan_topics/dkan_topics.features.field_instance.inc:336
+msgid "Image"
+msgstr "Imagen"
+
+# dkan_feedback.features.field_instance.inc:342
+msgid "Tags"
+msgstr "Etiquetas"
+
+# dkan_data_story/dkan_data_story.features.inc:75 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:794
+msgid "Data Story"
+msgstr "Historial de datos"
+
+# dkan_data_story/dkan_data_story.features.inc:77
+msgid "Create compelling stories using data to illustrate key points."
+msgstr "Crear historiales atractivos utilizando los datos para ilustrar los puntos clave."
+
+# dkan_data_story/dkan_data_story.info:0
+msgid "DKAN Data Story"
+msgstr "Historial de datos de DKAN"
+
+# dkan_data_story/dkan_data_story.info:0
+msgid "Story building features for NuCivic Data."
+msgstr "Características para la creación de historiales para NuCivic Data."
+
+# dkan_dataset/dkan_dataset.admin.inc:17
+msgid "Available preview descriptions"
+msgstr "Descripciones de previsualización disponibles"
+
+# dkan_dataset/dkan_dataset.admin.inc:30
+msgid "External Preview Settings"
+msgstr "Configuración de previsualización externa"
+
+# dkan_dataset/dkan_dataset.admin.inc:31
+msgid "Enable or disable external preview links for all resource formats. Modify the list of available resource formats !here."
+msgstr "Habilite o deshabilite vínculos de previsualización externos para todos los formatos de recursos. Modifique el listado de formatos de recursos disponibles !here."
+
+# dkan_dataset/dkan_dataset.admin.inc:32
+msgid "here"
+msgstr "aquí"
+
+# dkan_dataset/dkan_dataset.admin.inc:40
+msgid "Enabled Preview Providers"
+msgstr "Proveedores de previsualización habilitados"
+
+# dkan_dataset/dkan_dataset.admin.inc:41 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1849
+msgid "Format"
+msgstr "Formato"
+
+# dkan_dataset/dkan_dataset.admin.inc:41
+msgid "Enabled Previews"
+msgstr "Previsualizaciones activadas"
+
+# dkan_dataset/dkan_dataset.admin.inc:85
+msgid "Label for local data preview"
+msgstr "Etiqueta para la previsualización de datos locales"
+
+# dkan_dataset/dkan_dataset.admin.inc:86
+msgid ""
+"Any compatible format (like CSV) can be displayed in\n"
+"      the local DKAN data preview. If you enter, for instance, \"Data.gov\" in\n"
+"      this field, the link to the preview will read \"Data.gov Preview.\" Leave\n"
+"      blank to simply display the word \"Preview\"."
+msgstr ""
+"Cualquier formato compatible (como CSV) puede mostrarse en\n"
+" la previsualización de datos locales de DKAN. Si introduce, por ejemplo, \"Data.gov \" en\n"
+" este campo, el enlace a la previsualización se mostrará como \"Data.gov Preview.\"\n"
+" Déjelo en blanco para mostrar simplemente la palabra \"Preview\"."
+
+# dkan_dataset/dkan_dataset.admin.inc:109
+msgid "Divide Dataset form into main form and \"Additional Data\" (CKAN style)."
+msgstr "Divida el formulario del conjunto de datos en un formulario principal y  \"Additional Data\" (estilo CKAN)."
+
+# dkan_dataset/dkan_dataset.admin.inc:114
+msgid ""
+"Validate dataset form according to Project Open Data (more strict\n"
+"        than default DKAN validation)."
+msgstr ""
+"Valide el formulario del conjunto de datos de acuerdo con Project Open Data (más estricto\n"
+" que la validación de DKAN por defecto)."
+
+# dkan_dataset/dkan_dataset.admin.inc:116
+msgid ""
+"By default, DKAN make only a small number of metadata fields required to\n"
+"        create datasets. Enable this setting to make all fields required by Project Open Data\n"
+"        be required fields on the dataset form. Note: \"Publisher\" is a required Project Open Data\n"
+"        field that is usually mapped to the \"Group\" field in DKAN. Use the setting below to make\n"
+"        this field required as well."
+msgstr ""
+"Por defecto, DKAN genera solo un reducido número de campos de metadatos necesarios para\n"
+" crear los conjuntos de datos. Habilite esta opción para que todos los campos requeridos por Project Open Data\n"
+" sean campos obligatorios en el formulario de conjunto de datos. Nota: \"Publisher\" es un campo obligatorio de Project Open Data\n"
+" que normalmente se asigna al campo \"Group\" en DKAN. Utilice el ajuste que aparece a continuación para permitir que \n"
+" este campo también sea requerido."
+
+# dkan_dataset/dkan_dataset.admin.inc:125
+msgid "Require datasets to have a group."
+msgstr "Requerir que los conjuntos de datos tengan un grupo."
+
+# dkan_dataset/dkan_dataset.admin.inc:126
+msgid ""
+"Enable to force users to set a specific group for every dataset.\n"
+"        If you are leaving this un-checked and therefore making groups optional for datasets,\n"
+"        be aware that you may end up with an empty \"publisher\" field in your data.json\n"
+"        and DCAT endpoints if you do not have a fallback value set in\n"
+"        <a href=\"/admin/config/services/odsm/edit/data_json_1_1\">Open Data Schema Map</a> for those endpoints.\n"
+"        Also note that a user who is not a member of any group will not be able\n"
+"        to create new datasets if this is enabled."
+msgstr ""
+"Habilitar para obligar a los usuarios a establecer un grupo específico para cada conjunto de datos.\n"
+" Si deja esto sin marcar y, por lo tanto, hace que los grupos sean opcionales para los conjuntos de datos,\n"
+" tenga en cuenta que puede terminar con un campo \"publisher\" vacío en sus puntos finales data.json\n"
+" y DCAT si no tiene un valor de fallback establecido en\n"
+" <a href=\"/admin/config/services/odsm/edit/data_json_1_1\">Open Data Schema Map</a> para esos puntos finales.\n"
+" También tenga en cuenta que un usuario que no sea miembro de ningún grupo no podrá\n"
+" crear nuevos conjuntos de datos si esta opción está habilitada."
+
+# dkan_dataset/dkan_dataset.admin.inc:149
+msgid "Preview Type"
+msgstr "Tipo de previsualización"
+
+# dkan_dataset/dkan_dataset.admin.inc:149
+msgid "Information"
+msgstr "Información"
+
+# dkan_dataset/dkan_dataset.admin.inc:155
+msgid "Suggested formats:"
+msgstr "Formatos sugeridos:"
+
+# dkan_dataset/dkan_dataset.forms.inc:96
+msgid "[dataset]"
+msgstr "[conjunto de datos]"
+
+# dkan_dataset/dkan_dataset.forms.inc:107
+msgid "eg. A descriptive title"
+msgstr "p. ej.: un título descriptivo"
+
+# dkan_dataset/dkan_dataset.forms.inc:115
+msgid "URL"
+msgstr "URL"
+
+# dkan_dataset/dkan_dataset.forms.inc:120
+msgid "eg. economy, mental health, government"
+msgstr "p.ej.: economía, salud mental, gobierno"
+
+# dkan_dataset/dkan_dataset.forms.inc:126
+msgid ""
+"<i class=\"icon-large icon-info-sign\"></i>\n"
+"        License definitions and additional information can be found at\n"
+"        <a href=\"http://opendefinition.org\">opendefinition.org</a>"
+msgstr ""
+"<i class=\"icon-large icon-info-sign\"></i>\n"
+" Las definiciones de licencias y la información adicional se pueden encontrar en\n"
+" <a href=\"http://opendefinition.org\">opendefinition.org</a>"
+
+# dkan_dataset/dkan_dataset.forms.inc:135
+msgid "key"
+msgstr "clave"
+
+# dkan_dataset/dkan_dataset.forms.inc:136
+msgid "value"
+msgstr "valor"
+
+# dkan_dataset/dkan_dataset.forms.inc:146 dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.field_group.inc:125 dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:474
+msgid "Groups"
+msgstr "Grupos"
+
+# dkan_dataset/dkan_dataset.forms.inc:166
+msgid "Next: Add data"
+msgstr "Siguiente: añadir datos"
+
+# dkan_dataset/dkan_dataset.forms.inc:173
+msgid "Important: By submitting content, you agree to release your contributions under the Open Database License."
+msgstr "Importante: al enviar contenido, usted acepta liberar sus contribuciones bajo la Licencia de Base de Datos Abierta."
+
+# dkan_dataset/dkan_dataset.forms.inc:188
+msgid "Finish"
+msgstr "Terminar"
+
+# dkan_dataset/dkan_dataset.forms.inc:227
+msgid ""
+"The dataset had a license value that is not valid on Project Open\n"
+"              Data, so it was changed automatically. Please check the new value\n"
+"              before saving any changes."
+msgstr ""
+"El conjunto de datos tenía un valor de licencia que no es válido en Project Open Data,\n"
+" por lo que se cambió automáticamente. Compruebe el nuevo valor\n"
+" antes de guardar los cambios."
+
+# dkan_dataset/dkan_dataset.forms.inc:242
+msgid "restricted"
+msgstr "restringido"
+
+# dkan_dataset/dkan_dataset.forms.inc:243
+msgid "private"
+msgstr "privado"
+
+# dkan_dataset/dkan_dataset.forms.inc:315
+msgid "Dataset that this resource is attached to."
+msgstr "Conjunto de datos al que está conectado este recurso."
+
+# dkan_dataset/dkan_dataset.forms.inc:333
+msgid "Link to a file hosted on a remote server. CSV files can be imported into the DKAN datastore."
+msgstr "Enlace a un archivo alojado en un servidor remoto. Los archivos CSV se pueden importar al almacén de datos de DKAN."
+
+# dkan_dataset/dkan_dataset.forms.inc:337
+msgid "Link to a public API or information source."
+msgstr "Enlace a una API o fuente de información pública."
+
+# dkan_dataset/dkan_dataset.forms.inc:343
+msgid "eg. January Gold Prices"
+msgstr "p.ej.: precios del oro en enero"
+
+# dkan_dataset/dkan_dataset.forms.inc:382
+msgid "Next: Additional Info"
+msgstr "Siguiente: información adicional"
+
+# dkan_dataset/dkan_dataset.forms.inc:391
+msgid "Save and add another"
+msgstr "Guardar y añadir otro"
+
+# dkan_dataset/dkan_dataset.forms.inc:407;421
+msgid "A checkbox for tableselect"
+msgstr "Una casilla de verificación para selección de tablas"
+
+# dkan_dataset/dkan_dataset.forms.inc:507
+msgid ""
+"A dataset must be added to a specific group, but you don’t belong to any groups.\n"
+"          Ask a supervisor or site administrator to add you to a group or\n"
+"          promote you to site manager to add datasets."
+msgstr ""
+"Se debe agregar un conjunto de datos a un grupo específico, pero usted no pertenece a ningún grupo.\n"
+" Solicítele a un supervisor o administrador del sitio que lo agregue a un grupo o\n"
+" lo cambie a administrador del sitio para agregar los conjuntos de datos."
+
+# dkan_dataset/dkan_dataset.forms.inc:563
+msgid "<strong>Remote file</strong> is populated - only one resource type can be used at a time."
+msgstr "El archivo remoto está lleno: solo se puede utilizar un tipo de recurso a la vez."
+
+# dkan_dataset/dkan_dataset.forms.inc:567
+msgid "<strong>API or Website URL</strong> is populated - only one resource type can be used at a time."
+msgstr "La URL de la API o del sitio web está llena: solo se puede utilizar un tipo de recurso a la vez."
+
+# dkan_dataset/dkan_dataset.forms.inc:571
+msgid "<strong>Upload</strong> is populated - only one resource type can be used at a time."
+msgstr "La carga está llena: solo se puede utilizar un tipo de recurso a la vez."
+
+# dkan_dataset/dkan_dataset.forms.inc:600 dkan_dataset/dkan_dataset.module:1189
+msgid "!site_name crawler"
+msgstr "!site_name crawler"
+
+# dkan_dataset/dkan_dataset.forms.inc:685
+msgid "File format will be autodetected"
+msgstr "El formato de archivo se detectará automáticamente"
+
+# dkan_dataset/dkan_dataset.forms.inc:689
+msgid "eg. Some useful notes about the data"
+msgstr "p.ej. Algunas notas útiles sobre los datos"
+
+# dkan_dataset/dkan_dataset.forms.inc:721;742
+msgid "What are datasets?"
+msgstr "¿Qué son los conjuntos de datos?"
+
+# dkan_dataset/dkan_dataset.forms.inc:724;747
+msgid "What is data?"
+msgstr "¿Qué son los datos?"
+
+# dkan_dataset/dkan_dataset.forms.inc:727;752 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1868
+msgid "Resources"
+msgstr "Recursos"
+
+# dkan_dataset/dkan_dataset.forms.inc:730;757 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:814
+msgid "Visualizations"
+msgstr "Visualizaciones"
+
+# dkan_dataset/dkan_dataset.forms.inc:770 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:28
+msgid "Datasets are simply used to group related pieces of data. These can then be found under a single url with a description and licensing information."
+msgstr "Los conjuntos de datos se utilizan simplemente para agrupar datos relacionados. Estos se pueden encontrar en una url única con una descripción y la información de licencia."
+
+# dkan_dataset/dkan_dataset.forms.inc:777 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:36
+msgid "Data can be any file or link to a file containing useful data."
+msgstr "Los datos pueden ser cualquier archivo o enlace a un archivo que contenga datos útiles."
+
+# dkan_dataset/dkan_dataset.pages.inc:19
+msgid "There is no dataset associated with this resource."
+msgstr "No hay ningún conjunto de datos asociado con este recurso."
+
+# dkan_dataset/dkan_dataset.pages.inc:64
+msgid "!file could not be added to Zip."
+msgstr "¡file no se pudo agregar a Zip."
+
+# dkan_dataset/dkan_dataset.pages.inc:81
+msgid "Unable to create file !filename."
+msgstr "No se puede crear el archivo !filename."
+
+# dkan_dataset/dkan_dataset.theme.inc:78 dkan_dataset/dkan_dataset.module:191;213
+msgid "Data and Resources"
+msgstr "Datos y recursos"
+
+# dkan_dataset/dkan_dataset.theme.inc:100 dkan_dataset/dkan_dataset.module:986
+msgid "data"
+msgstr "datos"
+
+# dkan_dataset/dkan_dataset.theme.inc:126
+msgid "Download All"
+msgstr "Descargar todo"
+
+# dkan_dataset/dkan_dataset.theme.inc:196 dkan_datastore/dkan_datastore.module:142
+msgid "Download"
+msgstr "Descargar"
+
+# dkan_dataset/dkan_dataset.theme.inc:208 dkan_datastore/dkan_datastore.module:142
+msgid "Go to resource"
+msgstr "Ir al recurso"
+
+# dkan_dataset/dkan_dataset.theme.inc:225
+msgid "Open With"
+msgstr "Abrir con"
+
+# dkan_dataset/dkan_dataset.theme.inc:243 dkan_dataset/dkan_dataset.module:899 dkan_harvest/dkan_harvest.module:236;190
+msgid "Preview"
+msgstr "Previsualizar"
+
+# dkan_dataset/dkan_dataset.theme.inc:295
+msgid "Resources: @title"
+msgstr "Recursos: @title"
+
+# dkan_dataset/dkan_dataset.module:125;196;218
+msgid "Release Date"
+msgstr "Fecha de lanzamiento"
+
+# dkan_dataset/dkan_dataset.module:137;201;223
+msgid "Modified Date"
+msgstr "Fecha modificada"
+
+# dkan_dataset/dkan_dataset.module:149;206;228 dkan_harvest/dkan_harvest.module:283
+msgid "Identifier"
+msgstr "Identificador"
+
+# dkan_dataset/dkan_dataset.module:192;214
+msgid "Shows book children of dataset"
+msgstr "Muestra los libros del conjunto de datos"
+
+# dkan_dataset/dkan_dataset.module:197;219
+msgid "Node published date available as a field"
+msgstr "Fecha publicada del nodo disponible como un campo"
+
+# dkan_dataset/dkan_dataset.module:202;224
+msgid "Node changed date available as a field"
+msgstr "Fecha cambiada del nodo disponible como un campo"
+
+# dkan_dataset/dkan_dataset.module:207;229
+msgid "Unique identifier for dataset"
+msgstr "Identificador único para el conjunto de datos"
+
+# dkan_dataset/dkan_dataset.module:367;371;375;379
+msgid "Additional data"
+msgstr "Datos complementarios"
+
+# dkan_dataset/dkan_dataset.module:385;394
+msgid "Edit dataset"
+msgstr "Editar conjunto de datos"
+
+# dkan_dataset/dkan_dataset.module:397
+msgid "Add dataset"
+msgstr "Añadir conjunto de datos"
+
+# dkan_dataset/dkan_dataset.module:405;415
+msgid "Create dataset"
+msgstr "Crear conjunto de datos"
+
+# dkan_dataset/dkan_dataset.module:408;418
+msgid "Add data"
+msgstr "Añadir datos"
+
+# dkan_dataset/dkan_dataset.module:804
+msgid "%d resources were queued to be updated with their new groups. They will be processed during upcoming cron runs."
+msgstr "%d los recursos se pusieron en cola para que se actualicen con sus nuevos grupos. Estos se procesarán durante las futuras ejecuciones cron."
+
+# dkan_dataset/dkan_dataset.module:809
+msgid "Groups were updated on %d resource(s)."
+msgstr "Los grupos se actualizaron en %d recurso(s)."
+
+# dkan_dataset/dkan_dataset.module:871 dkan_harvest/dkan_harvest.module:1163 dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.module:32 dkan_sitewide/dkan_sitewide.blocks.inc:499 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:796 dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.field_group.inc:124
+msgid "Datasets"
+msgstr "Conjuntos de datos"
+
+# dkan_dataset/dkan_dataset.module:872 dkan_sitewide/dkan_sitewide.blocks.inc:29 dkan_sitewide/dkan_sitewide.module:117
+msgid "Search"
+msgstr "Buscar"
+
+# dkan_dataset/dkan_dataset.module:902
+msgid "Local preview. Preview tabular data in a grid, basic chart or map. This preview type is not optional and will load only for the suggested formats listed."
+msgstr "Previsualización local. Previsualización de los datos tabulares en una cuadrícula, un gráfico básico o un mapa. Este tipo de previsualización no es opcional y solo se cargará para los formatos sugeridos listados."
+
+# dkan_dataset/dkan_dataset.module:909
+msgid "ArcGIS Preview"
+msgstr "Previsualización de ArcGIS"
+
+# dkan_dataset/dkan_dataset.module:912
+msgid "ArcGIS preview for ESRI endpoints. Requires a URL in the resource API field; will not work with resource files."
+msgstr "Previsualización de ArcGIS para puntos finales ESRI. Requiere una URL en el campo API de recursos; no funcionará con archivos de recursos."
+
+# dkan_dataset/dkan_dataset.module:915
+msgid "CartoDB Preview"
+msgstr "Previsualización CartoDB"
+
+# dkan_dataset/dkan_dataset.module:924
+msgid "Previews resources with geodata in the CartoDB mapping service."
+msgstr "Previsualiza recursos con geodatos en el servicio de cartografía de CartoDB."
+
+# dkan_dataset/dkan_dataset.module:1073;1074
+msgid "Open Data Remote File"
+msgstr "Abrir archivo remoto de datos"
+
+# dkan_dataset/dkan_dataset.module:1075
+msgid "Link to a file located on a remote server."
+msgstr "Enlace a un archivo ubicado en un servidor remoto."
+
+# dkan_dataset/dkan_dataset.module:1100
+msgid "The selected file %name could not be referenced."
+msgstr "No se puede hacer referencia %nal nombre de archivo seleccionado."
+
+# dkan_dataset/dkan_dataset.module:1145
+msgid "This field will ignore the file size limitation"
+msgstr "Este campo ignorará la limitación del tamaño del archivo"
+
+# dkan_dataset/dkan_dataset.module:1163
+msgid "Invalid Remote File URL."
+msgstr "URL de archivo remoto no válida."
+
+# dkan_dataset/dkan_dataset.module:1168
+msgid "Remote File URLs with the %scheme scheme are not supported."
+msgstr "Las URL de archivos remotos con el %sesquema no son compatibles."
+
+# dkan_dataset/dkan_dataset.module:1176
+msgid "Unable to fetch file from Remote File URL %url (error @code: %error)."
+msgstr "No se puede recuperar el archivo desde la URL de archivo remoto %url (error @code: %eerror)."
+
+# dkan_dataset/dkan_dataset.module:1216
+msgid "Unable to add file from URL %file."
+msgstr "No se puede agregar el archivo desde la URL %farchivo."
+
+# dkan_dataset/dkan_dataset.module:1237
+msgid "Search Result"
+msgstr "Resultado de la búsqueda"
+
+# dkan_dataset/dkan_dataset.module:1303
+msgid "Harvest Info"
+msgstr "Información de la recolección"
+
+# dkan_dataset/dkan_dataset.module:1324
+msgid "<strong>Harvest Source Title</strong>"
+msgstr "Harvest Source Title"
+
+# dkan_dataset/dkan_dataset.module:1326
+msgid "<strong>Harvest Source URI</strong>"
+msgstr "URI de la fuente de recolección"
+
+# dkan_dataset/dkan_dataset.module:1329
+msgid "<strong>Last Harvest Performed</strong>"
+msgstr "Última recolección realizada"
+
+# dkan_dataset/dkan_dataset.module:1330
+msgid "Harvested from !link"
+msgstr "Recolectado desde !link"
+
+# dkan_dataset/dkan_dataset.module:38
+msgid "Add Resource"
+msgstr "Añadir recurso"
+
+# dkan_dataset/dkan_dataset.module:48
+msgid "Back to dataset"
+msgstr "Volver al conjunto de datos"
+
+# dkan_dataset/dkan_dataset.module:58
+msgid "Download Dataset"
+msgstr "Descargar conjunto de datos"
+
+# dkan_dataset/dkan_dataset.module:68
+msgid "DKAN Settings and Administration."
+msgstr "Configuración y administración de DKAN."
+
+# dkan_dataset/dkan_dataset.module:77
+msgid "DKAN Dataset Previews"
+msgstr "Previsualizaciones del conjunto de datos de DKAN"
+
+# dkan_dataset/dkan_dataset.module:78
+msgid "Settings for DKAN Dataset local and external previews."
+msgstr "Configuración de las previsualizaciones locales y externas del conjunto de datos de DKAN."
+
+# dkan_dataset/dkan_dataset.module:85 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:789
+msgid "DKAN Dataset Forms"
+msgstr "Formularios del conjunto de datos de DKAN"
+
+# dkan_dataset/dkan_dataset.module:86
+msgid "Form settings for DKAN Datasets."
+msgstr "Configuración de los formularios para los conjuntos de datos de DKAN."
+
+# dkan_dataset/dkan_dataset.module:94 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:15 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.info:0 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:788
+msgid "DKAN Dataset API"
+msgstr "API del conjunto de datos de DKAN"
+
+# dkan_dataset/dkan_dataset.module:95 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:16
+msgid "Settings for DKAN Dataset APIs."
+msgstr "Configuración de las API para los conjuntos de datos de DKAN."
+
+# dkan_dataset/dkan_dataset.info:0
+msgid "DKAN Dataset"
+msgstr "Conjunto de datos DKAN"
+
+# dkan_dataset/dkan_dataset.info:0 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0
+msgid "Custom elements for Datasets."
+msgstr "Elementos personalizados para los conjuntos de datos."
+
+# dkan_dataset/js/dataset.js:0; 0; profiles/dkan/modules/dkan/dkan_dataset/js/dataset.js
+msgid "Show more"
+msgstr "Mostrar más"
+
+# dkan_dataset/js/dataset.js:0; profiles/dkan/modules/dkan/dkan_dataset/js/dataset.js
+msgid "hide"
+msgstr "ocultar"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.inc:71;142;143
+msgid "public"
+msgstr "público"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:163
+msgid "Data catalog (data.json) settings"
+msgstr "Configuración del catálogo de datos (data.json)"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:164
+msgid "Configuration for site's public data catalog. See !link for more information.', array('!link' => l(t('Project Open Data'), 'http://project-open-data.github.io/catalog/"
+msgstr "Configuración para el catálogo de datos público del sitio. Para obtener más información, consulte !link. ', array('!link' => l(t('Project Open Data'), 'http://project-open-data.github.io/catalog/"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:168
+msgid "Data Catalog Description"
+msgstr "Descripción del Catálogo de Datos"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:169
+msgid "Description field for data catalog. Should usually just read \"Data Catalog.\""
+msgstr "Campo de descripción para el catálogo de datos. Por lo general, solo debe mostrarse como \"Data Catalog.\""
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:174
+msgid "Data Catalog Contact Point"
+msgstr "Punto de contacto del catálogo de datos"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:175
+msgid "The name of the main contact point for the data catalog. Usually an individual person."
+msgstr "El nombre del punto de contacto principal del catálogo de datos. Generalmente una persona individual."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:180
+msgid "Data Catalog Contact Email"
+msgstr "Correo electrónico del contacto del catálogo de datos"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:181
+msgid "The main contact email for inquiries regarding the data catalog."
+msgstr "El correo electrónico del contacto principal para consultas sobre el catálogo de datos."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:187
+msgid "Enabled Dataset APIs."
+msgstr "API de conjuntos de datos habilitados."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:188
+msgid "Toggle public APIs below."
+msgstr "Alternar las API públicas abajo."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:192;197
+msgid "site_read"
+msgstr "lectura_del_sitio"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:193;205;217;242;299
+msgid "Demo at !demo. More information on !url."
+msgstr "Demostración en !demo. Más información en !url."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:196;208;220;232;245;302
+msgid "this link"
+msgstr "este enlace"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:204;209
+msgid "data.json"
+msgstr "data.json"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:216
+msgid "revision_list"
+msgstr "lista_de_revisión"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:221
+msgid "dkan_dataset_revision_list"
+msgstr "lista_de_revisión_del_conjunto_de_datos_dkan"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:228;233
+msgid "package_list"
+msgstr "lista_de_paquetes"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:229
+msgid "Demo at !demo. More information on !url. This also mirrors the deprecated !legacy."
+msgstr "Demostración en !demo. Más información en !url. Esto también refleja el ¡legacy desaprobado."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:234;258
+msgid "rest/dataset"
+msgstr "resto/conjunto de datos"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:241;246
+msgid "current_package_list_with_resources"
+msgstr "lista_de_paquetes_actual_con_recursos"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:253;257;269;280
+msgid "package_show"
+msgstr "mostrar_paquete"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:254
+msgid "More information on !url. This also mirrors the deprecated !legacy."
+msgstr "Más información en !url. Esto también refleja el ¡legacy desaprobado."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:265
+msgid "resource_show"
+msgstr "mostrar_recurso"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:266;277;288
+msgid "More information on !url."
+msgstr "Más información en !url."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:276
+msgid "group_package_show"
+msgstr "mostrar_paquete_grupal"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:287;291
+msgid "package_revision_list"
+msgstr "lista_de_revisión_del_paquete"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:298;303
+msgid "group_list"
+msgstr "lista_de_grupos"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:319
+msgid ""
+"Return ``TRUE``.\n"
+"\n"
+"    :rtype: boolean\n"
+"\n"
+""
+msgstr ""
+"Devolver ``VERDADERO``.\n"
+"\n"
+" : rtype: booleano\n"
+"\n"
+""
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:349
+msgid ""
+"Return a list of the names of the site's datasets (packages).\n"
+"\n"
+"    :rtype: list of strings\n"
+"\n"
+""
+msgstr ""
+"Devuelve una lista de los conjuntos de datos del sitio (paquetes).\n"
+"\n"
+" : rtype: lista de cadenas\n"
+"\n"
+""
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:384
+msgid ""
+"Return a list of the IDs of the site's revisions.\n"
+"\n"
+"    :rtype: list of strings."
+msgstr ""
+"Devuelve una lista de los ID de las revisiones del sitio.\n"
+"\n"
+" :rtype: lista de cadenas."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:441
+msgid ""
+"Return a list of the site's datasets (packages) and their resources.\n"
+"\n"
+"    The list is sorted most-recently-modified first.\n"
+"\n"
+"    :param limit: if given, the list of datasets will be broken into pages of\n"
+"        at most ``limit`` datasets per page and only one page will be returned\n"
+"        at a time (optional)\n"
+"    :type limit: int\n"
+"    :param offset: when ``limit`` is given, the offset to start returning packages from\n"
+"    :type offset: int\n"
+"    :param page: when ``limit`` is given, which page to return, Deprecated use ``offset``\n"
+"    :type page: int\n"
+"\n"
+"    :rtype: list of dictionaries\n"
+"\n"
+""
+msgstr ""
+"Devuelve una lista de los conjuntos de datos (paquetes) del sitio y sus recursos.\n"
+"\n"
+" La lista se ha ordenado primero con la más reciente modificación.\n"
+"\n"
+" :límite del parámetro: si se da, la lista de conjuntos de datos se dividirá en páginas,\n"
+" en su mayoría de los conjuntos de datos ``límite`` por página y solo se devolverá una página\n"
+" a la vez (opcional)\n"
+" :límite de tipo: int\n"
+" :compensación del parámetro: cuando se da el ``límite``, la compensación para comenzar a devolver paquetes desde\n"
+" :compensación de tipo: int\n"
+" :página del parámetro: cuando se da el ``límite``, qué página devolver, ``compensación`` de uso desaprobado\n"
+" :página de tipo: int\n"
+"\n"
+" :rtype: lista de diccionarios\n"
+"\n"
+""
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:457;509
+msgid "Query offset out of range"
+msgstr "Compensación de la consulta fuera de rango"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:458;510
+msgid "Offset parameter is out of range"
+msgstr "El parámetro compensación está fuera de rango"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:478
+msgid ""
+"Return the datasets (packages) of a group.\n"
+"\n"
+"    :param id: the id of the group\n"
+"    :type id: string\n"
+"    :param limit: the maximum number of datasets to return (optional)\n"
+"    :type limit: int\n"
+"\n"
+"    :rtype: list of dictionaries\n"
+"\n"
+""
+msgstr ""
+"Devuelve los conjuntos de datos (paquetes) de un grupo.\n"
+"\n"
+" :id del parámetro: el id del grupo\n"
+" :id de tipo: cadena\n"
+" :limite del parámetro: el número máximo de conjuntos de datos a devolver (opcional)\n"
+" :límite de tipo: int\n"
+"\n"
+" :rtype: lista de diccionarios\n"
+"\n"
+""
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:522;575;629;692
+msgid "Not Found Error"
+msgstr "Error no encontrado"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:523;576;630;693
+msgid "Not Found"
+msgstr "No encontrado"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:530;583;637;700;720
+msgid "Validation Error"
+msgstr "Error de validación"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:531;584;638;701
+msgid "Missing Value"
+msgstr "Valor faltante"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:546
+msgid ""
+"Return the metadata of a dataset (package) and its resources.\n"
+"\n"
+" :param id: the id or name of the dataset :type id: string \n"
+"\n"
+":rtype: dictionary"
+msgstr ""
+"Devuelve los metadatos de un conjunto de datos (paquete) y sus recursos.\n"
+"\n"
+" :id del parámetro: el id o nombre del conjunto de datos : id de tipo: cadena \n"
+"\n"
+":rtype: diccionario"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:600
+msgid ""
+"Return the metadata of a dataset resource.\n"
+"\n"
+" :param id: the id or name of the resource :type id: string \n"
+"\n"
+":rtype: dictionary"
+msgstr ""
+"Devuelve los metadatos de un recurso de conjunto de datos.\n"
+"\n"
+" :id del parámetro: el id o nombre del recurso :id de tipo: cadena \n"
+"\n"
+":rtype: diccionario"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:654
+msgid ""
+"Return a dataset (package)'s revisions as a list of dictionaries.\n"
+"\n"
+"    :param id: the id or name of the dataset\n"
+"    :type id: string\n"
+"\n"
+""
+msgstr ""
+"Devuelve las revisiones de un conjunto de datos (paquete) como una lista de diccionarios.\n"
+"\n"
+" :id del parámetro: el id o nombre del conjunto de datos\n"
+" :id de tipo: cadena\n"
+"\n"
+""
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:716
+msgid ""
+"Return a list of the names of the site's groups.\n"
+"\n"
+"    :param order_by: the field to sort the list by, must be ``'name'`` or\n"
+"      ``'packages'`` (optional, default: ``'name'``) Deprecated use sort.\n"
+"    :type order_by: string\n"
+"    :param sort: sorting of the search results.  Optional.  Default:\n"
+"        \"name asc\" string of field name and sort-order. The allowed fields are\n"
+"        'name' and 'packages'\n"
+"    :type sort: string\n"
+"    :param all_fields: return full group dictionaries instead of  just names\n"
+"        (optional, default: ``False``)\n"
+"    :type all_fields: boolean\n"
+"\n"
+"    :rtype: list of strings"
+msgstr ""
+"Devuelve una lista de los nombres de los grupos del sitio.\n"
+"\n"
+" :ordenar parámtro_por: el campo para ordenar la lista, debe ser ``'nombre'`` o\n"
+" ``'paquetes'`` (opcional, por defecto: ``'nombre'``) Orden de uso obsoleto.\n"
+" :orden de tipo_por: cadena\n"
+" :orden del parámetro: clasificación de los resultados de la búsqueda. Opcional. Por defecto:\n"
+" \"nombre asc\" cadena de nombre de campo y clasificación-orden. Los campos permitidos son\n"
+" 'nombre' y 'paquetes'\n"
+" :ordenación de tipo: cadena\n"
+" :parámetro todos_los_campos: devuelve los diccionarios del grupo completo en lugar de solo nombres\n"
+" (opcional, por defecto: ``Falso``)\n"
+" :tipo todos_los_campos: booleano\n"
+"\n"
+" :rtype: lista de cadenas"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:731
+msgid ": not a valid value for argument `order_by`. Only `name` and `packages` are permitted"
+msgstr ": no es un valor válido para el argumento `ordenar_por`. Solo se permiten `nombre` y` paquetes`"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:745
+msgid ": not a valid value for argument `sort`. Only `name asc`, `name desc`, `package asc` and `package desc` are permitted"
+msgstr ": no es un valor válido para el argumento `ordenar. Solo se permiten 'nombre asc', 'nombre desc', 'paquete asc' y 'paquete desc'"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:777
+msgid ": not a valid value for argument `all_fields`. Only `true` and `FALSE`"
+msgstr ": no es un valor válido para el argumento `todos_los_campos`. Solo `verdadero` y` FALSO`"
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.info:0
+msgid "Adds package, group, and tag APIs based on the CKAN API."
+msgstr "Agrega paquetes, grupos y etiqueta las API en base a la API CKAN."
+
+# dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.info:0 dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.info:0
+msgid "DKAN API"
+msgstr "API DKAN"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1837
+msgid "Additional Info"
+msgstr "Información adicional"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1838
+msgid "An internal link or link to an outside resource that provides additional context to the dataset."
+msgstr "Un enlace o enlace interno a un recurso externo que proporciona contexto adicional al conjunto de datos."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1839
+msgid "Author"
+msgstr "Autor"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1840
+msgid "Contact Email"
+msgstr "Correo electrónico del contacto"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1841
+msgid "Contact Name"
+msgstr "Nombre del contacto"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1842
+msgid "Contact person’s email address. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info."
+msgstr "Dirección de correo electrónico de la persona de contacto. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1843
+msgid "Contact person’s name for the asset. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info. Name should be formatted as Last, First."
+msgstr "Nombre de la persona de contacto para el activo. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información. El nombre debe formatearse como Apellido, Nombre."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1844
+msgid "Data Dictionary"
+msgstr "Diccionario de datos"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1845
+msgid "Data Dictionary Type"
+msgstr "Tipo de diccionario de datos"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1846
+msgid "Data Standard"
+msgstr "Estándar de datos"
+
+# dkan_feedback.features.field_instance.inc:337
+msgid "Dataset"
+msgstr "Conjunto de datos"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1850
+msgid "Frequency"
+msgstr "Frecuencia"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1851
+msgid "Granularity"
+msgstr "Granularidad"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1852
+msgid "Groups audience"
+msgstr "Audiencia de grupos"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1853 dkan_harvest/dkan_harvest.features.inc:32 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:800
+msgid "Harvest Source"
+msgstr "Fuente de recolección"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1854
+msgid "Harvest Source Issued"
+msgstr "Fuente de recolección emitida"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1855
+msgid "Harvest Source Modified"
+msgstr "Fuente de recolección modificada"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1856
+msgid "Homepage URL"
+msgstr "URL de la página principal"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1857
+msgid "If you set your dataset to a public access level other than \"public\", you must provide an explanation for why this dataset cannot be made fully public. Include any useful information regarding access or restrictions based on privacy, security, or other policies. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
+msgstr "Si establece su conjunto de datos a un nivel de acceso público distinto de \"público\", debe proporcionar una explicación de por qué este conjunto de datos no puede hacerse completamente público. Incluya cualquier información útil relacionada con el acceso o las restricciones basadas en la privacidad, la seguridad u otras políticas. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1858
+msgid "Is Part Of"
+msgstr "Es parte de"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1859
+msgid "Language"
+msgstr "Idioma"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1860 dkan_sitewide/dkan_sitewide.blocks.inc:13;73
+msgid "License"
+msgstr "Licencia"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1861
+msgid "License definitions and additional information can be found at <a href=\"http://opendefinition.org\">opendefinition.org</a>"
+msgstr "Las definiciones de licencias y la información adicional se pueden encontrar en <a href=\"http://opendefinition.org\">opendefinition.org</a>"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1862
+msgid "Link API"
+msgstr "API de enlace"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1863
+msgid "Link File"
+msgstr "Archivo de enlace"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1864
+msgid "POD Theme"
+msgstr "Tema POD"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1865
+msgid "Provides some sort of description that helps understanding the data. This usually consists of a table providing explanation of columns meaning, values interpretation and acronyms/codes used in the data. Can be a URL to such a resource. See Project Open Data <a href=\"http://project-open-data.github.io/schema/#common-core-required-if-applicable-fields\">data dictionary</a> for more info."
+msgstr "Proporciona algún tipo de descripción que ayuda a comprender los datos. Esto generalmente consiste en una tabla que proporciona la explicación acerca del significado de las columnas, valora la interpretación de las siglas/códigos usados ​​en los datos. Puede ser una URL para tal recurso. Consulte Project Open Data <a href=\"http://project-open-data.github.io/schema/#common-core-required-if-applicable-fields\">data dictionary</a> para obtener más información."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1866
+msgid "Public Access Level"
+msgstr "Nivel de Acceso Público"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1867
+msgid "Related Content"
+msgstr "Contenido relacionado"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1869
+msgid "Rights"
+msgstr "Derechos"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1870
+msgid "Spatial / Geographical Coverage Area"
+msgstr "Área de cobertura geográfica/espacial"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1871
+msgid "Spatial / Geographical Coverage Location"
+msgstr "Ubicación de la cobertura geográfica/espacial"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1872
+msgid "Spatial coverage of the dataset. Will be rendered as GeoJSON. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
+msgstr "Cobertura espacial del conjunto de datos. Se renderizará como GeoJSON. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1873
+msgid "Spatial location of the dataset. Could be Address, City, State, part of the world or other description. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
+msgstr "Ubicación espacial del conjunto de datos. Podría ser Dirección, Ciudad, Estado, parte del mundo u otra descripción. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1875
+msgid "Temporal Coverage"
+msgstr "Cobertura temporal"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1876
+msgid "The degree to which this dataset <em>could</em> be made publicly-available, regardless of whether it has been made available. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info."
+msgstr "El grado en que este conjunto de datos <em>podría</em> estar disponible públicamente, independientemente de si se ha puesto a disposición. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1877
+msgid "The frequency with which dataset is published.See <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> for more info."
+msgstr "La frecuencia con la que se publica el conjunto de datos. Consulte <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> para obtener más información."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1878
+msgid "The temporal period that the dataset covers. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> for more info."
+msgstr "El período temporal que cubre el conjunto de datos. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> para obtener más información."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1879
+msgid "This field allows the grouping of multiple datasets into a “collection”. This field should be employed by the individual datasets that together make up a collection. The value for this field should match the identifier of the parent dataset."
+msgstr "Este campo permite agrupar varios conjuntos de datos en una \"colección\". Este campo debe ser empleado por los conjuntos de datos individuales que juntos forman una colección. El valor de este campo debe coincidir con el identificador del conjunto de datos principal."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1880
+msgid "This field is not intended for an agency’s homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset."
+msgstr "Este campo no está destinado a la página principal de una agencia (por ejemplo, www.agency.gov), sino más bien si un conjunto de datos tiene un hub o una página de aterrizaje amigable a la que los usuarios pueden dirigirse para todos los recursos vinculados al conjunto de datos."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1881
+msgid "This is the author of the dataset."
+msgstr "Este es el autor del conjunto de datos."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1882
+msgid "This is used to identify a standardized specification the dataset conforms to. If this is a technical specification associated with a particular serialization of a distribution, this should be specified with <a href=\"#distribution-conformsTo\">conformsTo</a> at the distribution level. It’s recommended that this be a URI that serves as a unique identifier for the standard. The URI may or may not also be a URL that provides documentation of the specification. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
+msgstr "Esto se utiliza para identificar una especificación estandarizada a la que se ajusta el conjunto de datos. Si se trata de una especificación técnica asociada a una serialización particular de una distribución, se debe especificar con <a href=\"#distribution-conformsTo\">conformsTo</a> en el nivel de distribución. Se recomienda que sea un URI que sirva como un identificador único para el estándar. La URI puede o no ser también una URL que proporcione la documentación de la especificación. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1883
+msgid "This is used to identify the media type (IANA Media Type also known as MIME Type) of the URL used for the dataset’s describedBy field. This should be specified if describedBy is not an HTML webpage."
+msgstr "Esto se utiliza para identificar el tipo de medio (tipo de medio IANA también conocido como tipo MIME) de la URL utilizada para el campo describedBy del conjunto de datos. Esto se debe especificar si describedBy no es una página web HTML."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1884
+msgid "This is usually geographical or temporal but can also be other dimension e.g. Person can be used to describe granularity of a dataset about average income. See <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> for more info."
+msgstr "Esto suele ser geográfico o temporal, pero también puede ser de otra dimensión, por ejemplo, la persona se puede utilizar para describir la granularidad de un conjunto de datos sobre el ingreso promedio. Consulte <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> para obtener más información."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1885
+msgid "This should adhere to the RFC 5646 standard. This language subtag lookup provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English)."
+msgstr "Esto debe adherirse a la norma RFC 5646. Esta búsqueda de subetiquetas de idioma proporciona una buena herramienta para comprobar y verificar los códigos de idioma. Una etiqueta de idioma se compone de una o dos partes, la subetiqueta de idioma (como en para inglés, sp para español, wo para wólof) y la subetiqueta regional (como US para Estados Unidos, GB para Gran Bretaña, MX para México), separadas por un guión. Las subetiquetas regionales solo deben proporcionarse cuando sea necesario para distinguir una etiqueta de idioma de otra (como el inglés estadounidense vs. el inglés británico)."
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1886 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:265; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Upload"
+msgstr "Subir"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:259
+msgid "API or Website URL"
+msgstr "URL de la API o del sitio web"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:260
+msgid "Dataset Info"
+msgstr "Información sobre el conjunto de datos"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:261
+msgid "Dataset Information"
+msgstr "Información sobre el conjunto de datos"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:263
+msgid "Remote file"
+msgstr "Archivo remoto"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:17
+msgid "- Select a value -"
+msgstr "- Seleccione un valor -"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:50
+msgid "Render license as a link"
+msgstr "Renderizar la licencia como un enlace"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:236
+msgid "ISO 8601 Date"
+msgstr "Fecha de la ISO 8601"
+
+# dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0
+msgid "DKAN Dataset Content Types"
+msgstr "Tipos de contenido del conjunto de datos DKAN"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.context.inc:70 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:274 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:139 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:799
+msgid "Group"
+msgstr "Grupo"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:273
+msgid "Determine if this is an OG group."
+msgstr "Determina si se trata de un grupo OG."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:276
+msgid "Publisher"
+msgstr "Editor"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:141
+msgid ""
+"Groups allow you to group together datasets under a organisation (for example, the Department of Health) or topic (e.g. Transport, Health) so make it easier for users to browse datasets by theme.\n"
+"\n"
+"Groups also enable you to assign roles and authorisation to members of the group - i.e. individuals can be given the right to publish datasets from a particular organisation."
+msgstr ""
+"Los grupos le permiten agrupar conjuntos de datos en una organización (por ejemplo, el Departamento de Salud) o un tema (por ejemplo, transporte, salud) para que sea más fácil para los usuarios examinar conjuntos de datos por tema.\n"
+"\n"
+"Los grupos también le permiten asignar roles y autorizaciones a los miembros del grupo, es decir, a los individuos se les puede dar el derecho de publicar conjuntos de datos de una organización en particular."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:19 dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.module:20
+msgid "Add @groupname"
+msgstr "Añadir @groupname"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:62
+msgid "Your membership is pending approval."
+msgstr "Su membresía está pendiente de aprobación."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:62
+msgid "Remove pending membership request"
+msgstr "Eliminar solicitud de membresía pendiente"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:140
+msgid "Members page for datasets"
+msgstr "Página de miembros para los conjuntos de datos"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:141
+msgid "Determine context from the path."
+msgstr "Determina el contexto de la ruta."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:181
+msgid "!group Members"
+msgstr "Miembros !group"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:236
+msgid "Ascending"
+msgstr "Ascendente"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:237
+msgid "Descending"
+msgstr "Descendente"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:267
+msgid "Default group image"
+msgstr "Imagen de grupo predeterminada"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:284
+msgid "A group with title %title exists on the site. Please use another title."
+msgstr "Existe un grupo con el título %title en el sitio. Utilice otro título."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:295
+msgid "Administer Organic groups ui pages"
+msgstr "Administra las páginas de Organic groups ui"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:296
+msgid "Access admin pages for Organic Groups ui."
+msgstr "Accede a las páginas de administración de Organic Groups ui."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:356
+msgid "%user has the editor role, so has also been granted the group administrator role in this group."
+msgstr "%user tiene el papel de editor, por lo que también se le ha concedido la función de administrador de grupo en este grupo."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:398
+msgid "%user no longer has the editor or site manager role so has also been removed as an administrator on the following groups: %groups."
+msgstr "%user ya no tiene el papel de editor o de administrador del sitio, así que también se ha eliminado como administrador en los siguientes grupos: %ggrupos."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:448
+msgid "%user is an editor so has also been granted the group administrator role for the group: %group."
+msgstr "%user es un editor, de manera que también se le ha concedido el papel de administrador de grupo para el grupo: %ggrupo."
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.info:0
+msgid "DKAN Dataset Groups"
+msgstr "Grupos de conjuntos de datos de DKAN"
+
+# dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.info:0
+msgid "Custom elements for groups."
+msgstr "Elementos personalizados para grupos."
+
+# dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0
+msgid "DKAN Dataset Groups Permissions"
+msgstr "Permisos de grupos de conjuntos de datos de DKAN"
+
+# dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0
+msgid "Defines permissions for groups."
+msgstr "Define los permisos para los grupos."
+
+# dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0 dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.info:0 dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.info:0
+msgid "DKAN Deprecated"
+msgstr "DKAN Obsoleto"
+
+# dkan_dataset/modules/dkan_dataset_rest_api/dkan_dataset_rest_api.module:22
+msgid "dkan-rest-gids"
+msgstr "dkan-rest-gids"
+
+# dkan_dataset/modules/dkan_dataset_rest_api/dkan_dataset_rest_api.module:22
+msgid "results: <pre>@results</pre>"
+msgstr "resultados: <pre>@results</pre>"
+
+# dkan_dataset/modules/dkan_dataset_rest_api/dkan_dataset_rest_api.info:0
+msgid "DKAN Dataset REST API"
+msgstr "API REST del conjunto de datos DKAN"
+
+# dkan_dataset/modules/dkan_dataset_rest_api/dkan_dataset_rest_api.info:0
+msgid "REST APIs for DKAN Datasets"
+msgstr "Las API REST para los conjuntos de datos de DKAN"
+
+# dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.features.field_instance.inc:112
+msgid "Rating"
+msgstr "Clasificación"
+
+# dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0
+msgid "DKAN Dataset Voting"
+msgstr "Votación del conjunto de datos de DKAN"
+
+# dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0
+msgid "Adds voting to datasets."
+msgstr "Agrega la votación a los conjuntos de datos."
+
+# dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0 dkan_topics/modules/dkan_default_topics/dkan_default_topics.info:0
+msgid "DKAN Features"
+msgstr "Características de DKAN"
+
+# dkan_datastore/dkan_datastore.features.field_instance.inc:66 dkan_datastore/dkan_datastore.module:430
+msgid "Datastore Status"
+msgstr "Estado del almacén de datos"
+
+# dkan_datastore/dkan_datastore.pages.inc:23
+msgid "You need to add your file to the datastore in order to use the DATA API"
+msgstr "Debe agregar su archivo al almacén de datos para poder usar el API de DATOS"
+
+# dkan_datastore/dkan_datastore.pages.inc:28
+msgid "This resource can not be added to the datastore"
+msgstr "Este recurso no se puede agregar al almacén de datos"
+
+# dkan_datastore/dkan_datastore.pages.inc:64 dkan_datastore/dkan_datastore.module:129
+msgid "No download available for this resource"
+msgstr "No hay descargas disponibles para este recurso"
+
+# dkan_datastore/dkan_datastore.pages.inc:164 dkan_harvest/dkan_harvest.pages.inc:28
+msgid "Status"
+msgstr "Estado"
+
+# dkan_datastore/dkan_datastore.pages.inc:168
+msgid "Unlock this importer?"
+msgstr "¿Desbloquear a este importador?"
+
+# dkan_datastore/dkan_datastore.pages.inc:168 dkan_datastore/includes/DkanDatastore.inc:268
+msgid "Delete"
+msgstr "Borrar"
+
+# dkan_datastore/dkan_datastore.pages.inc:168 dkan_datastore/includes/DkanDatastore.inc:175; 268; 299; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Cancel"
+msgstr "Cancelar"
+
+# dkan_datastore/dkan_datastore.pages.inc:172
+msgid "Not Locked"
+msgstr "No bloqueado"
+
+# dkan_datastore/dkan_datastore.pages.inc:174
+msgid "This importer is not locked, therefore it cannot be unlocked."
+msgstr "Este importador no está bloqueado, por lo tanto, no se puede desbloquear."
+
+# dkan_datastore/dkan_datastore.pages.inc:177
+msgid "Unlock (disabled)"
+msgstr "Desbloquear (deshabilitado)"
+
+# dkan_datastore/dkan_datastore.pages.inc:180 dkan_datastore/dkan_datastore.module:85
+msgid "Unlock"
+msgstr "Desbloquear"
+
+# dkan_datastore/dkan_datastore.module:323;55
+msgid "Manage Datastore"
+msgstr "Administrar almacén de datos"
+
+# dkan_datastore/dkan_datastore.module:326
+msgid "Manage Datastore Settings"
+msgstr "Administrar la configuración del almacén de datos"
+
+# dkan_datastore/dkan_datastore.module:341
+msgid "Your file for this resource is not added to the datastore. Click \"Manage Datastore\" to import file into the datastore."
+msgstr "Su archivo para este recurso no ha sido agregado al almacén de datos. Haga clic en \"Administrar almacén de datos\" para importar el archivo al almacén de datos."
+
+# dkan_datastore/dkan_datastore.module:344
+msgid "Your file for this resource has been added to the datastore."
+msgstr "Su archivo para este recurso ha sido agregado al almacén de datos."
+
+# dkan_datastore/dkan_datastore.module:478
+msgid "A file has been uploaded but not added to the datastore"
+msgstr "Se ha cargado un archivo pero no se ha agregado al almacén de datos."
+
+# dkan_datastore/dkan_datastore.module:479
+msgid "Data ready to be added"
+msgstr "Datos listos para ser añadidos"
+
+# dkan_datastore/dkan_datastore.module:482
+msgid "Datastore enabled"
+msgstr "Almacén de datos habilitado"
+
+# dkan_datastore/dkan_datastore.module:484
+msgid "Correct file type not attached to resource"
+msgstr "Tipo de archivo correcto no adjunto al recurso"
+
+# dkan_datastore/dkan_datastore.module:598
+msgid "dkan_datastore"
+msgstr "dkan_datastore"
+
+# dkan_datastore/dkan_datastore.module:598
+msgid "Added resource %uuid to queue for import into datastore"
+msgstr "Recurso añadido %uuid en cola para la importación en el almacén de datos"
+
+# dkan_datastore/dkan_datastore.module:45
+msgid "Data API"
+msgstr "API de datos"
+
+# dkan_datastore/dkan_datastore.module:65 dkan_datastore/includes/DkanDatastore.inc:175
+msgid "Import"
+msgstr "Importar"
+
+# dkan_datastore/dkan_datastore.module:75
+msgid "Delete items"
+msgstr "Eliminar elementos"
+
+# dkan_datastore/dkan_datastore.module:95
+msgid "Drop Datastore"
+msgstr "Soltar el almacén de datos"
+
+# dkan_datastore/dkan_datastore.info:0 dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:17
+msgid "DKAN Datastore"
+msgstr "Almacén de datos DKAN"
+
+# dkan_datastore/dkan_datastore.info:0
+msgid "Creates a datastore designed to make it easy to share open data."
+msgstr "Crea un almacén de datos diseñado para facilitar la compartición de datos abiertos."
+
+# dkan_datastore/includes/Datastore.inc:43
+msgid "uuid !uuid not found."
+msgstr "uuid !uuid no encontrado."
+
+# dkan_datastore/includes/Datastore.inc:75
+msgid "Automatically created by datastore"
+msgstr "Creado automáticamente por el almacén de datos"
+
+# dkan_datastore/includes/DkanDatastore.inc:159;258
+msgid "@source_name: Status"
+msgstr "@source_name: Estado"
+
+# dkan_datastore/includes/DkanDatastore.inc:169
+msgid "Settings"
+msgstr "Configuración"
+
+# dkan_datastore/includes/DkanDatastore.inc:175
+msgid "Import all content from source?"
+msgstr "¿Importar todo el contenido de la fuente?"
+
+# dkan_datastore/includes/DkanDatastore.inc:187
+msgid "Importing (@progress %)"
+msgstr "Importando (@progress %)"
+
+# dkan_datastore/includes/DkanDatastore.inc:192
+msgid "The file type for this resource is not supported by the datastore."
+msgstr "El tipo de archivo para este recurso no es compatible con el almacén de datos."
+
+# dkan_datastore/includes/DkanDatastore.inc:198
+msgid "There is nothing to manage! You need to upload or link to a file in order to use the datastore."
+msgstr "¡No hay nada que administrar! Debe subir o vincular a un archivo para poder usar el almacén de datos."
+
+# dkan_datastore/includes/DkanDatastore.inc:268
+msgid "Delete all items from source?"
+msgstr "¿Eliminar todos los elementos de la fuente?"
+
+# dkan_datastore/includes/DkanDatastore.inc:272
+msgid "Deleting (@progress %)"
+msgstr "Eliminando (@progress %)"
+
+# dkan_datastore/includes/DkanDatastore.inc:277
+msgid "No feeds sources added to node."
+msgstr "No se agregaron fuentes de feeds al nodo."
+
+# dkan_datastore/includes/DkanDatastore.inc:299
+msgid "Drop this datastore?"
+msgstr "¿Soltar este almacén de datos?"
+
+# dkan_datastore/includes/DkanDatastore.inc:299;330
+msgid "Drop"
+msgstr "Soltar"
+
+# dkan_datastore/includes/DkanDatastore.inc:315
+msgid "Can't drop table"
+msgstr "No se puede soltar la tabla"
+
+# dkan_datastore/includes/DkanDatastore.inc:317
+msgid "You need to have a file or link imported to the datastore in order to drop it."
+msgstr "Debe tener un archivo o enlace importado al almacén de datos para soltarlo."
+
+# dkan_datastore/includes/DkanDatastore.inc:320
+msgid "Drop (disabled)"
+msgstr "Soltar (desactivado)"
+
+# dkan_datastore/includes/DkanDatastore.inc:325
+msgid "Drop tables"
+msgstr "Soltar tablas"
+
+# dkan_datastore/includes/DkanDatastore.inc:327
+msgid "Are you sure you want to drop the datastore?"
+msgstr "¿Está seguro que desea soltar el almacén de datos?"
+
+# dkan_datastore/includes/DkanDatastore.inc:350
+msgid "Datastore dropped!"
+msgstr "¡Se ha soltado el almacén de datos!"
+
+# dkan_datastore/includes/DkanDatastore.inc:371 dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.info:0
+msgid "DKAN Datastore API"
+msgstr "API del almacén de datos de DKAN"
+
+# dkan_datastore/includes/DkanDatastore.inc:379
+msgid "This resources has a file that has not been added to the datastore."
+msgstr "Este recurso tiene un archivo que no se ha agregado al almacén de datos."
+
+# dkan_datastore/includes/DkanDatastore.inc:384
+msgid "This data source has not yet completed importing. Import is at @progress%. The API for this data source will be available upon the completion of the import process."
+msgstr "Esta fuente de datos aún no ha finalizado la importación. La importación tiene un @progress%. La API para esta fuente de datos estará disponible al finalizar el proceso de importación."
+
+# dkan_datastore/includes/DkanDatastore.inc:387
+msgid "Access resource data via a web API with powerful query support."
+msgstr "Accede a los datos de recursos a través de una API web con un potente soporte de consultas."
+
+# dkan_datastore/includes/DkanDatastore.inc:388
+msgid "Resource ID"
+msgstr "ID de recurso"
+
+# dkan_datastore/includes/DkanDatastore.inc:389
+msgid "The Resource ID for this resource is %id"
+msgstr "El ID de recurso para este recurso es %id"
+
+# dkan_datastore/includes/DkanDatastore.inc:390
+msgid "Example Query"
+msgstr "Ejemplo de consulta"
+
+# dkan_datastore/includes/DkanDatastore.inc:393
+msgid "Query this datastore and return first five results"
+msgstr "Consulta este almacén de datos y devuelve los primeros cinco resultados"
+
+# dkan_datastore/includes/DkanDatastore.inc:394
+msgid "Documentation"
+msgstr "Documentación"
+
+# dkan_datastore/includes/DkanDatastore.inc:395
+msgid "See DKAN API documentation for more details: <a href=\"http://docs.getdkan.com/docs/dkan-documentation/dkan-api/datastore-api\">DKAN Datastore API</a>"
+msgstr "Consulte la documentación de la API de DKAN para obtener más información: <a href=\"http://docs.getdkan.com/docs/dkan-documentation/dkan-api/datastore-api\">API del almacén de datos DKAN</a>"
+
+# dkan_datastore/includes/DkanDatastore.inc:402
+msgid "No files have been added to the datastore."
+msgstr "No se han agregado archivos al almacén de datos."
+
+# dkan_datastore/includes/DkanDatastoreFastImport.inc:63
+msgid "File was succesfully enqueued to be imported and will be available in the datastore in a few minutes"
+msgstr "El archivo fue colocado en cola correctamente para ser importado y estará disponible en el almacén de datos en pocos minutos."
+
+# dkan_datastore/includes/DkanDatastoreFastImport.inc:68
+msgid "File was succesfully imported into the datastore"
+msgstr "El archivo se importó correctamente en el almacén de datos"
+
+# dkan_datastore/includes/DkanDatastoreFastImport.inc:71
+msgid "An error occurred trying to import this file: @error"
+msgstr "Se ha producido un error al intentar importar este archivo: @error"
+
+# dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:275;302
+msgid "An array representing a file."
+msgstr "Una matriz que representa un archivo."
+
+# dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:887
+msgid "Search a datastore table. :param resource_id: id or alias of the data that is going to be selected."
+msgstr "Busca en una tabla de almacén de datos. :id_de_recurso de parámetro: id o alias de los datos que van a ser seleccionados."
+
+# dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:899
+msgid "Missing data the file upload can not be completed"
+msgstr "Datos perdidos: la subida del archivo no se puede completar"
+
+# dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:918
+msgid "The store could not be created."
+msgstr "No se pudo crear el almacén."
+
+# dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:955;959;1029
+msgid "An unknown error occured"
+msgstr "Se produjo un error desconocido"
+
+# dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:970
+msgid "The file is missing or empty."
+msgstr "Falta el archivo o está vacío."
+
+# dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:989;1025
+msgid "The store could not be updated."
+msgstr "No se pudo actualizar el almacén."
+
+# dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.info:0
+msgid "Access datastore info over json."
+msgstr "Accede a la información del almacén de datos sobre json."
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:37
+msgid "Required PDO flags for dkan_datastore_fast_import were not found. This module requires PDO::MYSQL_ATTR_LOCAL_INFILE and PDO::MYSQL_ATTR_USE_BUFFERED_QUERY"
+msgstr "No se encontraron los indicadores PDO necesarios para dkan_datastore_fast_import. Este módulo requiere PDO::MYSQL_ATTR_LOCAL_INFILE y PDO::MYSQL_ATTR_USE_BUFFERED_QUERY"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:43
+msgid "Required PDO flag for dkan_datastore_fast_import were not found. This module requires PDO::MYSQL_ATTR_LOCAL_INFILE"
+msgstr "No se encontró el indicador PDO necesario para dkan_datastore_fast_import. Este módulo requiere PDO::MYSQL_ATTR_LOCAL_INFILE"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:48
+msgid "Required PDO flag for dkan_datastore_fast_import were not found. This module requires PDO::MYSQL_ATTR_USE_BUFFERED_QUERY"
+msgstr "No se encontró el indicador PDO necesario para dkan_datastore_fast_import. Este módulo requiere PDO::MYSQL_ATTR_USE_BUFFERED_QUERY"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:61
+msgid "Use regular import as default (BATCH)"
+msgstr "Utilizar la importación regular como predeterminada (LOTE)"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:62
+msgid "Use fast import as default (LOAD DATA)"
+msgstr "Utilizar la importación rápida como predeterminada (CARGAR DATOS)"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:63
+msgid "Use fast import for files with a weight over:"
+msgstr "Utilizar la importación rápida para archivos con un peso superior a:"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:68
+msgid "Fast Import Selection"
+msgstr "Selección de importación rápida"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:75
+msgid "File size threshold"
+msgstr "Umbral de tamaño de archivo"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:87
+msgid "LOAD DATA LOCAL INFILE"
+msgstr "CARGAR DATOS LOCALES EN EL ARCHIVO"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:88
+msgid "LOAD DATA INFILE"
+msgstr "CARGAR DATOS EN EL ARCHIVO"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:92
+msgid "Load Data Statement"
+msgstr "Declaración de datos de carga"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:94
+msgid "Choose the version of load data you want to use. This depends on your hosting configuration."
+msgstr "Elija la versión de datos de carga que desea utilizar. Esto depende de su configuración de hosting."
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:105
+msgid "Queue Filesize Threshold"
+msgstr "Poner en cola el umbral de tamaño del archivo"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:186
+msgid "There were no items imported. It may be due to a misconfiguration related to characters set as quote delimiters, lines terminators or escape characters."
+msgstr "No se importaron elementos. Puede deberse a una configuración incorrecta relacionada con caracteres definidos como delimitadores entre comillas, terminadores de líneas o caracteres de escape."
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:193
+msgid "There was an error trying to import this file: @error"
+msgstr "Se ha producido un error al intentar importar este archivo: @error"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:232
+msgid "Use Fast Import"
+msgstr "Usar Importación Rápida"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:246
+msgid "Quote delimiters"
+msgstr "Delimitadores entre comillas"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:253
+msgid "The character that will be used to enclose fields in this CSV file."
+msgstr "El carácter que se utilizará para incluir campos en este archivo CSV."
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:262
+msgid "Lines terminated by:"
+msgstr "Líneas terminadas por:"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:277
+msgid "Fields escaped by:"
+msgstr "Campos escapados por:"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:279
+msgid "The character used to escape other characters on each fields. Leave empty if it isn't needed."
+msgstr "El carácter utilizado para escapar de otros caracteres en cada campo. Dejar vacío si no es necesario."
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.module:18
+msgid "Settings for DKAN Datastore."
+msgstr "Configuración para el almacén de datos de DKAN."
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.info:0
+msgid "DKAN Datastore Fast Import"
+msgstr "Importación rápida del almacén de datos de DKAN"
+
+# dkan_datastore/modules/dkan_datastore_fast_import/dkan_datastore_fast_import.info:0
+msgid "Enable fast import for resources"
+msgstr "Permite la importación rápida de recursos"
+
+# dkan_fixtures/dkan_fixtures.module:22 dkan_fixtures/dkan_fixtures.info:0
+msgid "DKAN Fixtures"
+msgstr "Accesorios de DKAN"
+
+# dkan_fixtures/dkan_fixtures.module:29
+msgid "DKAN Dataset Fixtures"
+msgstr "Accesorios del conjunto de datos DKAN"
+
+# dkan_fixtures/dkan_fixtures.module:34
+msgid "DKAN Resource Fixtures"
+msgstr "Accesorios del recurso DKAN"
+
+# dkan_fixtures/dkan_fixtures.module:39
+msgid "DKAN Group Fixtures"
+msgstr "Accesorios del grupo DKAN"
+
+# dkan_fixtures/dkan_fixtures.module:559
+msgid "Array"
+msgstr "Matriz"
+
+# dkan_fixtures/dkan_fixtures.module:684
+msgid "The file %file could not be imported."
+msgstr "No se pudo importar el archivo %file."
+
+# dkan_fixtures/dkan_fixtures.info:0
+msgid "Saves DKAN API endpoints to local files to be used as fixtures"
+msgstr "Guarda los puntos finales de la API DKAN en los archivos locales que se utilizarán como accesorios"
+
+# dkan_fixtures/includes/visualization_entity.inc:83
+msgid "%url was not available for download"
+msgstr "%url no estaba disponible para descargar"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:18
+msgid "DKAN Default Datasets"
+msgstr "Conjuntos de datos predeterminados de DKAN"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:23
+msgid "DKAN Default Resources"
+msgstr "Recursos predeterminados de DKAN"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:28
+msgid "DKAN Default Groups"
+msgstr "Grupos predeterminados de DKAN"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:33
+msgid "DKAN Default Visualization Entities"
+msgstr "Entidades de visualización predeterminadas de DKAN"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:38
+msgid "DKAN Default Data Stories"
+msgstr "Historias de datos predeterminadas de DKAN"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:43
+msgid "DKAN Default Data Dashboards"
+msgstr "Cuadro de mando de datos predeterminados de DKAN"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:48
+msgid "DKAN Default Pages"
+msgstr "Páginas predeterminadas de DKAN"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.info:0
+msgid "DKAN Default Content"
+msgstr "Contenido predeterminado de DKAN"
+
+# dkan_fixtures/modules/dkan_default_content/dkan_default_content.info:0
+msgid "Default Content for DKAN"
+msgstr "Contenido predeterminado para DKAN"
+
+# dkan_harvest/dkan_harvest.drush.inc:212
+msgid "Running the harvest rollback on %source_machine_name"
+msgstr "Ejecutar la restauración de la recolección en %source_machine_name"
+
+# dkan_harvest/dkan_harvest.drush.inc:268
+msgid "No source to deregister"
+msgstr "No hay ninguna fuente para ser eliminada del registro"
+
+# dkan_harvest/dkan_harvest.drush.inc:276
+msgid "Harvest Source not found!"
+msgstr "¡Fuente de recolección no encontrada!"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:665
+msgid "Add one or more filters to narrow a harvest to a specific subset of fields and values."
+msgstr "Agrega uno o más filtros para restringir una recolección a un subconjunto específico de campos y valores."
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:666 dkan_harvest/dkan_harvest.module:95
+msgid "Defaults"
+msgstr "Predeterminados"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:668
+msgid "Determine replacement field values that will be overwritten when you harvest."
+msgstr "Determina los valores del campo de reemplazo que se sobrescribirán cuando realice la recolección."
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:669
+msgid "Exclude a specific field and value from your harvest. Using this will import all fields except the ones listed."
+msgstr "Excluye un campo específico y el valor de su recolección. El uso de esto importará todos los campos excepto aquellos que estén listados."
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:670 dkan_harvest/dkan_harvest.module:87
+msgid "Excludes"
+msgstr "Excluye"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:671 dkan_harvest/dkan_harvest.module:83
+msgid "Filters"
+msgstr "Filtros"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:672
+msgid "Machine Name"
+msgstr "Nombre de máquina"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:673
+msgid "Notes"
+msgstr "Notas"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:674
+msgid "Orphan"
+msgstr "Orphan"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:675 dkan_harvest/dkan_harvest.module:91
+msgid "Overrides"
+msgstr "Anulaciones"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:676
+msgid "Set a default value to be used when the specified field is empty."
+msgstr "Establece un valor predeterminado que se utilizará cuando el campo especificado esté vacío."
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:677
+msgid "Source URI"
+msgstr "URI de origen"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:678
+msgid "Type"
+msgstr "Tipo"
+
+# dkan_harvest/dkan_harvest.features.field_instance.inc:679
+msgid "Type of source we are harvesting."
+msgstr "Tipo de fuente que estamos recolectando."
+
+# dkan_harvest/dkan_harvest.features.inc:34
+msgid "Source for harvesting datasets from an external source into DKAN. For instance, another data portal’s data.json file could be set to harvest once a day and add all the datasets returned to your catalog."
+msgstr "Hace una búsqueda para recolectar los conjuntos de datos de una fuente externa en DKAN. Por ejemplo, se puede establecer el archivo data.json de otro portal de datos para hacer la recolección una vez al día y agregar todos los conjuntos de datos devueltos a su catálogo."
+
+# dkan_harvest/dkan_harvest.migrate.inc:126
+msgid "Cannot look-up the harvest source Node ID"
+msgstr "No se pudo buscar el ID del Nodo de la fuente de recolección"
+
+# dkan_harvest/dkan_harvest.migrate.inc:187
+msgid "The following rules are disabled: @rules_list"
+msgstr "Las siguientes reglas están inhabilitadas: @rules_list"
+
+# dkan_harvest/dkan_harvest.migrate.inc:433
+msgid "@message_prefix. Metadata Source file @file_path not found."
+msgstr "@message_prefix. Archivo de la fuente de metadatos @file_path no encontrado."
+
+# dkan_harvest/dkan_harvest.migrate.inc:486
+msgid "Cannot clean old metadata source. @exception_message"
+msgstr "No se puede limpiar la antigua fuente de metadatos. @exception_message"
+
+# dkan_harvest/dkan_harvest.migrate.inc:522;1132
+msgid "Cannot get taxonomy @taxonomy (@vocabulary vocabulary)."
+msgstr "No se puede obtener la taxonomía @taxonomy (vocabulario @vocabulary)."
+
+# dkan_harvest/dkan_harvest.migrate.inc:546
+msgid "Cannot create the file for the Metadata Source."
+msgstr "No se puede crear el archivo para la fuente de metadatos."
+
+# dkan_harvest/dkan_harvest.migrate.inc:559
+msgid "@message_prefix. @exception_message"
+msgstr "@message_prefix. @exception_message"
+
+# dkan_harvest/dkan_harvest.migrate.inc:587
+msgid "Items to import is 0. Looks like source is missing. All the content previously harvested will be unpublished."
+msgstr "Los elementos a importar son 0. Parece que falta la fuente. Todo el contenido previamente recolectado será inédito."
+
+# dkan_harvest/dkan_harvest.migrate.inc:604
+msgid "Deleting previously failed imports that does not exist in the harvest source anymore."
+msgstr "Eliminar las anteriores importaciones fallidas que ya no existen en la fuente de recolección."
+
+# dkan_harvest/dkan_harvest.migrate.inc:635
+msgid "Could not log items status on migration !name"
+msgstr "No se pudo registrar el estado de los elementos en el !name de la migración."
+
+# dkan_harvest/dkan_harvest.migrate.inc:650
+msgid "The following rules are re-enabled: @rules_list"
+msgstr "Las siguientes reglas se vuelven a habilitar: @rules_list"
+
+# dkan_harvest/dkan_harvest.migrate.inc:685
+msgid "@count item(s) datasets that were previously unpublished are restored by the source and will be republished again."
+msgstr "@count item(s) conjuntos de datos que no fueron publicados anteriormente son restaurados por la fuente y se volverán a publicar nuevamente."
+
+# dkan_harvest/dkan_harvest.migrate.inc:722
+msgid "Dataset \"@dataset_title\"[@nid] and @related_count related content (Resources, ..) published."
+msgstr "Conjunto de datos \"@ dataset_title\"[@nid] y @related_count contenido relacionado (Recursos, ..) publicado."
+
+# dkan_harvest/dkan_harvest.migrate.inc:759
+msgid "@count item(s) that were added by this source does not exist anymore and will be unpublished."
+msgstr "@count item (s) que fueron agregados por esta fuente ya no existen y serán inéditos."
+
+# dkan_harvest/dkan_harvest.migrate.inc:804
+msgid "Dataset \"@dataset_title\"[@nid] and @related_count related content (Resources, ..) unpublished."
+msgstr "Conjunto de datos \"@dataset_title\"[@nid] y @related_count contenido relacionado (Recursos, ..) inéditos."
+
+# dkan_harvest/dkan_harvest.migrate.inc:1012
+msgid "Resource remote url (@url) not valid!"
+msgstr "¡La URL remota de recursos (@url) no es válida!"
+
+# dkan_harvest/dkan_harvest.migrate.inc:1062
+msgid "Resource remote url (@url) extension (@extension) not allowed"
+msgstr "No se permite la extensión (@extension) remota de recursos de la (@url)"
+
+# dkan_harvest/dkan_harvest.migrate.inc:1305
+msgid "!name addFieldMapping: !dest was previously mapped, overridden"
+msgstr " !name addFieldMapping: !dest se ha mapeado, anulado previamente"
+
+# dkan_harvest/dkan_harvest.pages.inc:19 dkan_harvest/dkan_harvest.module:168
+msgid "Events"
+msgstr "Eventos"
+
+# dkan_harvest/dkan_harvest.pages.inc:22
+msgid "Event ID"
+msgstr "ID del Evento"
+
+# dkan_harvest/dkan_harvest.pages.inc:24
+msgid "Date"
+msgstr "Fecha"
+
+# dkan_harvest/dkan_harvest.pages.inc:29
+msgid "Duration"
+msgstr "Duración"
+
+# dkan_harvest/dkan_harvest.pages.inc:30
+msgid "Created"
+msgstr "Creado"
+
+# dkan_harvest/dkan_harvest.pages.inc:31 dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:477
+msgid "Updated"
+msgstr "Actualizado"
+
+# dkan_harvest/dkan_harvest.pages.inc:32
+msgid "Failed"
+msgstr "Ha fallado"
+
+# dkan_harvest/dkan_harvest.pages.inc:33
+msgid "Orphaned"
+msgstr "Orphaned"
+
+# dkan_harvest/dkan_harvest.pages.inc:34
+msgid "Unchanged"
+msgstr "Sin cambios"
+
+# dkan_harvest/dkan_harvest.pages.inc:38; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "OK"
+msgstr "OK"
+
+# dkan_harvest/dkan_harvest.pages.inc:39
+msgid "ERROR"
+msgstr "ERROR"
+
+# dkan_harvest/dkan_harvest.pages.inc:41
+msgid "alert-danger"
+msgstr "alerta-peligro"
+
+# dkan_harvest/dkan_harvest.pages.inc:78
+msgid "Chronological log of harvests performed on this source. See the \"Error log\" page for details on any failures listed here."
+msgstr "Registro cronológico de las recolecciones realizadas en esta fuente. Consulte la página \"Registro de errores\" para obtener más información sobre los fallos que se enumeran aquí."
+
+# dkan_harvest/dkan_harvest.pages.inc:142 dkan_harvest/dkan_harvest.module:179
+msgid "Errors"
+msgstr "Errores"
+
+# dkan_harvest/dkan_harvest.pages.inc:145
+msgid "Message ID"
+msgstr "ID del mensaje"
+
+# dkan_harvest/dkan_harvest.pages.inc:146
+msgid "Source ID"
+msgstr "ID de la fuente"
+
+# dkan_harvest/dkan_harvest.pages.inc:148
+msgid "Error Message"
+msgstr "Mensaje de error"
+
+# dkan_harvest/dkan_harvest.pages.inc:173
+msgid "Log of errors reported during harvesting from this source."
+msgstr "Registro de errores reportados durante la recolección de esta fuente."
+
+# dkan_harvest/dkan_harvest.pages.inc:191
+msgid "Dataset link"
+msgstr "Enlace del conjunto de datos"
+
+# dkan_harvest/dkan_harvest.pages.inc:230
+msgid "@errors_count Error(s) encountered on @date"
+msgstr "@errors_count Error(es) encontrados en @date"
+
+# dkan_harvest/dkan_harvest.module:72
+msgid "Source summary url"
+msgstr "URL de resumen de la fuente"
+
+# dkan_harvest/dkan_harvest.module:79
+msgid "<strong>Datasets</strong> @count"
+msgstr "<strong>Conjuntos de datos</strong> @count"
+
+# dkan_harvest/dkan_harvest.module:109;122
+msgid "Harvest Source Summary"
+msgstr "Resumen de la fuente de la recolección"
+
+# dkan_harvest/dkan_harvest.module:156
+msgid "Administrate harvest sources and datasets"
+msgstr "Administra las fuentes y conjuntos de datos de la recolección"
+
+# dkan_harvest/dkan_harvest.module:256
+msgid "Caching source and preparing Harvest preview..."
+msgstr "Almacenamiento en caché de la fuente y preparación de la previsualización de la recoleccón..."
+
+# dkan_harvest/dkan_harvest.module:257;353
+msgid "Processed 0%."
+msgstr "Procesado 0%."
+
+# dkan_harvest/dkan_harvest.module:258;364
+msgid "Processed @percentage."
+msgstr "Procesado @percentage."
+
+# dkan_harvest/dkan_harvest.module:259
+msgid "An error ocurred while caching the source."
+msgstr "Se produjo un error durante el almacenamiento en caché de la fuente."
+
+# dkan_harvest/dkan_harvest.module:275
+msgid ""
+"Harvesting from this source as it is currently configured will\n"
+"        import the datasets listed below into this data portal. Click \"Edit\" above to\n"
+"        change the source's configuration, click the \"Harvest now\" button at the\n"
+"        bottom of the page to run the harvest immediately, or simply continue working\n"
+"        and the harvest will be performed on schedule."
+msgstr ""
+"La recolección de esta fuente, tal como está configurada actualmente,\n"
+" importará los conjuntos de datos que se enumeran a continuación en este portal de datos. Haga clic en \"Editar\" para\n"
+" cambiar la configuración de la fuente, haga clic en el botón \"Recolectar ahora\" en la\n"
+" parte inferior de la página para ejecutar la recolección inmediatamente, o simplemente continúe trabajando\n"
+" y la recolección se ejecutará según lo programado."
+
+# dkan_harvest/dkan_harvest.module:281
+msgid "<span>Datasets in source: </span> @count"
+msgstr "<span>Conjuntos de datos en la fuente: </span> @count"
+
+# dkan_harvest/dkan_harvest.module:318
+msgid "Harvest now"
+msgstr "Recolectar ahora"
+
+# dkan_harvest/dkan_harvest.module:322
+msgid "Refresh"
+msgstr "Actualizar"
+
+# dkan_harvest/dkan_harvest.module:352
+msgid "Migrating content from"
+msgstr "Migración de contenido de"
+
+# dkan_harvest/dkan_harvest.module:354
+msgid ""
+"A full Harvest may take several minutes, depending on\n"
+"      how many items your source contains. If your harvest times out, start it\n"
+"      again as needed until it completes successfully. For more reliable harvests,\n"
+"      use built-in drush commands in the terminal or set up a cron job.\n"
+"      See the DKAN Harvest documentation for more information."
+msgstr ""
+"Una recolección completa puede tomar varios minutos, dependiendo de\n"
+" cuántos elementos contenga su fuente. Si se agota el tiempo de su recolección, comiéncela\n"
+" de nuevo tantas veces como sea necesaria hasta que se complete con éxito. Para obtener recolecciones más confiables,\n"
+" utilice los comandos drush incorporados en el terminal o configure un trabajo cron.\n"
+" Consulte la documentación de recolección DKAN para obtener más información."
+
+# dkan_harvest/dkan_harvest.module:365
+msgid "An error ocurred during the migration."
+msgstr "Se ha producido un error durante la migración."
+
+# dkan_harvest/dkan_harvest.module:477
+msgid "No harvest source found."
+msgstr "No se encontró ninguna fuente de recolección."
+
+# dkan_harvest/dkan_harvest.module:488
+msgid "Harvest Source \\\"@title\\\" (@nid) cannot be imported!"
+msgstr "¡No se puede importar la fuente de recolección  \\\"@title\\\" (@nid)!"
+
+# dkan_harvest/dkan_harvest.module:539
+msgid "Failed to import source with message: @exception_message"
+msgstr "Error al importar fuente con mensaje: @exception_message"
+
+# dkan_harvest/dkan_harvest.module:568
+msgid "Failed to start source harvest migration. Cannot load migration object."
+msgstr "Error al iniciar la migración de recolección de la fuente. No se puede cargar el objeto de migración."
+
+# dkan_harvest/dkan_harvest.module:586
+msgid "Failed to rollback source harvest migration. Cannot load migration object."
+msgstr "Error al restaurar la migración de recolección de la fuente. No se puede cargar el objeto de migración."
+
+# dkan_harvest/dkan_harvest.module:601
+msgid "Harvest Migration registration failed!"
+msgstr "¡El registro de migración de recolección ha fallado!"
+
+# dkan_harvest/dkan_harvest.module:619
+msgid "Harvest Cache for @source_machine_name failed!"
+msgstr "¡La caché de recolección para @source_machine_name ha fallado!"
+
+# dkan_harvest/dkan_harvest.module:626
+msgid "Harvest Cache for @source_machine_name completed (processed @cache_processed, failed @cache_failed, saved @cache_saved : (filtered @cache_filtered, excluded @cache_excluded, defaulted @cache_defaulted, overridden @cache_overridden))."
+msgstr "Se ha completado la caché de recolección de @source_machine_name (procesada @cache_processed, fallada @cache_failed, guardada @cache_saved : (filtrada @cache_filtered, excluida @cache_excluded, defectuosa @cache_defaulted, anulada @cache_overridden))."
+
+# dkan_harvest/dkan_harvest.module:821
+msgid "Source local URI does not exists!"
+msgstr "¡La URI local de la fuente no existe!"
+
+# dkan_harvest/dkan_harvest.module:832
+msgid "Source remote URI invalid!"
+msgstr "¡La URI remota de la fuente no es válida!"
+
+# dkan_harvest/dkan_harvest.module:842
+msgid "Source URI invalid!"
+msgstr "¡URI de la fuente no válida!"
+
+# dkan_harvest/dkan_harvest.module:850
+msgid "Source URI protocol not allowed! Allowed protocols are %allowed_protocols"
+msgstr "¡No se permite el protocolo URI de la fuente! Los protocolos permitidos son %allowed_protocols"
+
+# dkan_harvest/dkan_harvest.module:887
+msgid "Source: !link"
+msgstr "Fuente: !link"
+
+# dkan_harvest/dkan_harvest.module:919
+msgid "Warning: this node was harvested from another source and should probably not be modified. If you modify it, your changes will be overwritten the next time a harvest is performed"
+msgstr "Advertencia: este nodo fue recolectado de otra fuente y probablemente no debería ser modificado. Si lo modifica, sus cambios se sobrescribirán la próxima vez que se realice una recolección"
+
+# dkan_harvest/dkan_harvest.module:1002
+msgid "Deleting selected Harvest Sources and updating associated content..."
+msgstr "Eliminando las fuentes de recolección seleccionadas y actualizando el contenido asociado..."
+
+# dkan_harvest/dkan_harvest.module:1003
+msgid "Processed @current out of @total."
+msgstr "Procesado @current de @total."
+
+# dkan_harvest/dkan_harvest.module:1004
+msgid "An error ocurred while processing the content."
+msgstr "Se produjo un error al procesar el contenido."
+
+# dkan_harvest/dkan_harvest.module:1120
+msgid "Delete content."
+msgstr "Eliminar contenido."
+
+# dkan_harvest/dkan_harvest.module:1121
+msgid "Unpublish content."
+msgstr "Anular la publicación del contenido."
+
+# dkan_harvest/dkan_harvest.module:1122
+msgid "Leave content published."
+msgstr "Dejar el contenido publicado."
+
+# dkan_harvest/dkan_harvest.module:1134
+msgid "Delete Sources"
+msgstr "Eliminar fuentes"
+
+# dkan_harvest/dkan_harvest.module:1158
+msgid "The following sources were selected to be deleted:"
+msgstr "Se seleccionaron las siguientes fuentes para ser eliminadas:"
+
+# dkan_harvest/dkan_harvest.module:1167
+msgid ""
+"Plese select the operation you want to perform on the\n"
+"    associated content (datasets and resources):"
+msgstr ""
+"Seleccione la operación que desea realizar en el\n"
+" contenido asociado (conjuntos de datos y recursos):"
+
+# dkan_harvest/dkan_harvest.info:0;0 dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.rules.inc:24 dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.info:0 dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.info:0
+msgid "DKAN Harvest"
+msgstr "Recolección DKAN"
+
+# dkan_harvest/dkan_harvest.info:0
+msgid "Harvest data from external sources into DKAN sites"
+msgstr "Recolectar los datos de fuentes externas en sitios DKAN"
+
+# dkan_harvest/includes/HarvestItem.php:55 dkan_migrate_base/dkan_migrate_base.migrate.inc:227
+msgid "Loading of !objecturl failed:"
+msgstr "Se ha producido un error en la carga de !objecturl:"
+
+# dkan_harvest/includes/HarvestMigrateSQLMap.php:142;229
+msgid "Mappings from source key to destination key"
+msgstr "Mapeos de la clave de origen a la clave de destino"
+
+# dkan_harvest/includes/HarvestMigrateSQLMap.php:175
+msgid "Messages generated during a migration process"
+msgstr "Mensajes generados durante un proceso de migración"
+
+# dkan_harvest/includes/HarvestSource.php:55
+msgid "machine name is required!"
+msgstr "¡Es necesario el nombre de la máquina!"
+
+# dkan_harvest/includes/HarvestSource.php:67
+msgid "Harvest Source node with machine name %s not found."
+msgstr "No se encontró el nodo de la fuente de recolección con nombre %s de máquina."
+
+# dkan_harvest/includes/HarvestSource.php:319
+msgid "Harvest demo cache failed: @error"
+msgstr "Error de caché de demostración de recolección: @error"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.rules.inc:19
+msgid "The data source to be harvested"
+msgstr "La fuente de datos a recolectar"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.rules.inc:21
+msgid "This can be a source node object or node id"
+msgstr "Este puede ser un objeto de nodo fuente o un ID de nodo"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.rules.inc:27
+msgid "Cache Source"
+msgstr "Fuente del caché"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.rules.inc:28
+msgid "Migrate Source"
+msgstr "Migrar fuente"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.rules.inc:29
+msgid "Harvest (Cache and Migrate) Source"
+msgstr "Fuente (caché y migración) de recolección"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:14
+msgid "Dkan Harvest"
+msgstr "Recolección Dkan"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:22
+msgid "Harvest Migrate Last Updated"
+msgstr "Última actualización de la migración de recolección"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:23
+msgid "Date of the Last Harvest Migrate operation for a Harvest Source."
+msgstr "Fecha de la última operación de la migración de recolección para una fuente de recolección."
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:37
+msgid "Harvest Migrate Datasets Count"
+msgstr "Conteo de conjuntos de datos de la migración de recolección"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:38
+msgid "Count of the Dataset Harvested for a Harvest Source"
+msgstr "Conteo del conjunto de datos recolectados para una fuente de recolección"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:46
+msgid "Harvest Migrate Status"
+msgstr "Estado de la migración de recolección"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:47
+msgid "Status of the last harvest migration"
+msgstr "Estado de la última migración de recolección"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.module:70
+msgid "From"
+msgstr "Desde"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.module:71
+msgid "To"
+msgstr "Hasta"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.module:93
+msgid "Add Source"
+msgstr "Agregar fuente"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.module:16 dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.info:0 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:790
+msgid "DKAN Harvest Dashboard"
+msgstr "Cuadro de mando de indicadores de la recolección DKAN"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.module:23
+msgid "Sources"
+msgstr "Fuentes"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.info:0
+msgid "Harvest administration dashboard and overview of source nodes and related information"
+msgstr "Cuadro de mando de administración de la recolección y descripción general de los nodos fuente e información relacionada"
+
+# panels/layouts/dkan_front/dkan_front.inc:10 panels/layouts/full_width/full_width.inc:10
+msgid "Custom"
+msgstr "Personalizado"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:47
+msgid "Status when no errors found"
+msgstr "Estado cuando no se han encontrado errores"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:59
+msgid "Status when one or multiple error(s) found"
+msgstr "Estado cuando uno o varios errores son encontrados"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:71
+msgid "Status when when not applicable"
+msgstr "Estado cuando cuando no sea aplicable"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:83
+msgid "Reverse"
+msgstr "Reversa"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:84
+msgid "If checked, true will be displayed as false."
+msgstr "Si está marcado, verdadero se mostrará como falso."
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:107;124;152
+msgid "dkan_harvest_dashboard"
+msgstr "dkan_harvest_dashboard"
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:107
+msgid "HarvestSource machine_name not found."
+msgstr "HarvestSource nombre_de_la_máquina no encontrado."
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:124
+msgid "MLID not found."
+msgstr "No se encontró MLID."
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/handlers/views_handler_field_boolean_harvest_status.inc:152
+msgid "Result for error message not found."
+msgstr "No se encontró el resultado del mensaje de error."
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/templates/views-view-field--dkan-harvest-datasets--harvest-datasets--field-orphan.tpl.php:25 dkan_harvest/modules/dkan_harvest_dashboard/views/templates/views-view-field--dkan-harvest-datasets--harvest-datasets-source-page--field-orphan.tpl.php:25
+msgid "Yes"
+msgstr "Sí."
+
+# dkan_harvest/modules/dkan_harvest_dashboard/views/templates/views-view-field--dkan-harvest-datasets--harvest-datasets--field-orphan.tpl.php:25 dkan_harvest/modules/dkan_harvest_dashboard/views/templates/views-view-field--dkan-harvest-datasets--harvest-datasets-source-page--field-orphan.tpl.php:25
+msgid "No"
+msgstr "No."
+
+# dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.migrate.inc:118
+msgid "Cannot parse temporal coverage interval @value"
+msgstr "No se puede analizar el intervalo de cobertura temporal @value"
+
+# dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.migrate.inc:138
+msgid "Cannot parse temporal coverage value @value"
+msgstr "No se puede analizar el valor de cobertura temporal @value"
+
+# dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.module:103
+msgid "Key \"@path\" was automatically generated because doesn't exists in the dataset \"@title\". Make sure you want to modify the key \"@path\"."
+msgstr "La clave \"@path\" se generó automáticamente porque no existe en el conjunto de datos \"@title\". Asegúrese de que desea modificar la clave \"@path\"."
+
+# dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.module:140
+msgid "Error trying to access to key @path. Please make sure @path exists in the dataset"
+msgstr "Error al intentar acceder a la clave @path. Asegúrese de que @path existe en el conjunto de datos"
+
+# dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.info:0
+msgid "Dkan Harvest Data Json"
+msgstr "Datos de la recolección Dkan Json"
+
+# dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.info:0
+msgid "Provide Data Json endpoints support for Dkan Harvest."
+msgstr "Proporciona soporte de los puntos finales de Datos Json para la recolección Dkan."
+
+# dkan_harvest/modules/dkan_harvest_test/dkan_harvest_test.info:0
+msgid "DKAN Harvest Test"
+msgstr "Prueba de recolección DKAN"
+
+# dkan_harvest/modules/dkan_harvest_test/dkan_harvest_test.info:0
+msgid "Test module for dkan_harvest"
+msgstr "Módulo de prueba para dkan_harvest"
+
+# dkan_ipe/dkan_ipe.module:27
+msgid "File"
+msgstr "Archivo"
+
+# dkan_ipe/dkan_ipe.module:33
+msgid "Text"
+msgstr "Texto"
+
+# dkan_ipe/dkan_ipe.module:34;38;42;46;50;65;71;77;83
+msgid "custom"
+msgstr "personalizada"
+
+# dkan_ipe/dkan_ipe.module:37
+msgid "Map"
+msgstr "Mapa"
+
+# dkan_ipe/dkan_ipe.module:41
+msgid "Table"
+msgstr "Tabla"
+
+# dkan_ipe/dkan_ipe.module:45
+msgid "Video"
+msgstr "Video"
+
+# dkan_ipe/dkan_ipe.module:49
+msgid "Slideshow"
+msgstr "Presentación de diapositivas"
+
+# dkan_ipe/dkan_ipe.module:67
+msgid "Content List"
+msgstr "Lista de contenido"
+
+# dkan_ipe/dkan_ipe.module:73
+msgid "Submenu"
+msgstr "Submenú"
+
+# dkan_ipe/dkan_ipe.module:79
+msgid "Existing content"
+msgstr "Contenido existente"
+
+# dkan_ipe/dkan_ipe.module:85
+msgid "New custom content"
+msgstr "Nuevo contenido personalizado"
+
+# dkan_ipe/dkan_ipe.module:89 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:813
+msgid "Visualization"
+msgstr "Visualización"
+
+# dkan_ipe/dkan_ipe.module:92
+msgid "Link"
+msgstr "Enlace"
+
+# dkan_ipe/dkan_ipe.module:111
+msgid "Content options are divided by category. Please select a category from the left to proceed."
+msgstr "Las opciones de contenido están divididas por categoría. Seleccione una categoría de la izquierda para continuar."
+
+# dkan_ipe/dkan_ipe.info:0
+msgid "DKAN In-Place Editor"
+msgstr "Editor DKAN en el lugar"
+
+# dkan_ipe/dkan_ipe.info:0
+msgid "Customizations to panels IPE"
+msgstr "Personalizaciones a paneles IPE"
+
+# dkan_migrate_base/dkan_migrate_base.migrate.inc:24
+msgid "Data.json Dataset Base"
+msgstr "Base de datos de Data.json"
+
+# dkan_migrate_base/dkan_migrate_base.migrate.inc:29
+msgid "CKAN Dataset Base"
+msgstr "Base de datos de CKAN"
+
+# dkan_migrate_base/dkan_migrate_base.migrate.inc:34
+msgid "CKAN Group Base"
+msgstr "Base del Grupo CKAN"
+
+# dkan_migrate_base/dkan_migrate_base.migrate.inc:39
+msgid "CKAN Resource Base"
+msgstr "Base de Recursos CKAN"
+
+# dkan_migrate_base/dkan_migrate_base.migrate.inc:120 dkan_migrate_base/dkan_migrate_base_data_json.inc:659
+msgid "Loading of !listurl failed:"
+msgstr "Ha fallado la carga de !listurl:"
+
+# dkan_migrate_base/dkan_migrate_base.migrate.inc:216
+msgid "Access denied for !objecturl"
+msgstr "Acceso denegado para !objecturl"
+
+# dkan_migrate_base/dkan_migrate_base.migrate.inc:238
+msgid "Access denied for %id"
+msgstr "Acceso denegado para %id"
+
+# dkan_migrate_base/dkan_migrate_base.migrate.inc:725
+msgid "Could not create directory"
+msgstr "No se pudo crear el directorio"
+
+# dkan_migrate_base/dkan_migrate_base_data_json.inc:630
+msgid "%url contains %datasets datasets and %resources resources."
+msgstr "%url contiene %dconjuntos de datos atasets y recursos %resources."
+
+# dkan_migrate_base/dkan_migrate_base_resource.inc:50
+msgid "ID list resource_show downloaded locally as %filename"
+msgstr "Lista de ID resource_show descargada localmente como %filename"
+
+# dkan_migrate_base/dkan_migrate_base_resource.inc:56
+msgid "unknown"
+msgstr "desconocido"
+
+# dkan_migrate_base/dkan_migrate_base_resource.inc:57
+msgid "CKAN Resources ID file for %migration migration downloaded locally. Last updated %date."
+msgstr "Archivo de ID de recursos de CKAN para la migración %migration descargado localmente. Última actualización %date."
+
+# dkan_migrate_base/dkan_migrate_base.module:72
+msgid "List of resource ids for %endpoint"
+msgstr "Lista de ID de recursos para %endpoint"
+
+# dkan_migrate_base/dkan_migrate_base.info:0 dkan_migrate_base/modules/dkan_migrate_base_example/dkan_migrate_base_example.info:0
+msgid "DKAN Migrate Base"
+msgstr "Base de migración de DKAN"
+
+# dkan_migrate_base/dkan_migrate_base.info:0
+msgid "DKAN migration base."
+msgstr "Base de migración de DKAN."
+
+# dkan_migrate_base/modules/dkan_migrate_base_example/dkan_migrate_base_example.module:17
+msgid "DKAN Examples"
+msgstr "Ejemplos DKAN"
+
+# dkan_migrate_base/modules/dkan_migrate_base_example/dkan_migrate_base_example.module:24
+msgid "Example CKAN Datasets"
+msgstr "Ejemplo de conjuntos de datos CKAN"
+
+# dkan_migrate_base/modules/dkan_migrate_base_example/dkan_migrate_base_example.module:29
+msgid "Example CKAN Resources"
+msgstr "Ejemplo de recursos de CKAN"
+
+# dkan_migrate_base/modules/dkan_migrate_base_example/dkan_migrate_base_example.module:34
+msgid "Example Data JSON V1.1"
+msgstr "Ejemplo de datos JSON V1.1"
+
+# dkan_migrate_base/modules/dkan_migrate_base_example/dkan_migrate_base_example.info:0
+msgid "DKAN migration base example."
+msgstr "Ejemplo de base de migración DKAN."
+
+# dkan_permissions/dkan_permissions.info:0
+msgid "DKAN Permissions"
+msgstr "Permisos DKAN"
+
+# dkan_permissions/dkan_permissions.info:0
+msgid "Export of roles and permissions for core DKAN roles."
+msgstr "Exportación de roles y permisos para las funciones principales de DKAN."
+
+# dkan_plugins/dkan_plugins.info:0
+msgid "DKAN Plugins"
+msgstr "Plugins DKAN"
+
+# dkan_plugins/dkan_plugins.info:0
+msgid "Custom cTools plugins for DKAN"
+msgstr "Plugins cTools personalizados para DKAN"
+
+# dkan_plugins/plugins/content_types/dkan_plugins_button_link.inc:9
+msgid "Button link"
+msgstr "Enlace del botón"
+
+# dkan_plugins/plugins/content_types/dkan_plugins_button_link.inc:10
+msgid "Custom button with color settings."
+msgstr "Botón personalizado con ajustes de color."
+
+# dkan_plugins/plugins/content_types/dkan_plugins_button_link.inc:64
+msgid "Button Alignment"
+msgstr "Alineación del botón"
+
+# dkan_plugins/plugins/content_types/dkan_plugins_button_link.inc:67
+msgid "Left"
+msgstr "Izquierda"
+
+# dkan_plugins/plugins/content_types/dkan_plugins_button_link.inc:68
+msgid "Center"
+msgstr "Centro"
+
+# dkan_plugins/plugins/content_types/dkan_plugins_button_link.inc:69
+msgid "Right"
+msgstr "Derecha"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:17;78
+msgid "Social"
+msgstr "Social"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:21;88
+msgid "Additional Information"
+msgstr "Información Adicional"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:25
+msgid "Powered by DKAN"
+msgstr "Desarrollado por DKAN"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:33;98
+msgid "Other Access"
+msgstr "Otro acceso"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:37
+msgid "User menu"
+msgstr "Menú de usuario"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:41;68
+msgid "Data Extent"
+msgstr "Extensión de datos"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:45;108
+msgid "Search Your Data"
+msgstr "Busque sus datos"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:49;113
+msgid "Welcome to the DKAN Demo"
+msgstr "Bienvenido a la demostración DKAN"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:53;119
+msgid "Add a Dataset"
+msgstr "Agregar un conjunto de datos"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:144
+msgid "mimetype"
+msgstr "tipo MIME"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:145
+msgid "filesize"
+msgstr "tamaño de archivo"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:146
+msgid "resource type"
+msgstr "tipo de recurso"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:147
+msgid "timestamp"
+msgstr "marca de tiempo"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:149
+msgid "Field"
+msgstr "Campo"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:149
+msgid "Value"
+msgstr "Valor"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:195
+msgid "Default"
+msgstr "Predeterminado"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:196;205
+msgid "Add text here to override the default block content. Leave blank to continue using default."
+msgstr "Añada texto aquí para reemplazar el contenido del bloque predeterminado. Deje en blanco para continuar usando el valor predeterminado."
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:204
+msgid "Add a dataset"
+msgstr "Agregar un conjunto de datos"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:221;231
+msgid "Reset block content to default."
+msgstr "Restablecer el contenido del bloque a predeterminado."
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:286
+msgid "License not specified"
+msgstr "Licencia no especificada"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:294
+msgid "Powered by !dkan, a project of !nucivic"
+msgstr "Desarrollado por !dkan, un proyecto de !nucivic"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:298
+msgid "NuCivic"
+msgstr "NuCivic"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:329
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:343
+msgid "Reddit"
+msgstr "Reddit"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:403
+msgid "The information on this page (the dataset metadata) is also available in these formats."
+msgstr "La información de esta página (los metadatos del conjunto de datos) también está disponible en estos formatos."
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:417
+msgid "json view of content"
+msgstr "vista json del contenido"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:429
+msgid "rdf view of content"
+msgstr "vista rdf del contenido"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:437
+msgid "via the  <a href=\"http://docs.getdkan.com/en/latest/apis/index.html\">DKAN API</a>"
+msgstr "a través de la <a href=\"http://docs.getdkan.com/en/latest/apis/index.html\">API DKAN</a>"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:470
+msgid "search"
+msgstr "buscar"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:499
+msgid "<p>Search for datasets directly from the homepage or by navigating to the !link search page where you can filter by tags, groups and format.</p>"
+msgstr "<p>Busca conjuntos de datos directamente desde la página de inicio o navegando a la página de búsqueda de !link donde usted puede filtrar por etiquetas, grupos y formatos.</p>"
+
+# dkan_sitewide/dkan_sitewide.blocks.inc:510
+msgid "You can add a !dataset to get a sense of publisher workflow. This form can be customised to require many additional fields. In this demo only the most basic fields are required."
+msgstr "Puede agregar un !dataset para obtener un flujo de trabajo del sentido del editor. Este formulario puede personalizarse para requerir muchos campos adicionales. En esta demostración solo se requieren los campos más básicos."
+
+# dkan_sitewide/dkan_sitewide.features.inc:30 dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.context.inc:67 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:804 dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.context.inc:74
+msgid "Page"
+msgstr "Página"
+
+# dkan_sitewide/dkan_sitewide.features.inc:32
+msgid "This is a basic page."
+msgstr "Esta es una página básica."
+
+# dkan_sitewide/dkan_sitewide.module:49
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+# dkan_sitewide/dkan_sitewide.module:52
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+# dkan_sitewide/dkan_sitewide.module:54
+msgid "Register"
+msgstr "Registrarse"
+
+# dkan_sitewide/dkan_sitewide.module:252
+msgid "For Colorizer to work you must set the Administration theme to match your <em>Default theme</em> at the bottom of the !link  page."
+msgstr "Para que funcione el Colorizer, debe configurar el tema Administración para que coincida con su <em>Tema predeterminado</em> en la parte inferior de la página de !link."
+
+# dkan_sitewide/dkan_sitewide.module:252
+msgid "appearance list"
+msgstr "lista de apariencia"
+
+# dkan_sitewide/dkan_sitewide.module:19
+msgid "Redirects to search page"
+msgstr "Redirecciona a la página de búsqueda"
+
+# dkan_sitewide/dkan_sitewide.info:0
+msgid "DKAN Sitewide"
+msgstr "En todo el sitio DKAN"
+
+# dkan_sitewide/dkan_sitewide.info:0
+msgid "Sitewide elements for DKAN."
+msgstr "Elementos del sitio para DKAN."
+
+# dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:71;193
+msgid "Node"
+msgstr "Nodo"
+
+# dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:104;232
+msgid "Create"
+msgstr "Crear"
+
+# dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:145; 302; misc/machine-name.js
+msgid "Edit"
+msgstr "Editar"
+
+# dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:255
+msgid "Datastore"
+msgstr "Almacén de datos"
+
+# dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:352
+msgid "Sitewide"
+msgstr "En todo el sitio"
+
+# dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.info:0
+msgid "DKAN Sitewide Context"
+msgstr "Contexto DKAN en todo el sitio"
+
+# dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.info:0
+msgid "Contexts for DKAN."
+msgstr "Contextos para DKAN."
+
+# dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.info:0
+msgid "DKAN Sitewide Demo Front"
+msgstr "Frontal de demostración de DKAN en todo el sitio"
+
+# dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.info:0
+msgid "Default front page module. Included for backwards compatibility; depricated. Don't enable if you're not already using."
+msgstr "Módulo de página frontal predeterminado. Incluido para compatibilidad hacia atrás; obsoleto. No lo habilite si aún no lo está utilizando."
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_custom.inc:22
+msgid "Alternative admin menu for non admin users."
+msgstr "Menú de administración alternativo para usuarios no administradores."
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_custom.inc:23
+msgid "Command Center Menu"
+msgstr "Menú del centro de comandos"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:780
+msgid "Add content"
+msgstr "Añadir contenido"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:781
+msgid "Chart"
+msgstr "Gráfica"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:782
+msgid "Charts"
+msgstr "Gráficas"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:783
+msgid "Colorizer"
+msgstr "Colorizer"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:785
+msgid "Create user"
+msgstr "Crear usuario"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:786
+msgid "DCAT validation"
+msgstr "Validación DCAT"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:792
+msgid "Data Dashboards"
+msgstr "Cuadro de mando de datos"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:793
+msgid "Data Previews"
+msgstr "Previsualizaciones de datos"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:797
+msgid "Featured Groups Sort Order"
+msgstr "Orden de clasificación de los grupos destacados"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:797
+msgid "Featured Group Sort Order"
+msgstr "Orden de clasificación del grupo destacado"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:798
+msgid "Fonts"
+msgstr "Fuentes"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:801
+msgid "Manage Users"
+msgstr "Administrar usuarios"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:802
+msgid "Menus"
+msgstr "Menús"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:803
+msgid "Open Data Schema Mapper"
+msgstr "Abrir el mapeador de esquema de datos"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:805
+msgid "People"
+msgstr "Personas"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:806
+msgid "Project Open Data Validation"
+msgstr "Validación de Project Open Data"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:807
+msgid "Recline Configuration"
+msgstr "Configuración de reclinación"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:809
+msgid "Site Configuration"
+msgstr "Configuración del sitio"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:810
+msgid "Site Information"
+msgstr "Información del sitio"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:811
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:812
+msgid "Theme Settings"
+msgstr "Configuración del tema"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.module:14
+msgid "Administer DKAN configuration"
+msgstr "Administrar la configuración DKAN"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.module:15
+msgid "Perform administration tasks for DKAN."
+msgstr "Realizar tareas de administración para DKAN."
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.info:0
+msgid "DKAN Sitewide Menu"
+msgstr "Menú del sitio DKAN"
+
+# dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.info:0
+msgid "Command center menu settings for DKAN"
+msgstr "Configuración del menú del centro de comandos para DKAN"
+
+# dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.admin.inc:17
+msgid "Configure DKAN module to embed panelizer layout form on content creation."
+msgstr "Configura el módulo DKAN para incrustar el diseño del panelizador en la creación de contenido."
+
+# dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.admin.inc:66
+msgid "Panelized Content Types"
+msgstr "Tipos de contenido panelizado"
+
+# dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.admin.inc:73
+msgid "Non panelized Content Types"
+msgstr "Tipos de contenido no panelizado"
+
+# dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.admin.inc:75
+msgid ""
+"This content types don't have their 'default' view panelized or&nbsp;\n"
+"                        they don't have a default panel for that view.&nbsp;\n"
+"                        You can panelize them <a href='/admin/config/content/panelizer'>here</a>."
+msgstr ""
+"Estos tipos de contenido no tienen su vista 'predeterminada' panelizada o \n"
+" no tienen un panel predeterminado para esa vista. \n"
+" Puede panelizarlos  <a href='/admin/config/content/panelizer'>aquí</a>."
+
+# dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.module:121
+msgid "Your %content_type '%title' has been created. Start adding content by clicking on the + sign on each panel."
+msgstr "Su %ctipo de contenido '%title' se ha creado. Comience a agregar contenido haciendo clic en el signo +  en cada panel."
+
+# dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.info:0
+msgid "DKAN Sitewide Panelizer"
+msgstr "Panelizador del sitio DKAN"
+
+# dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.info:0
+msgid "DKAN module for simplifying the creation of panelized content"
+msgstr "Módulo DKAN para simplificar la creación de contenido panelizado"
+
+# dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.module:61
+msgid "DKAN User Summary"
+msgstr "Resumen de usuarios de DKAN"
+
+# dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.info:0
+msgid "DKAN Panels"
+msgstr "Paneles DKAN"
+
+# dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.info:0
+msgid "Exports of core panels configuration for DKAN."
+msgstr "Exportación de la configuración de paneles de núcleo para DKAN."
+
+# dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.module:17
+msgid "User admin role reset to \"administrator.\""
+msgstr " El rol de administrador del usuario se ha restablecido a \"administrador.\""
+
+# dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.module:20
+msgid "Administrator role not found. Skipping update."
+msgstr "No se encontró el rol de administrador. Omitir actualización."
+
+# dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.module:24
+msgid "User admin role already set. Skipping update."
+msgstr "La función de administrador de usuarios ya está establecida. Omitir actualización."
+
+# dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.info:0
+msgid "DKAN Sitewide Roles and Permissions"
+msgstr "Funciones y permisos de DKAN en todo el sitio"
+
+# dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.info:0
+msgid "Defines roles and permissions. Deprecated in favor of dkan_permissions, will be removed in future release."
+msgstr "Define roles y permisos. Desactivado a favor de dkan_permissions, se eliminará en la versión futura."
+
+# dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.context.inc:73
+msgid "Blocks for the dataset search page"
+msgstr "Bloques para la página de búsqueda de los conjuntos de datos"
+
+# dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.install:17
+msgid ""
+"WARNING: If you are upgrading from a previous version of DKAN, a required\n"
+"    update of the Search API DB backend module may break your search indexes,\n"
+"    showing either a) nothing or b) all nodes regardless of type in your\n"
+"    search/datasets pages. This problem can be easily fixed by following the\n"
+"    instructions in the release notes at\n"
+"    https://github.com/NuCivic/dkan/releases/tag/7.x-1.9 or in CHANGELOG.txt."
+msgstr ""
+"ADVERTENCIA: Si está actualizando desde una versión anterior de DKAN,\n"
+" una actualización necesaria del módulo de backend de la base de datos de la API de búsqueda puede romper sus índices de búsqueda,\n"
+" mostrando a) nada o b) todos los nodos sin importar el tipo en sus\n"
+" páginas de búsqueda/conjuntos de datos. Este problema se puede solucionar fácilmente siguiendo las\n"
+" instrucciones en las notas de la versión en\n"
+" https://github.com/NuCivic/dkan/releases/tag/7.x-1.9 o en CHANGELOG.txt."
+
+# dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.info:0
+msgid "DKAN Sitewide Search"
+msgstr "Búsqueda en todo el sitio de DKAN"
+
+# dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.info:0
+msgid "Adds search component using SQL instead of Solr"
+msgstr "Agrega el componente de búsqueda utilizando SQL en lugar de Solr"
+
+# dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.features.field_instance.inc:49 dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.field_group.inc:123
+msgid "About"
+msgstr "Acerca de"
+
+# dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.field_group.inc:126
+msgid "Profile"
+msgstr "Perfil"
+
+# dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.info:0
+msgid "DKAN Sitewide User"
+msgstr "Usuario en todo el sitio DKAN"
+
+# dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.info:0
+msgid "Basic configuration for DKAN users."
+msgstr "Configuración básica para usuarios DKAN."
+
+# dkan_sitewide/modules/facet_icons/facet_icons.module:19
+msgid "Term Icon"
+msgstr "Término Icono"
+
+# dkan_sitewide/modules/facet_icons/facet_icons.module:26
+msgid "Content Type Icon"
+msgstr "Icono de tipo de contenido"
+
+# dkan_sitewide/modules/facet_icons/facet_icons.info:0
+msgid "Facet Links with Icons"
+msgstr "Enlaces de faceta con iconos"
+
+# dkan_sitewide/modules/facet_icons/facet_icons.info:0
+msgid "Provides facet widgets with links and icons for taxonomy terms and content types."
+msgstr "Proporciona widgets de faceta con enlaces e iconos para términos de taxonomía y tipos de contenido."
+
+# dkan_sitewide/modules/facet_icons/facet_icons.info:0
+msgid "Search Toolkit"
+msgstr "Kit de herramientas de búsqueda"
+
+# dkan_topics/dkan_topics.features.field_instance.inc:333
+msgid "Icon"
+msgstr "Icono"
+
+# dkan_topics/dkan_topics.features.field_instance.inc:334
+msgid "Icon Color"
+msgstr "Color del icono"
+
+# dkan_topics/dkan_topics.features.field_instance.inc:335
+msgid "Icon Type"
+msgstr "Tipo de icono"
+
+# dkan_topics/dkan_topics.features.field_instance.inc:337 dkan_topics/dkan_topics.module:25
+msgid "Topics"
+msgstr "Temas"
+
+# dkan_topics/dkan_topics.module:160
+msgid "Topic with icon"
+msgstr "Tema con icono"
+
+# dkan_topics/dkan_topics.module:273
+msgid "Please select an icon."
+msgstr "Por favor, seleccione un icono"
+
+# dkan_topics/dkan_topics.install:115
+msgid "/admin/modules/uninstall\">Uninstall DKAN Featured Topics</a>."
+msgstr " /admin/modules/uninstall\">Desinstalar temas destacados de DKAN</a>."
+
+# dkan_topics/dkan_topics.info:0
+msgid "DKAN Topics"
+msgstr "Temas DKAN"
+
+# dkan_topics/dkan_topics.info:0
+msgid "Categorize your data with topics to help users find what they are looking for."
+msgstr "Clasifique sus datos con temas para ayudar a los usuarios a encontrar lo que buscan."
+
+# dkan_topics/modules/dkan_default_topics/dkan_default_topics.info:0
+msgid "DKAN Default Topics"
+msgstr "Temas predeterminados de DKAN"
+
+# dkan_topics/modules/dkan_default_topics/dkan_default_topics.info:0
+msgid "Default topic terms."
+msgstr "Términos de tema predeterminados."
+
+# dkan_workflow/dkan_workflow.module:40;41
+msgid "My Workbench"
+msgstr "Mi mesa de trabajo"
+
+# dkan_workflow/dkan_workflow.module:53;54
+msgid "My drafts"
+msgstr "Mis borradores"
+
+# dkan_workflow/dkan_workflow.module:64;65
+msgid "Needs review"
+msgstr "Revisión de las necesidades"
+
+# dkan_workflow/dkan_workflow.module:75;76
+msgid "Stale drafts"
+msgstr "Borradores desactualizados"
+
+# dkan_workflow/dkan_workflow.module:86;87
+msgid "Stale reviews"
+msgstr "Revisiones desactualizadas"
+
+# dkan_workflow/dkan_workflow.module:154
+msgid "Access Stale Reviews Page"
+msgstr "Acceder a la página de revisiones desactualizadas"
+
+# dkan_workflow/dkan_workflow.module:155
+msgid "Grant access to stale reviews page."
+msgstr "Conceder acceso a la página de revisiones desactualizadas."
+
+# dkan_workflow/dkan_workflow.module:158
+msgid "Access Stale Drafts Page"
+msgstr "Acceder a la página de borradores desactualizados"
+
+# dkan_workflow/dkan_workflow.module:159
+msgid "Grant access to stale drafts page."
+msgstr "Conceder acceso a la página de borradores desactualizados."
+
+# dkan_workflow/dkan_workflow.info:0;0 dkan_workflow/modules/dkan_workflow_permissions/dkan_workflow_permissions.info:0
+msgid "DKAN Workflow"
+msgstr "Flujo de trabajo DKAN"
+
+# dkan_workflow/dkan_workflow.info:0
+msgid "NuCivic Data publication workflow and related modules"
+msgstr "Flujo de trabajo de publicación de NuCivic Data y módulos relacionados"
+
+# dkan_workflow/modules/dkan_workflow_permissions/dkan_workflow_permissions.module:58
+msgid ""
+"Workflow roles require certain\n"
+"      core roles to be enabled. For instance, the \"Workflow Contributor\" role must\n"
+"      always be accompanied by the \"content creator\" role. Users without any\n"
+"      workflow role will not be able to submit or publish content."
+msgstr ""
+"Los roles del flujo de trabajo requieren ciertas\n"
+" funciones principales que deben habilitarse. Por ejemplo, la función \"Contribuyente del flujo de trabajo\" debe\n"
+" siempre estar acompañada por el papel de \"creador de contenido\". Los usuarios sin\n"
+" ningún rol de flujo de trabajo no podrán enviar o publicar contenidos."
+
+# dkan_workflow/modules/dkan_workflow_permissions/dkan_workflow_permissions.info:0
+msgid "Dkan Workflow Permissions"
+msgstr "Permisos del flujo de trabajo de Dkan"
+
+# dkan_workflow/modules/dkan_workflow_permissions/dkan_workflow_permissions.info:0
+msgid "Dkan Workflow Roles and Permissions"
+msgstr "Roles y permisos del flujo de trabajo de Dkan"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/ViewsDkanWorkflowTreePluginStyle.inc:54
+msgid "On Click"
+msgstr "Al hacer clic"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/ViewsDkanWorkflowTreePluginStyle.inc:54
+msgid "On Mouseover"
+msgstr "Al poner el ratón encima"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/ViewsDkanWorkflowTreePluginStyle.inc:65
+msgid "VBO field"
+msgstr "Campo VBO"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/ViewsDkanWorkflowTreePluginStyle.inc:68
+msgid "Select the vbo field with each record."
+msgstr "Seleccione el campo vbo con cada registro."
+
+# dkan_workflow/modules/views_dkan_workflow_tree/ViewsDkanWorkflowTreePluginStyle.inc:74
+msgid "VID field"
+msgstr "Campo VID"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/ViewsDkanWorkflowTreePluginStyle.inc:77
+msgid "Select the field that contains the filtered Node VID."
+msgstr "Seleccione el campo que contiene el VID del nodo filtrado."
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.views.inc:15
+msgid "Workflow List"
+msgstr "Lista de flujos de trabajo"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.views.inc:16
+msgid "Display the results as a tree"
+msgstr "Mostrar los resultados como un árbol"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:72
+msgid "Workflow set moderation state !state"
+msgstr "El flujo de trabajo estableció el estado de moderación !state"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:312
+msgid "Resources without a dataset"
+msgstr "Recursos sin un conjunto de datos"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:347
+msgid "Others"
+msgstr "Otros"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:471
+msgid "Revision Author"
+msgstr "Autor de la revisión"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:480
+msgid "Actions"
+msgstr "Acciones"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:196;214
+msgid "views_dkan_workflow_tree"
+msgstr "ve_el_árbol_del_flujo_de_trabajo_dkan"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:196
+msgid ""
+"Missing %field_key field value\n"
+"        from the View Format settings."
+msgstr ""
+"Falta el %fvalor del campo ield_key\n"
+" desde la configuración del Formato de Vista."
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:214
+msgid ""
+"Failed to load Node with Vid\n"
+"        %vid"
+msgstr ""
+"No se pudo cargar el Nodo con Vid\n"
+" % vid"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.info:0
+msgid "Views Workflow List"
+msgstr "Lista del flujo de trabajo de Vistas"
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.info:0
+msgid "A Views style plugin to display content lists for approval"
+msgstr "Un plugin del estilo Vistas para mostrar las listas de contenido para su aprobación."
+
+# dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.info:0
+msgid "Views"
+msgstr "Vistas"
+
+# open_data_schema_map_dkan/open_data_schema_map_dkan.info:0
+msgid "Open Data Schema Map DKAN"
+msgstr "Mapa de esquema de datos abiertos DKAN"
+
+# open_data_schema_map_dkan/open_data_schema_map_dkan.info:0
+msgid "Provides endpoints for Open Data Schema Map for DKAN Dataset"
+msgstr "Proporciona puntos finales para el Mapa de Esquema de Datos Abiertos para el conjunto de datos DKAN"
+
+# dkan_feedback.features.defaultconfig.inc:143 dkan_feedback.features.field_instance.inc:336
+msgid "Agency"
+msgstr "Agencia"
+
+# dkan_feedback.features.field_instance.inc:338
+msgid "Email"
+msgstr "Correo electrónico"
+
+# dkan_feedback.features.field_instance.inc:339 dkan_feedback.features.inc:110 dkan_feedback.field_group.inc:50
+msgid "Feedback"
+msgstr "Comentario"
+
+# dkan_feedback.features.field_instance.inc:340
+msgid "Feedback Type"
+msgstr "Tipo de comentario"
+
+# dkan_feedback.features.field_instance.inc:341
+msgid "If this feedback is related to a dataset or resource, type its name here."
+msgstr "Si este comentario está relacionado con un conjunto de datos o recurso, escriba su nombre aquí."
+
+# dkan_feedback.features.field_instance.inc:343
+msgid "Desc"
+msgstr "Desc"
+
+# dkan_feedback.features.inc:112
+msgid "Feedback on DKAN content."
+msgstr "Comentarios sobre el contenido de DKAN."
+
+# dkan_feedback.module:46;50;14;24
+msgid "Add Feedback"
+msgstr "Añadir comentarios"
+
+# dkan_feedback.module:163
+msgid "Feedback up / down"
+msgstr "Comentarios arriba/abajo"
+
+# dkan_feedback.module:246
+msgid "Voting is closed."
+msgstr "La votación está cerrada."
+
+# dkan_feedback.module:250
+msgid "You voted '@option'."
+msgstr "Usted votó '@option'."
+
+# dkan_feedback.module:15;25
+msgid "Add a Feedback to content."
+msgstr "Agregue un comentario al contenido."
+
+# dkan_feedback.info:0
+msgid "DKAN Feedback"
+msgstr "Comentario DKAN"
+
+# dkan_feedback.info:0
+msgid "Provide feedback for DKAN content."
+msgstr "Proporciona comentarios sobre el contenido de DKAN."
+
+# modules/dkan_feedback_permissions/dkan_feedback_permissions.info:0
+msgid "Dkan Feedback Permissions"
+msgstr "Permisos de comentarios de Dkan"
+
+# assets/js/nuboot_radix.script.js:0 js/sitewide.js:0; profiles/dkan/themes/nuboot_radix/assets/js/nuboot_radix.script.js
+msgid "Toggle text format"
+msgstr "Cambiar el formato de texto"
+
+# includes/menu.inc:123; misc/vertical-tabs.js; profiles/dkan/modules/contrib/field_group/horizontal-tabs/horizontal-tabs.js
+msgid "(active tab)"
+msgstr "(pestaña activa)"
+
+# panels/layouts/dkan_front/dkan_front.inc:9
+msgid "DKAN Front"
+msgstr "DKAN delantero"
+
+# panels/layouts/dkan_front/dkan_front.inc:15
+msgid "Hero First Column"
+msgstr "Primera columna Hero"
+
+# panels/layouts/dkan_front/dkan_front.inc:16
+msgid "Hero Second Column"
+msgstr "Segunda columna Hero"
+
+# panels/layouts/dkan_front/dkan_front.inc:17
+msgid "Top Full Row"
+msgstr "Fila completa superior"
+
+# panels/layouts/dkan_front/dkan_front.inc:18
+msgid "Triplet First Column"
+msgstr "Primera columna del Triplete"
+
+# panels/layouts/dkan_front/dkan_front.inc:19
+msgid "Triplet Second Column"
+msgstr "Segunda columna del Triplete"
+
+# panels/layouts/dkan_front/dkan_front.inc:20
+msgid "Triplet Third Column"
+msgstr "Tercera Columna del Triplete"
+
+# panels/layouts/dkan_front/dkan_front.inc:21
+msgid "Bottom Full Row"
+msgstr "Fila completa inferior"
+
+# panels/layouts/dkan_front/dkan_front.inc:22 panels/layouts/full_width/full_width.inc:18
+msgid "Bottom First Column"
+msgstr "Primera columna inferior"
+
+# panels/layouts/dkan_front/dkan_front.inc:23 panels/layouts/full_width/full_width.inc:19
+msgid "Bottom Second Column"
+msgstr "Segunda columna inferior"
+
+# ; profiles/dkan/modules/contrib/search_api/search_api.admin.js
+msgid "Disabled"
+msgstr "Desactivado"
+
+# ; profiles/dkan/modules/contrib/autocomplete_deluxe/autocomplete_deluxe.js; profiles/dkan/modules/contrib/fieldable_panels_panes/fieldable_panels_panes.vertical-tabs.js
+msgid "None"
+msgstr "Ninguno"
+
+# ; profiles/dkan/modules/contrib/admin_menu/admin_menu.admin.js
+msgid "Also allow !name role to !permission?"
+msgstr "¿Permitir también la función !name para !permission?"
+
+# ; profiles/dkan/modules/contrib/search_api/search_api.admin.js
+msgid "Enabled"
+msgstr "Habilitado"
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "This field is required."
+msgstr "Este campo es obligatorio."
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "Close"
+msgstr "Cerrar"
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Browse"
+msgstr "Examinar"
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "File Browser"
+msgstr "Explorador de archivos"
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "Loading..."
+msgstr "Cargando..."
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "The preview is disabled due to previously inserted HTML code in the content. This aims to protect you from any potentially harmful code inserted by other editors or users. If you own the content, just preview an empty text to re-enable the preview."
+msgstr "La previsualización está desactivada debido al código HTML insertado previamente en el contenido. Esto tiene como objetivo protegerlo de cualquier código potencialmente dañino insertado por otros editores o usuarios. Si usted es el propietario del contenido, solo tiene que previsualizar un texto vacío para volver a habilitar la previsualización."
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "Preview requires <a href=\"http://drupal.org/project/ajax_markup\">Ajax markup</a> module with proper permissions set."
+msgstr "La previsualización requiere el módulo de <a href=\"http://drupal.org/project/ajax_markup\">marcado Ajax</a> con los permisos adecuados establecidos."
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "Send to editor"
+msgstr "Enviar al editor"
+
+# ; profiles/dkan/modules/contrib/bueditor/library/bue.min.default.js
+msgid "Tag editor - @tag"
+msgstr "Editor de etiquetas - @tag"
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter_tab.js
+msgid "All"
+msgstr "Todos"
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter_tab.js
+msgid "New"
+msgstr "Nuevo"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "1 hour"
+msgstr "1 hora"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@count hours"
+msgstr "@count horas"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "1 day"
+msgstr "1 día"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@count days"
+msgstr "@count días"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "1 min"
+msgstr "1 min"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@count min"
+msgstr "@count min"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "1 sec"
+msgstr "1 seg"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@count sec"
+msgstr "@count seg"
+
+# ; profiles/dkan/modules/contrib/pathauto/pathauto.js
+msgid "Alias: @alias"
+msgstr "Alias: @alias"
+
+# ; profiles/dkan/modules/contrib/pathauto/pathauto.js
+msgid "No alias"
+msgstr "Sin alias"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "0 sec"
+msgstr "0 seg"
+
+# ; modules/node/node.js; profiles/dkan/modules/contrib/fieldable_panels_panes/fieldable_panels_panes.vertical-tabs.js
+msgid "New revision"
+msgstr "Nueva revisión"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "1 byte"
+msgstr "1 byte"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@count bytes"
+msgstr "@count bytes"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Starting upload..."
+msgstr "Iniciando la subida…"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@size KB"
+msgstr "@size KB"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@size MB"
+msgstr "@size MB"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@size GB"
+msgstr "@size GB"
+
+# ; modules/node/node.js; profiles/dkan/modules/contrib/fieldable_panels_panes/fieldable_panels_panes.vertical-tabs.js
+msgid "No revision"
+msgstr "Sin revisión"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Add a new file"
+msgstr "Añadir un nuevo archivo"
+
+# ; profiles/dkan/modules/contrib/features/features.js
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+# ; profiles/dkan/modules/contrib/features/features.js
+msgid "Deselect all"
+msgstr "Deseleccionar todo"
+
+# ; profiles/dkan/modules/contrib/filefield_sources/filefield_sources.js
+msgid "Paste from clipboard not supported in this browser."
+msgstr "Pegar desde el portapapeles no es posible en este navegador."
+
+# ; profiles/dkan/modules/contrib/filefield_sources/filefield_sources.js
+msgid "Error reading file from clipboard."
+msgstr "Error al leer el archivo desde el portapapeles."
+
+# ; profiles/dkan/modules/contrib/filefield_sources/filefield_sources.js
+msgid "No file in clipboard."
+msgstr "No hay ningún archivo en el portapapeles."
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Remove file"
+msgstr "Borrar archivo"
+
+# ; profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Uploading..."
+msgstr "Cargando…"
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter_tab.js
+msgid "Recent"
+msgstr "Reciente"
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter.js
+msgid "No results"
+msgstr "Sin resultados"
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter.js
+msgid "clear"
+msgstr "borrar"
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter_tab.js
+msgid "Modules installed within the last week."
+msgstr "Módulos instalados en la última semana."
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter_tab.js
+msgid "No modules added within the last week."
+msgstr "No se han añadido módulos durante la última semana."
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter_tab.js
+msgid "Modules enabled/disabled within the last week."
+msgstr "Módulos activados/desactivados en la última semana."
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter_tab.js
+msgid "No modules were enabled or disabled within the last week."
+msgstr "No hay módulos que fueran activados o desactivados en la última semana."
+
+# ; profiles/dkan/modules/contrib/module_filter/js/module_filter_tab.js
+msgid "@enabled of @total"
+msgstr "@enabled de @total"
+
+# ; profiles/dkan/modules/contrib/panels/panels_ipe/js/panels_ipe.js
+msgid "This will discard all unsaved changes. Are you sure?"
+msgstr "Esto descartará todos los cambios no guardados. ¿Está seguro?"
+
+# ; profiles/dkan/modules/contrib/panels/panels_ipe/js/panels_ipe.js
+msgid "Remove this pane?"
+msgstr "¿Eliminar este panel?"
+
+# ; profiles/dkan/modules/contrib/panopoly_widgets/panopoly-widgets-spotlight.js
+msgid "Pause"
+msgstr "Pausar"
+
+# ; profiles/dkan/modules/contrib/pathauto/pathauto.js
+msgid "Automatic alias"
+msgstr "Alias ​​automático"
+
+# ; profiles/dkan/modules/contrib/leaflet_draw_widget/js/draw.js
+msgid "Points"
+msgstr "Puntos"
+
+# ; profiles/dkan/modules/contrib/search_api/search_api.admin.js
+msgid "List additional actions"
+msgstr "Enumerar acciones adicionales"
+
+# ; profiles/dkan/modules/contrib/token/token.js
+msgid "Available tokens"
+msgstr "Fichas disponibles"
+
+# ; profiles/dkan/modules/contrib/token/token.js
+msgid "Insert this token into your form"
+msgstr "Inserte esta ficha en su formulario"
+
+# ; profiles/dkan/modules/contrib/token/token.js
+msgid "First click a text field to insert your tokens into."
+msgstr "Primero haga clic en un campo de texto para insertar sus fichas."
+
+# ; profiles/dkan/modules/contrib/token/token.js
+msgid "Loading token browser..."
+msgstr "Cargando navegador de fichas..."
+
+# profiles/dkan/modules/contrib/panelizer/js/panelizer-ipe.js
+msgid "This will save this configuration as the new default for all entities of this type. This action cannot be undone. Are you sure?"
+msgstr "Esto guardará esta configuración como el nuevo valor predeterminado para todas las entidades de este tipo. Esta acción no se puede deshacer. ¿Está seguro?"
+
+# profiles/dkan/modules/contrib/panopoly_widgets/panopoly-widgets-spotlight.js
+msgid "Play"
+msgstr "Reproducir"
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Add new files"
+msgstr "Añadir nuevos archivos"
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "File name %filename exceeds the 240 characters limit."
+msgstr "El nombre del archivo %filename supera el límite de 240 caracteres."
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "File %filename is %filesize, exceeding the maximum file size of %maxsize."
+msgstr "El archivo %filename es %filesize, excediendo el tamaño máximo de archivo de %maxsize."
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "File %filename is empty. Empty files cannot be uploaded."
+msgstr "El archivo %filename está vacío. Los archivos vacíos no se pueden cargar."
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "File %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions."
+msgstr "El archivo %filename no se pudo cargar. Solo se permiten archivos con las siguientes extensiones: %extensions."
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "@count files in total were skipped."
+msgstr "@count archivos en total fueron omitidos."
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Uploading... (@time remaining)"
+msgstr "Subiendo... (@time restante)"
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Completing upload..."
+msgstr "Completando la subida..."
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "An error occurred while uploading file %filename. Please click <em>Upload</em> to retry."
+msgstr "Se ha producido un error al subir el archivo %filename. Haga clic en <em>Subir</em> para volver a intentarlo."
+
+# profiles/dkan/modules/contrib/file_resup/file_resup.js
+msgid "Files are currently being uploaded. Please stand by..."
+msgstr "Los archivos se están subiendo actualmente. Por favor espere..."
+
+# profiles/dkan/modules/contrib/leaflet_draw_widget/js/draw.js
+msgid "Enter GeoJSON:"
+msgstr "Introduzca GeoJSON:"
+
+# profiles/dkan/modules/contrib/leaflet_draw_widget/js/draw.js
+msgid "-none-"
+msgstr "-ninguno-"
+
+# profiles/dkan/modules/contrib/fieldable_panels_panes/fieldable_panels_panes.vertical-tabs.js
+msgid "Reusable: Yes"
+msgstr "Reutilizable: Sí"
+
+# profiles/dkan/modules/contrib/fieldable_panels_panes/fieldable_panels_panes.vertical-tabs.js
+msgid "Category: @value"
+msgstr "Categoría: @value"
+
+# profiles/dkan/modules/contrib/fieldable_panels_panes/fieldable_panels_panes.vertical-tabs.js
+msgid "Reusable: No"
+msgstr "Reutilizable: No"
+
+# profiles/dkan/modules/contrib/fieldable_panels_panes/fieldable_panels_panes.vertical-tabs.js
+msgid "Admin title: @value"
+msgstr "Título del administrador: @value"

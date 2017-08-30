@@ -1,0 +1,78 @@
+<?php
+
+/**
+ * @file
+ */
+
+// The drupal locale API are used extensivly.
+include_once DRUPAL_ROOT . '/includes/locale.inc';
+
+/**
+ * Flag used by file_prepare_directory() -- create directory if not present.
+ */
+define('DKAN_L10N_ES_CO_LANGCODE', "es");
+
+/**
+ * Get default translations folder path.
+ */
+function dkan_l10n_es_co_textgroups_list() {
+  return array(
+    "default",
+    "menu",
+    "field",
+    "views",
+    "panels",
+    "blocks",
+    "taxonomy",
+    "workbench_moderation",
+  );
+}
+
+/**
+ * Get default translations folder path.
+ */
+function dkan_l10n_es_co_default_directory_source() {
+  return DRUPAL_ROOT . '/' . drupal_get_path('module', 'dkan_l10n_es_co') . '/po/';
+}
+
+/**
+ * Import po files from source directory.
+ */
+function dkan_l10n_es_co_import_po_from_dir($source_dir = NULL) {
+  if (empty($source_dir)) {
+    $source_dir = dkan_l10n_es_co_default_directory_source();
+  }
+
+  // Text groups to file names convention mapping.
+  $textgroups_mapping = array(
+    "default" => "dkan_l10n_es_co.default.po",
+    "menu" => "dkan_l10n_es_co.menu.po",
+    "field" => "dkan_l10n_es_co.field.po",
+    "views" => "dkan_l10n_es_co.views.po",
+    "panels" => "dkan_l10n_es_co.panels.po",
+    "blocks" => "dkan_l10n_es_co.blocks.po",
+    "taxonomy" => "dkan_l10n_es_co.taxonomy.po",
+    "workbench_moderation" => "dkan_l10n_es_co.workbench_moderation.po",
+  );
+
+  // Import local translations for the listed text groups.
+  foreach ($textgroups_mapping as $text_group => $file_name) {
+    $file_uri = $source_dir . $file_name;
+
+    if (file_exists($file_uri)) {
+      dkan_l10n_es_co_import_textgroup_from_po($text_group, $file_uri);
+    }
+  }
+}
+
+/**
+ *
+ */
+function dkan_l10n_es_co_import_textgroup_from_po($textgroup, $source_file_uri = NULL) {
+  $file = new stdClass();
+  $file->uri = $source_file_uri;
+  $file->filename = basename($source_file_uri);
+  $file->filepath = drupal_realpath($source_file_uri);
+
+  _locale_import_po($file, DKAN_L10N_ES_CO_LANGCODE, LOCALE_IMPORT_OVERWRITE, $textgroup);
+}
