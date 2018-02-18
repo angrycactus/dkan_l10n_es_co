@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
-"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"POT-Creation-Date: 2017-10-12T08:22:01+00:00\n"
+"PO-Revision-Date: 2017-10-12T08:22:01+00:00\n"
 "Language: es_CO\n"
 
 # menu:item:1222:description
@@ -24,12 +24,12 @@ msgstr "Educación"
 # menu:item:1223:description
 msgctxt "item:1223:description"
 msgid "Finance and Budgeting"
-msgstr "Finanzas y presupuestación"
+msgstr "Finanzas y Presupuesto"
 
 # menu:item:1223:title
 msgctxt "item:1223:title"
 msgid "Finance and Budgeting"
-msgstr "Finanzas y presupuestación"
+msgstr "Finanzas y Presupuesto"
 
 # menu:item:1224:description
 msgctxt "item:1224:description"
@@ -49,12 +49,12 @@ msgstr "Acerca de"
 # menu:item:1228:title
 msgctxt "item:1228:title"
 msgid "Datasets"
-msgstr "Conjuntos de datos"
+msgstr "Datos"
 
 # menu:item:1229:title
 msgctxt "item:1229:title"
 msgid "Dashboards"
-msgstr "Cuadro de mando"
+msgstr "Cuadros de mando"
 
 # menu:item:1230:title
 msgctxt "item:1230:title"
@@ -134,7 +134,7 @@ msgstr "Colorizer"
 # menu:item:451:title
 msgctxt "item:451:title"
 msgid "DKAN Dataset Forms"
-msgstr "Formularios del conjunto de datos de DKAN"
+msgstr "Formularios del datos de DKAN"
 
 # menu:item:452:description
 msgctxt "item:452:description"
@@ -169,7 +169,7 @@ msgstr "Cuadro de mando de indicadores de la recolección DKAN"
 # menu:item:457:title
 msgctxt "item:457:title"
 msgid "DKAN Dataset API"
-msgstr "API del conjunto de datos de DKAN"
+msgstr "API del datos de DKAN"
 
 # menu:item:458:title
 msgctxt "item:458:title"
@@ -189,7 +189,7 @@ msgstr "Grupo"
 # menu:item:461:title
 msgctxt "item:461:title"
 msgid "Dataset"
-msgstr "Conjunto de datos"
+msgstr "Datos"
 
 # menu:item:462:title
 msgctxt "item:462:title"
@@ -199,7 +199,7 @@ msgstr "Historial de datos"
 # menu:item:463:title
 msgctxt "item:463:title"
 msgid "Data Dashboard"
-msgstr "Cuadro de mandos de datos"
+msgstr "Cuadro de mando de datos"
 
 # menu:item:464:title
 msgctxt "item:464:title"
@@ -249,7 +249,7 @@ msgstr "Validación DCAT"
 # menu:item:472:title
 msgctxt "item:472:title"
 msgid "Datasets"
-msgstr "Conjuntos de datos"
+msgstr "Datos"
 
 # menu:item:473:title
 msgctxt "item:473:title"
@@ -260,16 +260,6 @@ msgstr "Validación de Project Open Data"
 msgctxt "item:474:title"
 msgid "Chart"
 msgstr "Gráfica"
-
-# menu:menu:devel:description
-msgctxt "menu:devel:description"
-msgid "Development link"
-msgstr "Enlace de desarrollo"
-
-# menu:menu:devel:title
-msgctxt "menu:devel:title"
-msgid "Development"
-msgstr "Desarrollo"
 
 # menu:menu:features:description
 msgctxt "menu:features:description"

@@ -25,6 +25,9 @@ function dkan_l10n_es_co_textgroups_list() {
     "blocks",
     "taxonomy",
     "workbench_moderation",
+    "path_breadcrumbs",
+    "double_field",
+    "node",
   );
 }
 
@@ -44,16 +47,11 @@ function dkan_l10n_es_co_import_po_from_dir($source_dir = NULL) {
   }
 
   // Text groups to file names convention mapping.
-  $textgroups_mapping = array(
-    "default" => "dkan_l10n_es_co.default.po",
-    "menu" => "dkan_l10n_es_co.menu.po",
-    "field" => "dkan_l10n_es_co.field.po",
-    "views" => "dkan_l10n_es_co.views.po",
-    "panels" => "dkan_l10n_es_co.panels.po",
-    "blocks" => "dkan_l10n_es_co.blocks.po",
-    "taxonomy" => "dkan_l10n_es_co.taxonomy.po",
-    "workbench_moderation" => "dkan_l10n_es_co.workbench_moderation.po",
-  );
+  $textgroups_mapping = array();
+
+  foreach (dkan_l10n_es_co_textgroups_list() as $textgroup) {
+    $textgroups_mapping[$textgroup] = "dkan_l10n_es_co." . $textgroup . ".po";
+  }
 
   // Import local translations for the listed text groups.
   foreach ($textgroups_mapping as $text_group => $file_name) {
@@ -66,7 +64,7 @@ function dkan_l10n_es_co_import_po_from_dir($source_dir = NULL) {
 }
 
 /**
- *
+ * Helper function to import text group string from po file.
  */
 function dkan_l10n_es_co_import_textgroup_from_po($textgroup, $source_file_uri = NULL) {
   $file = new stdClass();
@@ -75,4 +73,48 @@ function dkan_l10n_es_co_import_textgroup_from_po($textgroup, $source_file_uri =
   $file->filepath = drupal_realpath($source_file_uri);
 
   _locale_import_po($file, DKAN_L10N_ES_CO_LANGCODE, LOCALE_IMPORT_OVERWRITE, $textgroup);
+}
+
+/**
+ * Change the translation mode of 'main-menu' to 'Translate and Localize'.
+ *
+ * This will enable the translation of menu items.
+ */
+function dkan_l10n_es_co_menu_update($i18n_mode = I18N_MODE_MULTIPLE) {
+  if (module_exists('i18n_menu')) {
+    $menu = menu_load('main-menu');
+    $menu['i18n_mode'] = $i18n_mode;
+    i18n_menu_menu_update($menu);
+  }
+  else {
+    watchdog('dkan_l10n_es_co', '\'i18n_menu\' module is disabled. Menu items will not be translated.', array(), WATCHDOG_WARNING);
+  }
+}
+
+/**
+ * Apply main-menu links to get the latest translations.
+ */
+function dkan_l10n_es_co_menu_links_update() {
+  if (module_exists('i18n_menu')) {
+    $links = menu_load_links('main-menu');
+    foreach ($links as $link) {
+      $mlid = $link['mlid'];
+      $link = menu_link_load($mlid);
+      i18n_menu_menu_link_update($link);
+    }
+  }
+  else {
+    watchdog('dkan_l10n_es_co', '\'i18n_menu\' module is disabled. Menu items will not be translated.', array(), WATCHDOG_WARNING);
+  }
+}
+
+/**
+ * Update vocabulary mode.
+ */
+function dkan_l10n_es_co_vocabulary_update_mode($vocabulary_name, $i18n_mode) {
+  $taxonomy_vocab = taxonomy_vocabulary_machine_name_load($vocabulary_name);
+  if (!empty($taxonomy_vocab)) {
+    $taxonomy_vocab->i18n_mode = $i18n_mode;
+    taxonomy_vocabulary_save($taxonomy_vocab);
+  }
 }

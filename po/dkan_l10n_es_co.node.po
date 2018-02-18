@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dkan_l10n_es_co-7.x.1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-10-12T08:22:01+00:00\n"
+"PO-Revision-Date: 2017-10-12T08:22:01+00:00\n"
+"Language: es_CO\n"
+
+#: node:type:dataset:description
+msgctxt "type:dataset:description"
+msgid ""
+"Datasets are simply used to group related pieces of data. These can "
+"then be found under a single url with a description and licensing "
+"information."
+msgstr "Los datos se utilizan simplemente para agrupar datos relacionados. Estos se pueden encontrar en una url única con una descripción y la información de licencia."
+
+#: node:type:dataset:name
+msgctxt "type:dataset:name"
+msgid "Dataset"
+msgstr "Datos"
+
+#: node:type:dataset:title_label
+msgctxt "type:dataset:title_label"
+msgid "Title"
+msgstr "Título"
+
+#: node:type:data_dashboard:description
+msgctxt "type:data_dashboard:description"
+msgid "Content type for creation of Data Dashboards."
+msgstr "Tipo de contenido para la creación de cuadro de mandol de datos."
+
+#: node:type:data_dashboard:name
+msgctxt "type:data_dashboard:name"
+msgid "Data Dashboard"
+msgstr "Cuadro de mando de datos"
+
+#: node:type:data_dashboard:title_label
+msgctxt "type:data_dashboard:title_label"
+msgid "Title"
+msgstr "Título"
+
+#: node:type:dkan_data_story:description
+msgctxt "type:dkan_data_story:description"
+msgid "Create compelling stories using data to illustrate key points."
+msgstr "Crear historiales atractivos utilizando los datos para ilustrar los puntos clave."
+
+#: node:type:dkan_data_story:name
+msgctxt "type:dkan_data_story:name"
+msgid "Data Story"
+msgstr "Historial de datos"
+
+#: node:type:dkan_data_story:title_label
+msgctxt "type:dkan_data_story:title_label"
+msgid "Title"
+msgstr "Título"
+
+#: node:type:feedback:description
+msgctxt "type:feedback:description"
+msgid "Feedback on DKAN content."
+msgstr "Comentarios sobre el contenido de DKAN."
+
+#: node:type:feedback:name
+msgctxt "type:feedback:name"
+msgid "Feedback"
+msgstr "Comentarios"
+
+#: node:type:feedback:title_label
+msgctxt "type:feedback:title_label"
+msgid "Title"
+msgstr "Título"
+
+#: node:type:group:description
+msgctxt "type:group:description"
+msgid ""
+"Groups allow you to group together datasets under a organisation (for "
+"example, the Department of Health) or topic (e.g. Transport, Health) "
+"so make it easier for users to browse datasets by theme.\n"
+"\n"
+"Groups also enable you to assign roles and authorisation to members of "
+"the group - i.e. individuals can be given the right to publish "
+"datasets from a particular organisation."
+msgstr ""
+"Los grupos le permiten agrupar datos en una organización (por ejemplo, el Departamento de Salud) o un tema (por ejemplo, transporte, salud) para que sea más fácil para los usuarios examinar datos por tema.\n"
+"\n"
+"Los grupos también le permiten asignar roles y autorizaciones a los miembros del grupo, es decir, a los individuos se les puede dar el derecho de publicar datos de una organización en particular."
+
+#: node:type:group:name
+msgctxt "type:group:name"
+msgid "Group"
+msgstr "Grupo"
+
+#: node:type:group:title_label
+msgctxt "type:group:title_label"
+msgid "Title"
+msgstr "Título"
+
+#: node:type:harvest_source:description
+msgctxt "type:harvest_source:description"
+msgid ""
+"Source for harvesting datasets from an external source into DKAN. For "
+"instance, another data portal’s data.json file could be set to "
+"harvest once a day and add all the datasets returned to your catalog."
+msgstr "Hace una búsqueda para recolectar los datos de una fuente externa en DKAN. Por ejemplo, se puede establecer el archivo data.json de otro portal de datos para hacer la recolección una vez al día y agregar todos los datos devueltos a su catálogo."
+
+#: node:type:harvest_source:name
+msgctxt "type:harvest_source:name"
+msgid "Harvest Source"
+msgstr "Fuente de los datos"
+
+#: node:type:harvest_source:title_label
+msgctxt "type:harvest_source:title_label"
+msgid "Title"
+msgstr "Título"
+
+#: node:type:page:description
+msgctxt "type:page:description"
+msgid "This is a basic page."
+msgstr "Esta es una página básica."
+
+#: node:type:page:name
+msgctxt "type:page:name"
+msgid "Page"
+msgstr "Página"
+
+#: node:type:page:title_label
+msgctxt "type:page:title_label"
+msgid "Title"
+msgstr "Título"
+
+#: node:type:resource:description
+msgctxt "type:resource:description"
+msgid "Data can be any file or link to a file containing useful data."
+msgstr "Los datos pueden ser cualquier archivo o enlace a un archivo que contenga datos útiles."
+
+#: node:type:resource:name
+msgctxt "type:resource:name"
+msgid "Resource"
+msgstr "Recurso"
+
+#: node:type:resource:title_label
+msgctxt "type:resource:title_label"
+msgid "Title"
+msgstr "Título"
+

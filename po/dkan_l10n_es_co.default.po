@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
-"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"POT-Creation-Date: 2017-10-12T08:22:01+00:00\n"
+"PO-Revision-Date: 2017-10-12T08:22:01+00:00\n"
 "Language: es_CO\n"
 
 # dkan_data_dashboard/dkan_data_dashboard.features.field_instance.inc:64 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1848 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:272 dkan_harvest/dkan_harvest.features.field_instance.inc:667
@@ -17,7 +17,7 @@ msgstr "Descripción"
 
 # dkan_data_dashboard/dkan_data_dashboard.features.inc:33 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:791
 msgid "Data Dashboard"
-msgstr "Cuadro de mandos de datos"
+msgstr "Cuadro de mando de datos"
 
 # dkan_data_dashboard/dkan_data_dashboard.features.inc:35
 msgid "Content type for creation of Data Dashboards."
@@ -113,14 +113,14 @@ msgstr ""
 
 # dkan_dataset/dkan_dataset.admin.inc:109
 msgid "Divide Dataset form into main form and \"Additional Data\" (CKAN style)."
-msgstr "Divida el formulario del conjunto de datos en un formulario principal y  \"Additional Data\" (estilo CKAN)."
+msgstr "Divida el formulario del datos en un formulario principal y  \"Additional Data\" (estilo CKAN)."
 
 # dkan_dataset/dkan_dataset.admin.inc:114
 msgid ""
 "Validate dataset form according to Project Open Data (more strict\n"
 "        than default DKAN validation)."
 msgstr ""
-"Valide el formulario del conjunto de datos de acuerdo con Project Open Data (más estricto\n"
+"Valide el formulario del datos de acuerdo con Project Open Data (más estricto\n"
 " que la validación de DKAN por defecto)."
 
 # dkan_dataset/dkan_dataset.admin.inc:116
@@ -132,14 +132,14 @@ msgid ""
 "        this field required as well."
 msgstr ""
 "Por defecto, DKAN genera solo un reducido número de campos de metadatos necesarios para\n"
-" crear los conjuntos de datos. Habilite esta opción para que todos los campos requeridos por Project Open Data\n"
-" sean campos obligatorios en el formulario de conjunto de datos. Nota: \"Publisher\" es un campo obligatorio de Project Open Data\n"
+" crear los datos. Habilite esta opción para que todos los campos requeridos por Project Open Data\n"
+" sean campos obligatorios en el formulario de datos. Nota: \"Publisher\" es un campo obligatorio de Project Open Data\n"
 " que normalmente se asigna al campo \"Group\" en DKAN. Utilice el ajuste que aparece a continuación para permitir que \n"
 " este campo también sea requerido."
 
 # dkan_dataset/dkan_dataset.admin.inc:125
 msgid "Require datasets to have a group."
-msgstr "Requerir que los conjuntos de datos tengan un grupo."
+msgstr "Requerir que los datos tengan un grupo."
 
 # dkan_dataset/dkan_dataset.admin.inc:126
 msgid ""
@@ -151,13 +151,13 @@ msgid ""
 "        Also note that a user who is not a member of any group will not be able\n"
 "        to create new datasets if this is enabled."
 msgstr ""
-"Habilitar para obligar a los usuarios a establecer un grupo específico para cada conjunto de datos.\n"
-" Si deja esto sin marcar y, por lo tanto, hace que los grupos sean opcionales para los conjuntos de datos,\n"
+"Habilitar para obligar a los usuarios a establecer un grupo específico para cada datos.\n"
+" Si deja esto sin marcar y, por lo tanto, hace que los grupos sean opcionales para los datos,\n"
 " tenga en cuenta que puede terminar con un campo \"publisher\" vacío en sus puntos finales data.json\n"
 " y DCAT si no tiene un valor de fallback establecido en\n"
 " <a href=\"/admin/config/services/odsm/edit/data_json_1_1\">Open Data Schema Map</a> para esos puntos finales.\n"
 " También tenga en cuenta que un usuario que no sea miembro de ningún grupo no podrá\n"
-" crear nuevos conjuntos de datos si esta opción está habilitada."
+" crear nuevos datos si esta opción está habilitada."
 
 # dkan_dataset/dkan_dataset.admin.inc:149
 msgid "Preview Type"
@@ -173,7 +173,7 @@ msgstr "Formatos sugeridos:"
 
 # dkan_dataset/dkan_dataset.forms.inc:96
 msgid "[dataset]"
-msgstr "[conjunto de datos]"
+msgstr "[datos]"
 
 # dkan_dataset/dkan_dataset.forms.inc:107
 msgid "eg. A descriptive title"
@@ -227,7 +227,7 @@ msgid ""
 "              Data, so it was changed automatically. Please check the new value\n"
 "              before saving any changes."
 msgstr ""
-"El conjunto de datos tenía un valor de licencia que no es válido en Project Open Data,\n"
+"El datos tenía un valor de licencia que no es válido en Project Open Data,\n"
 " por lo que se cambió automáticamente. Compruebe el nuevo valor\n"
 " antes de guardar los cambios."
 
@@ -241,7 +241,7 @@ msgstr "privado"
 
 # dkan_dataset/dkan_dataset.forms.inc:315
 msgid "Dataset that this resource is attached to."
-msgstr "Conjunto de datos al que está conectado este recurso."
+msgstr "Datos al que está conectado este recurso."
 
 # dkan_dataset/dkan_dataset.forms.inc:333
 msgid "Link to a file hosted on a remote server. CSV files can be imported into the DKAN datastore."
@@ -273,9 +273,9 @@ msgid ""
 "          Ask a supervisor or site administrator to add you to a group or\n"
 "          promote you to site manager to add datasets."
 msgstr ""
-"Se debe agregar un conjunto de datos a un grupo específico, pero usted no pertenece a ningún grupo.\n"
+"Se debe agregar un datos a un grupo específico, pero usted no pertenece a ningún grupo.\n"
 " Solicítele a un supervisor o administrador del sitio que lo agregue a un grupo o\n"
-" lo cambie a administrador del sitio para agregar los conjuntos de datos."
+" lo cambie a administrador del sitio para agregar los datos."
 
 # dkan_dataset/dkan_dataset.forms.inc:563
 msgid "<strong>Remote file</strong> is populated - only one resource type can be used at a time."
@@ -303,7 +303,7 @@ msgstr "p.ej. Algunas notas útiles sobre los datos"
 
 # dkan_dataset/dkan_dataset.forms.inc:721;742
 msgid "What are datasets?"
-msgstr "¿Qué son los conjuntos de datos?"
+msgstr "¿Qué son los datos?"
 
 # dkan_dataset/dkan_dataset.forms.inc:724;747
 msgid "What is data?"
@@ -319,7 +319,7 @@ msgstr "Visualizaciones"
 
 # dkan_dataset/dkan_dataset.forms.inc:770 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:28
 msgid "Datasets are simply used to group related pieces of data. These can then be found under a single url with a description and licensing information."
-msgstr "Los conjuntos de datos se utilizan simplemente para agrupar datos relacionados. Estos se pueden encontrar en una url única con una descripción y la información de licencia."
+msgstr "Los datos se utilizan simplemente para agrupar datos relacionados. Estos se pueden encontrar en una url única con una descripción y la información de licencia."
 
 # dkan_dataset/dkan_dataset.forms.inc:777 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:36
 msgid "Data can be any file or link to a file containing useful data."
@@ -327,7 +327,7 @@ msgstr "Los datos pueden ser cualquier archivo o enlace a un archivo que conteng
 
 # dkan_dataset/dkan_dataset.pages.inc:19
 msgid "There is no dataset associated with this resource."
-msgstr "No hay ningún conjunto de datos asociado con este recurso."
+msgstr "No hay ningún datos asociado con este recurso."
 
 # dkan_dataset/dkan_dataset.pages.inc:64
 msgid "!file could not be added to Zip."
@@ -371,11 +371,11 @@ msgstr "Recursos: @title"
 
 # dkan_dataset/dkan_dataset.module:125;196;218
 msgid "Release Date"
-msgstr "Fecha de lanzamiento"
+msgstr "Fecha de publicación"
 
 # dkan_dataset/dkan_dataset.module:137;201;223
 msgid "Modified Date"
-msgstr "Fecha modificada"
+msgstr "Fecha de modificación"
 
 # dkan_dataset/dkan_dataset.module:149;206;228 dkan_harvest/dkan_harvest.module:283
 msgid "Identifier"
@@ -383,7 +383,7 @@ msgstr "Identificador"
 
 # dkan_dataset/dkan_dataset.module:192;214
 msgid "Shows book children of dataset"
-msgstr "Muestra los libros del conjunto de datos"
+msgstr "Muestra los libros del datos"
 
 # dkan_dataset/dkan_dataset.module:197;219
 msgid "Node published date available as a field"
@@ -395,7 +395,7 @@ msgstr "Fecha cambiada del nodo disponible como un campo"
 
 # dkan_dataset/dkan_dataset.module:207;229
 msgid "Unique identifier for dataset"
-msgstr "Identificador único para el conjunto de datos"
+msgstr "Identificador único para el datos"
 
 # dkan_dataset/dkan_dataset.module:367;371;375;379
 msgid "Additional data"
@@ -403,15 +403,15 @@ msgstr "Datos complementarios"
 
 # dkan_dataset/dkan_dataset.module:385;394
 msgid "Edit dataset"
-msgstr "Editar conjunto de datos"
+msgstr "Editar datos"
 
 # dkan_dataset/dkan_dataset.module:397
 msgid "Add dataset"
-msgstr "Añadir conjunto de datos"
+msgstr "Añadir datos"
 
 # dkan_dataset/dkan_dataset.module:405;415
 msgid "Create dataset"
-msgstr "Crear conjunto de datos"
+msgstr "Crear datos"
 
 # dkan_dataset/dkan_dataset.module:408;418
 msgid "Add data"
@@ -427,7 +427,7 @@ msgstr "Los grupos se actualizaron en %d recurso(s)."
 
 # dkan_dataset/dkan_dataset.module:871 dkan_harvest/dkan_harvest.module:1163 dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.module:32 dkan_sitewide/dkan_sitewide.blocks.inc:499 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:796 dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.field_group.inc:124
 msgid "Datasets"
-msgstr "Conjuntos de datos"
+msgstr "Datos"
 
 # dkan_dataset/dkan_dataset.module:872 dkan_sitewide/dkan_sitewide.blocks.inc:29 dkan_sitewide/dkan_sitewide.module:117
 msgid "Search"
@@ -463,7 +463,7 @@ msgstr "Enlace a un archivo ubicado en un servidor remoto."
 
 # dkan_dataset/dkan_dataset.module:1100
 msgid "The selected file %name could not be referenced."
-msgstr "No se puede hacer referencia %nal nombre de archivo seleccionado."
+msgstr "No se puede hacer referencia archivo seleccionado %name."
 
 # dkan_dataset/dkan_dataset.module:1145
 msgid "This field will ignore the file size limitation"
@@ -475,15 +475,15 @@ msgstr "URL de archivo remoto no válida."
 
 # dkan_dataset/dkan_dataset.module:1168
 msgid "Remote File URLs with the %scheme scheme are not supported."
-msgstr "Las URL de archivos remotos con el %sesquema no son compatibles."
+msgstr "Las URL de archivos remotos con el %scheme sesquema no son compatibles."
 
 # dkan_dataset/dkan_dataset.module:1176
 msgid "Unable to fetch file from Remote File URL %url (error @code: %error)."
-msgstr "No se puede recuperar el archivo desde la URL de archivo remoto %url (error @code: %eerror)."
+msgstr "No se puede recuperar el archivo desde la URL de archivo remoto %url (error @code: %error)."
 
 # dkan_dataset/dkan_dataset.module:1216
 msgid "Unable to add file from URL %file."
-msgstr "No se puede agregar el archivo desde la URL %farchivo."
+msgstr "No se puede agregar el archivo desde la URL %file."
 
 # dkan_dataset/dkan_dataset.module:1237
 msgid "Search Result"
@@ -495,15 +495,15 @@ msgstr "Información de la recolección"
 
 # dkan_dataset/dkan_dataset.module:1324
 msgid "<strong>Harvest Source Title</strong>"
-msgstr "Harvest Source Title"
+msgstr "<strong>Harvest Source Title</strong>"
 
 # dkan_dataset/dkan_dataset.module:1326
 msgid "<strong>Harvest Source URI</strong>"
-msgstr "URI de la fuente de recolección"
+msgstr "<strong>URI de la fuente de los datos</strong>"
 
 # dkan_dataset/dkan_dataset.module:1329
 msgid "<strong>Last Harvest Performed</strong>"
-msgstr "Última recolección realizada"
+msgstr "<strong>Última recolección realizada</strong>"
 
 # dkan_dataset/dkan_dataset.module:1330
 msgid "Harvested from !link"
@@ -515,11 +515,11 @@ msgstr "Añadir recurso"
 
 # dkan_dataset/dkan_dataset.module:48
 msgid "Back to dataset"
-msgstr "Volver al conjunto de datos"
+msgstr "Volver al datos"
 
 # dkan_dataset/dkan_dataset.module:58
 msgid "Download Dataset"
-msgstr "Descargar conjunto de datos"
+msgstr "Descargar datos"
 
 # dkan_dataset/dkan_dataset.module:68
 msgid "DKAN Settings and Administration."
@@ -527,35 +527,35 @@ msgstr "Configuración y administración de DKAN."
 
 # dkan_dataset/dkan_dataset.module:77
 msgid "DKAN Dataset Previews"
-msgstr "Previsualizaciones del conjunto de datos de DKAN"
+msgstr "Previsualizaciones del datos de DKAN"
 
 # dkan_dataset/dkan_dataset.module:78
 msgid "Settings for DKAN Dataset local and external previews."
-msgstr "Configuración de las previsualizaciones locales y externas del conjunto de datos de DKAN."
+msgstr "Configuración de las previsualizaciones locales y externas del datos de DKAN."
 
 # dkan_dataset/dkan_dataset.module:85 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:789
 msgid "DKAN Dataset Forms"
-msgstr "Formularios del conjunto de datos de DKAN"
+msgstr "Formularios del datos de DKAN"
 
 # dkan_dataset/dkan_dataset.module:86
 msgid "Form settings for DKAN Datasets."
-msgstr "Configuración de los formularios para los conjuntos de datos de DKAN."
+msgstr "Configuración de los formularios para los datos de DKAN."
 
 # dkan_dataset/dkan_dataset.module:94 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:15 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.info:0 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:788
 msgid "DKAN Dataset API"
-msgstr "API del conjunto de datos de DKAN"
+msgstr "API del datos de DKAN"
 
 # dkan_dataset/dkan_dataset.module:95 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:16
 msgid "Settings for DKAN Dataset APIs."
-msgstr "Configuración de las API para los conjuntos de datos de DKAN."
+msgstr "Configuración de las API para los datos de DKAN."
 
 # dkan_dataset/dkan_dataset.info:0
 msgid "DKAN Dataset"
-msgstr "Conjunto de datos DKAN"
+msgstr "Datos DKAN"
 
 # dkan_dataset/dkan_dataset.info:0 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0
 msgid "Custom elements for Datasets."
-msgstr "Elementos personalizados para los conjuntos de datos."
+msgstr "Elementos personalizados para los datos."
 
 # dkan_dataset/js/dataset.js:0; 0; profiles/dkan/modules/dkan/dkan_dataset/js/dataset.js
 msgid "Show more"
@@ -603,7 +603,7 @@ msgstr "El correo electrónico del contacto principal para consultas sobre el ca
 
 # dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:187
 msgid "Enabled Dataset APIs."
-msgstr "API de conjuntos de datos habilitados."
+msgstr "API de datos habilitados."
 
 # dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:188
 msgid "Toggle public APIs below."
@@ -643,7 +643,7 @@ msgstr "Demostración en !demo. Más información en !url. Esto también refleja
 
 # dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:234;258
 msgid "rest/dataset"
-msgstr "resto/conjunto de datos"
+msgstr "resto/datos"
 
 # dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:241;246
 msgid "current_package_list_with_resources"
@@ -699,7 +699,7 @@ msgid ""
 "\n"
 ""
 msgstr ""
-"Devuelve una lista de los conjuntos de datos del sitio (paquetes).\n"
+"Devuelve una lista de los datos del sitio (paquetes).\n"
 "\n"
 " : rtype: lista de cadenas\n"
 "\n"
@@ -734,12 +734,12 @@ msgid ""
 "\n"
 ""
 msgstr ""
-"Devuelve una lista de los conjuntos de datos (paquetes) del sitio y sus recursos.\n"
+"Devuelve una lista de los datos (paquetes) del sitio y sus recursos.\n"
 "\n"
 " La lista se ha ordenado primero con la más reciente modificación.\n"
 "\n"
-" :límite del parámetro: si se da, la lista de conjuntos de datos se dividirá en páginas,\n"
-" en su mayoría de los conjuntos de datos ``límite`` por página y solo se devolverá una página\n"
+" :límite del parámetro: si se da, la lista de datos se dividirá en páginas,\n"
+" en su mayoría de los datos ``límite`` por página y solo se devolverá una página\n"
 " a la vez (opcional)\n"
 " :límite de tipo: int\n"
 " :compensación del parámetro: cuando se da el ``límite``, la compensación para comenzar a devolver paquetes desde\n"
@@ -772,11 +772,11 @@ msgid ""
 "\n"
 ""
 msgstr ""
-"Devuelve los conjuntos de datos (paquetes) de un grupo.\n"
+"Devuelve los datos (paquetes) de un grupo.\n"
 "\n"
 " :id del parámetro: el id del grupo\n"
 " :id de tipo: cadena\n"
-" :limite del parámetro: el número máximo de conjuntos de datos a devolver (opcional)\n"
+" :limite del parámetro: el número máximo de datos a devolver (opcional)\n"
 " :límite de tipo: int\n"
 "\n"
 " :rtype: lista de diccionarios\n"
@@ -807,9 +807,9 @@ msgid ""
 "\n"
 ":rtype: dictionary"
 msgstr ""
-"Devuelve los metadatos de un conjunto de datos (paquete) y sus recursos.\n"
+"Devuelve los metadatos de un datos (paquete) y sus recursos.\n"
 "\n"
-" :id del parámetro: el id o nombre del conjunto de datos : id de tipo: cadena \n"
+" :id del parámetro: el id o nombre del datos : id de tipo: cadena \n"
 "\n"
 ":rtype: diccionario"
 
@@ -821,7 +821,7 @@ msgid ""
 "\n"
 ":rtype: dictionary"
 msgstr ""
-"Devuelve los metadatos de un recurso de conjunto de datos.\n"
+"Devuelve los metadatos de un recurso de datos.\n"
 "\n"
 " :id del parámetro: el id o nombre del recurso :id de tipo: cadena \n"
 "\n"
@@ -836,9 +836,9 @@ msgid ""
 "\n"
 ""
 msgstr ""
-"Devuelve las revisiones de un conjunto de datos (paquete) como una lista de diccionarios.\n"
+"Devuelve las revisiones de un datos (paquete) como una lista de diccionarios.\n"
 "\n"
-" :id del parámetro: el id o nombre del conjunto de datos\n"
+" :id del parámetro: el id o nombre del datos\n"
 " :id de tipo: cadena\n"
 "\n"
 ""
@@ -901,7 +901,7 @@ msgstr "Información adicional"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1838
 msgid "An internal link or link to an outside resource that provides additional context to the dataset."
-msgstr "Un enlace o enlace interno a un recurso externo que proporciona contexto adicional al conjunto de datos."
+msgstr "Un enlace o enlace interno a un recurso externo que proporciona contexto adicional al datos."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1839
 msgid "Author"
@@ -937,7 +937,7 @@ msgstr "Estándar de datos"
 
 # dkan_feedback.features.field_instance.inc:337
 msgid "Dataset"
-msgstr "Conjunto de datos"
+msgstr "Datos"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1850
 msgid "Frequency"
@@ -953,15 +953,15 @@ msgstr "Audiencia de grupos"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1853 dkan_harvest/dkan_harvest.features.inc:32 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:800
 msgid "Harvest Source"
-msgstr "Fuente de recolección"
+msgstr "Fuente de los datos"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1854
 msgid "Harvest Source Issued"
-msgstr "Fuente de recolección emitida"
+msgstr "Fuente de los datos emitida"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1855
 msgid "Harvest Source Modified"
-msgstr "Fuente de recolección modificada"
+msgstr "Fuente de los datos modificada"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1856
 msgid "Homepage URL"
@@ -969,7 +969,7 @@ msgstr "URL de la página principal"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1857
 msgid "If you set your dataset to a public access level other than \"public\", you must provide an explanation for why this dataset cannot be made fully public. Include any useful information regarding access or restrictions based on privacy, security, or other policies. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
-msgstr "Si establece su conjunto de datos a un nivel de acceso público distinto de \"público\", debe proporcionar una explicación de por qué este conjunto de datos no puede hacerse completamente público. Incluya cualquier información útil relacionada con el acceso o las restricciones basadas en la privacidad, la seguridad u otras políticas. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
+msgstr "Si establece su datos a un nivel de acceso público distinto de \"público\", debe proporcionar una explicación de por qué este datos no puede hacerse completamente público. Incluya cualquier información útil relacionada con el acceso o las restricciones basadas en la privacidad, la seguridad u otras políticas. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1858
 msgid "Is Part Of"
@@ -1025,11 +1025,11 @@ msgstr "Ubicación de la cobertura geográfica/espacial"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1872
 msgid "Spatial coverage of the dataset. Will be rendered as GeoJSON. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
-msgstr "Cobertura espacial del conjunto de datos. Se renderizará como GeoJSON. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
+msgstr "Cobertura espacial del datos. Se renderizará como GeoJSON. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1873
 msgid "Spatial location of the dataset. Could be Address, City, State, part of the world or other description. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
-msgstr "Ubicación espacial del conjunto de datos. Podría ser Dirección, Ciudad, Estado, parte del mundo u otra descripción. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
+msgstr "Ubicación espacial del datos. Podría ser Dirección, Ciudad, Estado, parte del mundo u otra descripción. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1875
 msgid "Temporal Coverage"
@@ -1037,39 +1037,39 @@ msgstr "Cobertura temporal"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1876
 msgid "The degree to which this dataset <em>could</em> be made publicly-available, regardless of whether it has been made available. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info."
-msgstr "El grado en que este conjunto de datos <em>podría</em> estar disponible públicamente, independientemente de si se ha puesto a disposición. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información."
+msgstr "El grado en que este datos <em>podría</em> estar disponible públicamente, independientemente de si se ha puesto a disposición. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1877
 msgid "The frequency with which dataset is published.See <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> for more info."
-msgstr "La frecuencia con la que se publica el conjunto de datos. Consulte <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> para obtener más información."
+msgstr "La frecuencia con la que se publica el datos. Consulte <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> para obtener más información."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1878
 msgid "The temporal period that the dataset covers. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> for more info."
-msgstr "El período temporal que cubre el conjunto de datos. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> para obtener más información."
+msgstr "El período temporal que cubre el datos. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> para obtener más información."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1879
 msgid "This field allows the grouping of multiple datasets into a “collection”. This field should be employed by the individual datasets that together make up a collection. The value for this field should match the identifier of the parent dataset."
-msgstr "Este campo permite agrupar varios conjuntos de datos en una \"colección\". Este campo debe ser empleado por los conjuntos de datos individuales que juntos forman una colección. El valor de este campo debe coincidir con el identificador del conjunto de datos principal."
+msgstr "Este campo permite agrupar varios datos en una \"colección\". Este campo debe ser empleado por los datos individuales que juntos forman una colección. El valor de este campo debe coincidir con el identificador del datos principal."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1880
 msgid "This field is not intended for an agency’s homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset."
-msgstr "Este campo no está destinado a la página principal de una agencia (por ejemplo, www.agency.gov), sino más bien si un conjunto de datos tiene un hub o una página de aterrizaje amigable a la que los usuarios pueden dirigirse para todos los recursos vinculados al conjunto de datos."
+msgstr "Este campo no está destinado a la página principal de una agencia (por ejemplo, www.agency.gov), sino más bien si un datos tiene un hub o una página de aterrizaje amigable a la que los usuarios pueden dirigirse para todos los recursos vinculados al datos."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1881
 msgid "This is the author of the dataset."
-msgstr "Este es el autor del conjunto de datos."
+msgstr "Este es el autor del datos."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1882
 msgid "This is used to identify a standardized specification the dataset conforms to. If this is a technical specification associated with a particular serialization of a distribution, this should be specified with <a href=\"#distribution-conformsTo\">conformsTo</a> at the distribution level. It’s recommended that this be a URI that serves as a unique identifier for the standard. The URI may or may not also be a URL that provides documentation of the specification. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
-msgstr "Esto se utiliza para identificar una especificación estandarizada a la que se ajusta el conjunto de datos. Si se trata de una especificación técnica asociada a una serialización particular de una distribución, se debe especificar con <a href=\"#distribution-conformsTo\">conformsTo</a> en el nivel de distribución. Se recomienda que sea un URI que sirva como un identificador único para el estándar. La URI puede o no ser también una URL que proporcione la documentación de la especificación. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
+msgstr "Esto se utiliza para identificar una especificación estandarizada a la que se ajusta el datos. Si se trata de una especificación técnica asociada a una serialización particular de una distribución, se debe especificar con <a href=\"#distribution-conformsTo\">conformsTo</a> en el nivel de distribución. Se recomienda que sea un URI que sirva como un identificador único para el estándar. La URI puede o no ser también una URL que proporcione la documentación de la especificación. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1883
 msgid "This is used to identify the media type (IANA Media Type also known as MIME Type) of the URL used for the dataset’s describedBy field. This should be specified if describedBy is not an HTML webpage."
-msgstr "Esto se utiliza para identificar el tipo de medio (tipo de medio IANA también conocido como tipo MIME) de la URL utilizada para el campo describedBy del conjunto de datos. Esto se debe especificar si describedBy no es una página web HTML."
+msgstr "Esto se utiliza para identificar el tipo de medio (tipo de medio IANA también conocido como tipo MIME) de la URL utilizada para el campo describedBy del datos. Esto se debe especificar si describedBy no es una página web HTML."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1884
 msgid "This is usually geographical or temporal but can also be other dimension e.g. Person can be used to describe granularity of a dataset about average income. See <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> for more info."
-msgstr "Esto suele ser geográfico o temporal, pero también puede ser de otra dimensión, por ejemplo, la persona se puede utilizar para describir la granularidad de un conjunto de datos sobre el ingreso promedio. Consulte <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> para obtener más información."
+msgstr "Esto suele ser geográfico o temporal, pero también puede ser de otra dimensión, por ejemplo, la persona se puede utilizar para describir la granularidad de un datos sobre el ingreso promedio. Consulte <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> para obtener más información."
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1885
 msgid "This should adhere to the RFC 5646 standard. This language subtag lookup provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English)."
@@ -1085,11 +1085,11 @@ msgstr "URL de la API o del sitio web"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:260
 msgid "Dataset Info"
-msgstr "Información sobre el conjunto de datos"
+msgstr "Información sobre el datos"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:261
 msgid "Dataset Information"
-msgstr "Información sobre el conjunto de datos"
+msgstr "Información sobre el datos"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:263
 msgid "Remote file"
@@ -1097,7 +1097,7 @@ msgstr "Archivo remoto"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:17
 msgid "- Select a value -"
-msgstr "- Seleccione un valor -"
+msgstr "- Seleccione una opción -"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:50
 msgid "Render license as a link"
@@ -1109,7 +1109,7 @@ msgstr "Fecha de la ISO 8601"
 
 # dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0
 msgid "DKAN Dataset Content Types"
-msgstr "Tipos de contenido del conjunto de datos DKAN"
+msgstr "Tipos de contenido del datos DKAN"
 
 # dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.context.inc:70 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:274 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:139 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:799
 msgid "Group"
@@ -1129,9 +1129,9 @@ msgid ""
 "\n"
 "Groups also enable you to assign roles and authorisation to members of the group - i.e. individuals can be given the right to publish datasets from a particular organisation."
 msgstr ""
-"Los grupos le permiten agrupar conjuntos de datos en una organización (por ejemplo, el Departamento de Salud) o un tema (por ejemplo, transporte, salud) para que sea más fácil para los usuarios examinar conjuntos de datos por tema.\n"
+"Los grupos le permiten agrupar datos en una organización (por ejemplo, el Departamento de Salud) o un tema (por ejemplo, transporte, salud) para que sea más fácil para los usuarios examinar datos por tema.\n"
 "\n"
-"Los grupos también le permiten asignar roles y autorizaciones a los miembros del grupo, es decir, a los individuos se les puede dar el derecho de publicar conjuntos de datos de una organización en particular."
+"Los grupos también le permiten asignar roles y autorizaciones a los miembros del grupo, es decir, a los individuos se les puede dar el derecho de publicar datos de una organización en particular."
 
 # dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:19 dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.module:20
 msgid "Add @groupname"
@@ -1147,7 +1147,7 @@ msgstr "Eliminar solicitud de membresía pendiente"
 
 # dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:140
 msgid "Members page for datasets"
-msgstr "Página de miembros para los conjuntos de datos"
+msgstr "Página de miembros para los datos"
 
 # dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:141
 msgid "Determine context from the path."
@@ -1187,15 +1187,15 @@ msgstr "%user tiene el papel de editor, por lo que también se le ha concedido l
 
 # dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:398
 msgid "%user no longer has the editor or site manager role so has also been removed as an administrator on the following groups: %groups."
-msgstr "%user ya no tiene el papel de editor o de administrador del sitio, así que también se ha eliminado como administrador en los siguientes grupos: %ggrupos."
+msgstr "%user ya no tiene el papel de editor o de administrador del sitio, así que también se ha eliminado como administrador en los siguientes grupos: %groups."
 
 # dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:448
 msgid "%user is an editor so has also been granted the group administrator role for the group: %group."
-msgstr "%user es un editor, de manera que también se le ha concedido el papel de administrador de grupo para el grupo: %ggrupo."
+msgstr "%user es un editor, de manera que también se le ha concedido el papel de administrador de grupo para el grupo: %group."
 
 # dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.info:0
 msgid "DKAN Dataset Groups"
-msgstr "Grupos de conjuntos de datos de DKAN"
+msgstr "Grupos de datos de DKAN"
 
 # dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.info:0
 msgid "Custom elements for groups."
@@ -1203,7 +1203,7 @@ msgstr "Elementos personalizados para grupos."
 
 # dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0
 msgid "DKAN Dataset Groups Permissions"
-msgstr "Permisos de grupos de conjuntos de datos de DKAN"
+msgstr "Permisos de grupos de datos de DKAN"
 
 # dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0
 msgid "Defines permissions for groups."
@@ -1223,11 +1223,11 @@ msgstr "resultados: <pre>@results</pre>"
 
 # dkan_dataset/modules/dkan_dataset_rest_api/dkan_dataset_rest_api.info:0
 msgid "DKAN Dataset REST API"
-msgstr "API REST del conjunto de datos DKAN"
+msgstr "API REST del datos DKAN"
 
 # dkan_dataset/modules/dkan_dataset_rest_api/dkan_dataset_rest_api.info:0
 msgid "REST APIs for DKAN Datasets"
-msgstr "Las API REST para los conjuntos de datos de DKAN"
+msgstr "Las API REST para los datos de DKAN"
 
 # dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.features.field_instance.inc:112
 msgid "Rating"
@@ -1235,11 +1235,11 @@ msgstr "Clasificación"
 
 # dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0
 msgid "DKAN Dataset Voting"
-msgstr "Votación del conjunto de datos de DKAN"
+msgstr "Votación del datos de DKAN"
 
 # dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0
 msgid "Adds voting to datasets."
-msgstr "Agrega la votación a los conjuntos de datos."
+msgstr "Agrega la votación a los datos."
 
 # dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0 dkan_topics/modules/dkan_default_topics/dkan_default_topics.info:0
 msgid "DKAN Features"
@@ -1623,7 +1623,7 @@ msgstr "Accesorios de DKAN"
 
 # dkan_fixtures/dkan_fixtures.module:29
 msgid "DKAN Dataset Fixtures"
-msgstr "Accesorios del conjunto de datos DKAN"
+msgstr "Accesorios del datos DKAN"
 
 # dkan_fixtures/dkan_fixtures.module:34
 msgid "DKAN Resource Fixtures"
@@ -1651,7 +1651,7 @@ msgstr "%url no estaba disponible para descargar"
 
 # dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:18
 msgid "DKAN Default Datasets"
-msgstr "Conjuntos de datos predeterminados de DKAN"
+msgstr "Datos predeterminados de DKAN"
 
 # dkan_fixtures/modules/dkan_default_content/dkan_default_content.module:23
 msgid "DKAN Default Resources"
@@ -1695,7 +1695,7 @@ msgstr "No hay ninguna fuente para ser eliminada del registro"
 
 # dkan_harvest/dkan_harvest.drush.inc:276
 msgid "Harvest Source not found!"
-msgstr "¡Fuente de recolección no encontrada!"
+msgstr "¡Fuente de los datos no encontrada!"
 
 # dkan_harvest/dkan_harvest.features.field_instance.inc:665
 msgid "Add one or more filters to narrow a harvest to a specific subset of fields and values."
@@ -1755,11 +1755,11 @@ msgstr "Tipo de fuente que estamos recolectando."
 
 # dkan_harvest/dkan_harvest.features.inc:34
 msgid "Source for harvesting datasets from an external source into DKAN. For instance, another data portal’s data.json file could be set to harvest once a day and add all the datasets returned to your catalog."
-msgstr "Hace una búsqueda para recolectar los conjuntos de datos de una fuente externa en DKAN. Por ejemplo, se puede establecer el archivo data.json de otro portal de datos para hacer la recolección una vez al día y agregar todos los conjuntos de datos devueltos a su catálogo."
+msgstr "Hace una búsqueda para recolectar los datos de una fuente externa en DKAN. Por ejemplo, se puede establecer el archivo data.json de otro portal de datos para hacer la recolección una vez al día y agregar todos los datos devueltos a su catálogo."
 
 # dkan_harvest/dkan_harvest.migrate.inc:126
 msgid "Cannot look-up the harvest source Node ID"
-msgstr "No se pudo buscar el ID del Nodo de la fuente de recolección"
+msgstr "No se pudo buscar el ID del Nodo de la fuente de los datos"
 
 # dkan_harvest/dkan_harvest.migrate.inc:187
 msgid "The following rules are disabled: @rules_list"
@@ -1791,7 +1791,7 @@ msgstr "Los elementos a importar son 0. Parece que falta la fuente. Todo el cont
 
 # dkan_harvest/dkan_harvest.migrate.inc:604
 msgid "Deleting previously failed imports that does not exist in the harvest source anymore."
-msgstr "Eliminar las anteriores importaciones fallidas que ya no existen en la fuente de recolección."
+msgstr "Eliminar las anteriores importaciones fallidas que ya no existen en la fuente de los datos."
 
 # dkan_harvest/dkan_harvest.migrate.inc:635
 msgid "Could not log items status on migration !name"
@@ -1803,11 +1803,11 @@ msgstr "Las siguientes reglas se vuelven a habilitar: @rules_list"
 
 # dkan_harvest/dkan_harvest.migrate.inc:685
 msgid "@count item(s) datasets that were previously unpublished are restored by the source and will be republished again."
-msgstr "@count item(s) conjuntos de datos que no fueron publicados anteriormente son restaurados por la fuente y se volverán a publicar nuevamente."
+msgstr "@count item(s) datos que no fueron publicados anteriormente son restaurados por la fuente y se volverán a publicar nuevamente."
 
 # dkan_harvest/dkan_harvest.migrate.inc:722
 msgid "Dataset \"@dataset_title\"[@nid] and @related_count related content (Resources, ..) published."
-msgstr "Conjunto de datos \"@ dataset_title\"[@nid] y @related_count contenido relacionado (Recursos, ..) publicado."
+msgstr "Datos \"@ dataset_title\"[@nid] y @related_count contenido relacionado (Recursos, ..) publicado."
 
 # dkan_harvest/dkan_harvest.migrate.inc:759
 msgid "@count item(s) that were added by this source does not exist anymore and will be unpublished."
@@ -1815,7 +1815,7 @@ msgstr "@count item (s) que fueron agregados por esta fuente ya no existen y ser
 
 # dkan_harvest/dkan_harvest.migrate.inc:804
 msgid "Dataset \"@dataset_title\"[@nid] and @related_count related content (Resources, ..) unpublished."
-msgstr "Conjunto de datos \"@dataset_title\"[@nid] y @related_count contenido relacionado (Recursos, ..) inéditos."
+msgstr "Datos \"@dataset_title\"[@nid] y @related_count contenido relacionado (Recursos, ..) inéditos."
 
 # dkan_harvest/dkan_harvest.migrate.inc:1012
 msgid "Resource remote url (@url) not valid!"
@@ -1903,7 +1903,7 @@ msgstr "Registro de errores reportados durante la recolección de esta fuente."
 
 # dkan_harvest/dkan_harvest.pages.inc:191
 msgid "Dataset link"
-msgstr "Enlace del conjunto de datos"
+msgstr "Enlace del datos"
 
 # dkan_harvest/dkan_harvest.pages.inc:230
 msgid "@errors_count Error(s) encountered on @date"
@@ -1915,7 +1915,7 @@ msgstr "URL de resumen de la fuente"
 
 # dkan_harvest/dkan_harvest.module:79
 msgid "<strong>Datasets</strong> @count"
-msgstr "<strong>Conjuntos de datos</strong> @count"
+msgstr "<strong>Datos</strong> @count"
 
 # dkan_harvest/dkan_harvest.module:109;122
 msgid "Harvest Source Summary"
@@ -1923,7 +1923,7 @@ msgstr "Resumen de la fuente de la recolección"
 
 # dkan_harvest/dkan_harvest.module:156
 msgid "Administrate harvest sources and datasets"
-msgstr "Administra las fuentes y conjuntos de datos de la recolección"
+msgstr "Administra las fuentes y datos de la recolección"
 
 # dkan_harvest/dkan_harvest.module:256
 msgid "Caching source and preparing Harvest preview..."
@@ -1950,14 +1950,14 @@ msgid ""
 "        and the harvest will be performed on schedule."
 msgstr ""
 "La recolección de esta fuente, tal como está configurada actualmente,\n"
-" importará los conjuntos de datos que se enumeran a continuación en este portal de datos. Haga clic en \"Editar\" para\n"
+" importará los datos que se enumeran a continuación en este portal de datos. Haga clic en \"Editar\" para\n"
 " cambiar la configuración de la fuente, haga clic en el botón \"Recolectar ahora\" en la\n"
 " parte inferior de la página para ejecutar la recolección inmediatamente, o simplemente continúe trabajando\n"
 " y la recolección se ejecutará según lo programado."
 
 # dkan_harvest/dkan_harvest.module:281
 msgid "<span>Datasets in source: </span> @count"
-msgstr "<span>Conjuntos de datos en la fuente: </span> @count"
+msgstr "<span>Datos en la fuente: </span> @count"
 
 # dkan_harvest/dkan_harvest.module:318
 msgid "Harvest now"
@@ -1991,11 +1991,11 @@ msgstr "Se ha producido un error durante la migración."
 
 # dkan_harvest/dkan_harvest.module:477
 msgid "No harvest source found."
-msgstr "No se encontró ninguna fuente de recolección."
+msgstr "No se encontró ninguna fuente de los datos."
 
 # dkan_harvest/dkan_harvest.module:488
 msgid "Harvest Source \\\"@title\\\" (@nid) cannot be imported!"
-msgstr "¡No se puede importar la fuente de recolección  \\\"@title\\\" (@nid)!"
+msgstr "¡No se puede importar la fuente de los datos  \\\"@title\\\" (@nid)!"
 
 # dkan_harvest/dkan_harvest.module:539
 msgid "Failed to import source with message: @exception_message"
@@ -2083,7 +2083,7 @@ msgid ""
 "    associated content (datasets and resources):"
 msgstr ""
 "Seleccione la operación que desea realizar en el\n"
-" contenido asociado (conjuntos de datos y recursos):"
+" contenido asociado (datos y recursos):"
 
 # dkan_harvest/dkan_harvest.info:0;0 dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.rules.inc:24 dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.info:0 dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.info:0
 msgid "DKAN Harvest"
@@ -2111,7 +2111,7 @@ msgstr "¡Es necesario el nombre de la máquina!"
 
 # dkan_harvest/includes/HarvestSource.php:67
 msgid "Harvest Source node with machine name %s not found."
-msgstr "No se encontró el nodo de la fuente de recolección con nombre %s de máquina."
+msgstr "No se encontró el nodo de la fuente de los datos con nombre %s de máquina."
 
 # dkan_harvest/includes/HarvestSource.php:319
 msgid "Harvest demo cache failed: @error"
@@ -2147,15 +2147,15 @@ msgstr "Última actualización de la migración de recolección"
 
 # dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:23
 msgid "Date of the Last Harvest Migrate operation for a Harvest Source."
-msgstr "Fecha de la última operación de la migración de recolección para una fuente de recolección."
+msgstr "Fecha de la última operación de la migración de recolección para una fuente de los datos."
 
 # dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:37
 msgid "Harvest Migrate Datasets Count"
-msgstr "Conteo de conjuntos de datos de la migración de recolección"
+msgstr "Conteo de datos de la migración de recolección"
 
 # dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:38
 msgid "Count of the Dataset Harvested for a Harvest Source"
-msgstr "Conteo del conjunto de datos recolectados para una fuente de recolección"
+msgstr "Conteo del datos recolectados para una fuente de los datos"
 
 # dkan_harvest/modules/dkan_harvest_dashboard/dkan_harvest_dashboard.views.inc:46
 msgid "Harvest Migrate Status"
@@ -2247,11 +2247,11 @@ msgstr "No se puede analizar el valor de cobertura temporal @value"
 
 # dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.module:103
 msgid "Key \"@path\" was automatically generated because doesn't exists in the dataset \"@title\". Make sure you want to modify the key \"@path\"."
-msgstr "La clave \"@path\" se generó automáticamente porque no existe en el conjunto de datos \"@title\". Asegúrese de que desea modificar la clave \"@path\"."
+msgstr "La clave \"@path\" se generó automáticamente porque no existe en el datos \"@title\". Asegúrese de que desea modificar la clave \"@path\"."
 
 # dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.module:140
 msgid "Error trying to access to key @path. Please make sure @path exists in the dataset"
-msgstr "Error al intentar acceder a la clave @path. Asegúrese de que @path existe en el conjunto de datos"
+msgstr "Error al intentar acceder a la clave @path. Asegúrese de que @path existe en el datos"
 
 # dkan_harvest/modules/dkan_harvest_datajson/dkan_harvest_datajson.info:0
 msgid "Dkan Harvest Data Json"
@@ -2367,7 +2367,7 @@ msgstr "No se pudo crear el directorio"
 
 # dkan_migrate_base/dkan_migrate_base_data_json.inc:630
 msgid "%url contains %datasets datasets and %resources resources."
-msgstr "%url contiene %dconjuntos de datos atasets y recursos %resources."
+msgstr "%url contiene %datasets datos atasets y recursos %resources."
 
 # dkan_migrate_base/dkan_migrate_base_resource.inc:50
 msgid "ID list resource_show downloaded locally as %filename"
@@ -2399,7 +2399,7 @@ msgstr "Ejemplos DKAN"
 
 # dkan_migrate_base/modules/dkan_migrate_base_example/dkan_migrate_base_example.module:24
 msgid "Example CKAN Datasets"
-msgstr "Ejemplo de conjuntos de datos CKAN"
+msgstr "Ejemplo de datos CKAN"
 
 # dkan_migrate_base/modules/dkan_migrate_base_example/dkan_migrate_base_example.module:29
 msgid "Example CKAN Resources"
@@ -2487,7 +2487,7 @@ msgstr "Bienvenido a la demostración DKAN"
 
 # dkan_sitewide/dkan_sitewide.blocks.inc:53;119
 msgid "Add a Dataset"
-msgstr "Agregar un conjunto de datos"
+msgstr "Agregar un datos"
 
 # dkan_sitewide/dkan_sitewide.blocks.inc:144
 msgid "mimetype"
@@ -2523,7 +2523,7 @@ msgstr "Añada texto aquí para reemplazar el contenido del bloque predeterminad
 
 # dkan_sitewide/dkan_sitewide.blocks.inc:204
 msgid "Add a dataset"
-msgstr "Agregar un conjunto de datos"
+msgstr "Agregar un datos"
 
 # dkan_sitewide/dkan_sitewide.blocks.inc:221;231
 msgid "Reset block content to default."
@@ -2551,7 +2551,7 @@ msgstr "Reddit"
 
 # dkan_sitewide/dkan_sitewide.blocks.inc:403
 msgid "The information on this page (the dataset metadata) is also available in these formats."
-msgstr "La información de esta página (los metadatos del conjunto de datos) también está disponible en estos formatos."
+msgstr "La información de esta página (los metadatos del datos) también está disponible en estos formatos."
 
 # dkan_sitewide/dkan_sitewide.blocks.inc:417
 msgid "json view of content"
@@ -2571,7 +2571,7 @@ msgstr "buscar"
 
 # dkan_sitewide/dkan_sitewide.blocks.inc:499
 msgid "<p>Search for datasets directly from the homepage or by navigating to the !link search page where you can filter by tags, groups and format.</p>"
-msgstr "<p>Busca conjuntos de datos directamente desde la página de inicio o navegando a la página de búsqueda de !link donde usted puede filtrar por etiquetas, grupos y formatos.</p>"
+msgstr "<p>Busca datos directamente desde la página de inicio o navegando a la página de búsqueda de !link donde usted puede filtrar por etiquetas, grupos y formatos.</p>"
 
 # dkan_sitewide/dkan_sitewide.blocks.inc:510
 msgid "You can add a !dataset to get a sense of publisher workflow. This form can be customised to require many additional fields. In this demo only the most basic fields are required."
@@ -2785,7 +2785,7 @@ msgstr ""
 
 # dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.module:121
 msgid "Your %content_type '%title' has been created. Start adding content by clicking on the + sign on each panel."
-msgstr "Su %ctipo de contenido '%title' se ha creado. Comience a agregar contenido haciendo clic en el signo +  en cada panel."
+msgstr "Su %content_type '%title' se ha creado. Comience a agregar contenido haciendo clic en el signo +  en cada panel."
 
 # dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.info:0
 msgid "DKAN Sitewide Panelizer"
@@ -2829,7 +2829,7 @@ msgstr "Define roles y permisos. Desactivado a favor de dkan_permissions, se eli
 
 # dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.context.inc:73
 msgid "Blocks for the dataset search page"
-msgstr "Bloques para la página de búsqueda de los conjuntos de datos"
+msgstr "Bloques para la página de búsqueda de los datos"
 
 # dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.install:17
 msgid ""
@@ -2843,7 +2843,7 @@ msgstr ""
 "ADVERTENCIA: Si está actualizando desde una versión anterior de DKAN,\n"
 " una actualización necesaria del módulo de backend de la base de datos de la API de búsqueda puede romper sus índices de búsqueda,\n"
 " mostrando a) nada o b) todos los nodos sin importar el tipo en sus\n"
-" páginas de búsqueda/conjuntos de datos. Este problema se puede solucionar fácilmente siguiendo las\n"
+" páginas de búsqueda/datos. Este problema se puede solucionar fácilmente siguiendo las\n"
 " instrucciones en las notas de la versión en\n"
 " https://github.com/NuCivic/dkan/releases/tag/7.x-1.9 o en CHANGELOG.txt."
 
@@ -3037,7 +3037,7 @@ msgstr "El flujo de trabajo estableció el estado de moderación !state"
 
 # dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:312
 msgid "Resources without a dataset"
-msgstr "Recursos sin un conjunto de datos"
+msgstr "Recursos sin un datos"
 
 # dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:347
 msgid "Others"
@@ -3060,7 +3060,7 @@ msgid ""
 "Missing %field_key field value\n"
 "        from the View Format settings."
 msgstr ""
-"Falta el %fvalor del campo ield_key\n"
+"Falta el valor del campo %field_key\n"
 " desde la configuración del Formato de Vista."
 
 # dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.module:214
@@ -3069,7 +3069,7 @@ msgid ""
 "        %vid"
 msgstr ""
 "No se pudo cargar el Nodo con Vid\n"
-" % vid"
+" %vid"
 
 # dkan_workflow/modules/views_dkan_workflow_tree/views_dkan_workflow_tree.info:0
 msgid "Views Workflow List"
@@ -3089,11 +3089,11 @@ msgstr "Mapa de esquema de datos abiertos DKAN"
 
 # open_data_schema_map_dkan/open_data_schema_map_dkan.info:0
 msgid "Provides endpoints for Open Data Schema Map for DKAN Dataset"
-msgstr "Proporciona puntos finales para el Mapa de Esquema de Datos Abiertos para el conjunto de datos DKAN"
+msgstr "Proporciona puntos finales para el Mapa de Esquema de Datos Abiertos para el datos DKAN"
 
 # dkan_feedback.features.defaultconfig.inc:143 dkan_feedback.features.field_instance.inc:336
 msgid "Agency"
-msgstr "Agencia"
+msgstr "Dependencia"
 
 # dkan_feedback.features.field_instance.inc:338
 msgid "Email"
@@ -3101,7 +3101,7 @@ msgstr "Correo electrónico"
 
 # dkan_feedback.features.field_instance.inc:339 dkan_feedback.features.inc:110 dkan_feedback.field_group.inc:50
 msgid "Feedback"
-msgstr "Comentario"
+msgstr "Comentarios"
 
 # dkan_feedback.features.field_instance.inc:340
 msgid "Feedback Type"
@@ -3109,7 +3109,7 @@ msgstr "Tipo de comentario"
 
 # dkan_feedback.features.field_instance.inc:341
 msgid "If this feedback is related to a dataset or resource, type its name here."
-msgstr "Si este comentario está relacionado con un conjunto de datos o recurso, escriba su nombre aquí."
+msgstr "Si este comentario está relacionado con un datos o recurso, escriba su nombre aquí."
 
 # dkan_feedback.features.field_instance.inc:343
 msgid "Desc"
@@ -3403,7 +3403,7 @@ msgstr "@enabled de @total"
 msgid "This will discard all unsaved changes. Are you sure?"
 msgstr "Esto descartará todos los cambios no guardados. ¿Está seguro?"
 
-# ; profiles/dkan/modules/contrib/panels/panels_ipe/js/panels_ipe.js
+# ; profiles/dkan/modules/contrib/panels/panels_ipe/js/panels_ipe.js; profiles/dkan/modules/contrib/panels/js/display_editor.js
 msgid "Remove this pane?"
 msgstr "¿Eliminar este panel?"
 
@@ -3510,3 +3510,67 @@ msgstr "Reutilizable: No"
 # profiles/dkan/modules/contrib/fieldable_panels_panes/fieldable_panels_panes.vertical-tabs.js
 msgid "Admin title: @value"
 msgstr "Título del administrador: @value"
+
+# /search/type/dataset
+msgid "Don't see what you're looking for?"
+msgstr "¿No ves lo que estás buscando?"
+
+# /
+msgid "<span class='search-over'>Search over</span> <span class='dataset-number'>@count datasets</span>"
+msgstr "<span class='search-over'>Buscar más de </span> <span class='dataset-number'>@count conjuntos de datos</span>"
+
+# /node/add/dataset
+msgid "License Not Specified"
+msgstr "Sin licencia"
+
+# /node/add/dataset
+msgid "Other (Attribution)"
+msgstr "Otra (Attribution)"
+
+# /node/add/dataset
+msgid "Other (Non-Commercial)"
+msgstr "Otra (Non-Commercial)"
+
+# /node/add/dataset
+msgid "Other (Not Open)"
+msgstr "Otra (Not Open)"
+
+# /node/add/dataset
+msgid "Other (Open)"
+msgstr "Otra (Open)"
+
+# /node/add/dataset
+msgid "Other (Public Domain)"
+msgstr "Otra (Public Domain)"
+
+#
+msgid "Leave blank to use trimmed value of full text as the summary."
+msgstr "Deja este esácop en blanco para usarlo como resumen de su comentario."
+
+# /node/41
+msgid "Elasticsearch status"
+msgstr "Elasticsearch estado"
+
+# /node/41
+msgid "Display ElasticSearch logs."
+msgstr "Mostrar registros de ElasticSearch."
+
+# /node/69/edit?destination=admin/content
+msgid "Elastic Schema"
+msgstr "Elastic Esquema"
+
+# /
+msgid "Search, exploration, and download of data sets of the Medellín City Hall."
+msgstr "Búsqueda, exploración, y descarga de los conjuntos de datos de la Alcaldía de Medellín."
+
+# /
+msgid "Crossing and displaying indicators using different data sources."
+msgstr "Cruce y visualización de indicadores usando diferentes fuentes de datos."
+
+# /
+msgid "Dynamic dashboards to explore the most important figures of the city."
+msgstr "Tableros dinámicos para explorar las cifras más importantes de la ciudad."
+
+# /
+msgid "Notes, narratives and stories related to Medellín's data."
+msgstr "Notas, narrativas e historias relacionadas con los datos de Medellín."

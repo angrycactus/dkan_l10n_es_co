@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dkan_l10n_es_co-7.x.1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2017-10-12T08:22:01+00:00\n"
+"PO-Revision-Date: 2017-10-12T08:22:01+00:00\n"
+"Language: es_CO\n"
+
+# double_field:node-dataset-field_additional_info:display-default-settings-table-first-column_label
+msgctxt "node-dataset-field_additional_info:display-default-settings-table-first-column_label"
+msgid "Field"
+msgstr "Campo"
+
+# double_field:node-dataset-field_additional_info:display-default-settings-table-number_column_label
+msgctxt "node-dataset-field_additional_info:display-default-settings-table-number_column_label"
+msgid "№"
+msgstr ""
+
+# double_field:node-dataset-field_additional_info:display-default-settings-table-second-column_label
+msgctxt "node-dataset-field_additional_info:display-default-settings-table-second-column_label"
+msgid "Value"
+msgstr "Valor"
+
+# double_field:node-dataset-field_additional_info:display-search_result-settings-first-suffix
+msgctxt "node-dataset-field_additional_info:display-search_result-settings-first-suffix"
+msgid ":&nbsp;"
+msgstr ""
+
+# double_field:node-dataset-field_additional_info:display-search_result-settings-table-first-column_label
+msgctxt "node-dataset-field_additional_info:display-search_result-settings-table-first-column_label"
+msgid "Field"
+msgstr "Campo"
+
+# double_field:node-dataset-field_additional_info:display-search_result-settings-table-number_column_label
+msgctxt "node-dataset-field_additional_info:display-search_result-settings-table-number_column_label"
+msgid "№"
+msgstr ""
+
+# double_field:node-dataset-field_additional_info:display-search_result-settings-table-second-column_label
+msgctxt "node-dataset-field_additional_info:display-search_result-settings-table-second-column_label"
+msgid "Value"
+msgstr "Valor"

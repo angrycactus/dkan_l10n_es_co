@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
-"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"POT-Creation-Date: 2017-10-12T08:22:01+00:00\n"
+"PO-Revision-Date: 2017-10-12T08:22:01+00:00\n"
 "Language: es_CO\n"
 
 # field:body:dataset:label
@@ -29,7 +29,7 @@ msgstr "Cuerpo de página"
 # field:body:feedback:label
 msgctxt "body:feedback:label"
 msgid "Feedback"
-msgstr "Comentario"
+msgstr "Comentarios"
 
 # field:body:group:label
 msgctxt "body:group:label"
@@ -104,7 +104,7 @@ msgstr "Información adicional"
 # field:field_author:dataset:description
 msgctxt "field_author:dataset:description"
 msgid "This is the author of the dataset."
-msgstr "Este es el autor del conjunto de datos."
+msgstr "Este es el autor del datos."
 
 # field:field_author:dataset:label
 msgctxt "field_author:dataset:label"
@@ -189,7 +189,7 @@ msgstr "Texto"
 # field:field_conforms_to:dataset:description
 msgctxt "field_conforms_to:dataset:description"
 msgid "This is used to identify a standardized specification the dataset conforms to. If this is a technical specification associated with a particular serialization of a distribution, this should be specified with <a href=\"#distribution-conformsTo\">conformsTo</a> at the distribution level. It’s recommended that this be a URI that serves as a unique identifier for the standard. The URI may or may not also be a URL that provides documentation of the specification. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
-msgstr "Esto se utiliza para identificar una especificación estandarizada a la que se ajusta el conjunto de datos. Si se trata de una especificación técnica asociada a una serialización particular de una distribución, se debe especificar con <a href=\"#distribution-conformsTo\">conformsTo</a> en el nivel de distribución. Se recomienda que sea un URI que sirva como un identificador único para el estándar. La URI puede o no ser también una URL que proporcione la documentación de la especificación. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
+msgstr "Esto se utiliza para identificar una especificación estandarizada a la que se ajusta el datos. Si se trata de una especificación técnica asociada a una serialización particular de una distribución, se debe especificar con <a href=\"#distribution-conformsTo\">conformsTo</a> en el nivel de distribución. Se recomienda que sea un URI que sirva como un identificador único para el estándar. La URI puede o no ser también una URL que proporcione la documentación de la especificación. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#dataset-conformsTo\">Data Standard at Project Open Data</a>."
 
 # field:field_conforms_to:dataset:label
 msgctxt "field_conforms_to:dataset:label"
@@ -224,7 +224,7 @@ msgstr "Nombre del contacto"
 # field:field_dataset_ref:resource:label
 msgctxt "field_dataset_ref:resource:label"
 msgid "Dataset"
-msgstr "Conjunto de datos"
+msgstr "Datos"
 
 # field:field_datastore_status:resource:label
 msgctxt "field_datastore_status:resource:label"
@@ -244,7 +244,7 @@ msgstr "Diccionario de datos"
 # field:field_data_dictionary_type:dataset:description
 msgctxt "field_data_dictionary_type:dataset:description"
 msgid "This is used to identify the media type (IANA Media Type also known as MIME Type) of the URL used for the dataset’s describedBy field. This should be specified if describedBy is not an HTML webpage."
-msgstr "Esto se utiliza para identificar el tipo de medio (tipo de medio IANA también conocido como tipo MIME) de la URL utilizada para el campo describedBy del conjunto de datos. Esto se debe especificar si describedBy no es una página web HTML."
+msgstr "Esto se utiliza para identificar el tipo de medio (tipo de medio IANA también conocido como tipo MIME) de la URL utilizada para el campo describedBy del datos. Esto se debe especificar si describedBy no es una página web HTML."
 
 # field:field_data_dictionary_type:dataset:label
 msgctxt "field_data_dictionary_type:dataset:label"
@@ -319,12 +319,12 @@ msgstr "URI de origen"
 # field:field_feedback_entity_reference:feedback:description
 msgctxt "field_feedback_entity_reference:feedback:description"
 msgid "If this feedback is related to a dataset or resource, type its name here."
-msgstr "Si este comentario está relacionado con un conjunto de datos o recurso, escriba su nombre aquí."
+msgstr "Si este comentario está relacionado con un datos o recurso, escriba su nombre aquí."
 
 # field:field_feedback_entity_reference:feedback:label
 msgctxt "field_feedback_entity_reference:feedback:label"
 msgid "Dataset"
-msgstr "Conjunto de datos"
+msgstr "Datos"
 
 # field:field_feedback_type:feedback:label
 msgctxt "field_feedback_type:feedback:label"
@@ -459,7 +459,7 @@ msgstr "Bisemanal"
 # field:field_frequency:dataset:description
 msgctxt "field_frequency:dataset:description"
 msgid "The frequency with which dataset is published.See <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> for more info."
-msgstr "La frecuencia con la que se publica el conjunto de datos. Consulte <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> para obtener más información."
+msgstr "La frecuencia con la que se publica el datos. Consulte <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> para obtener más información."
 
 # field:field_frequency:dataset:label
 msgctxt "field_frequency:dataset:label"
@@ -469,7 +469,7 @@ msgstr "Frecuencia"
 # field:field_granularity:dataset:description
 msgctxt "field_granularity:dataset:description"
 msgid "This is usually geographical or temporal but can also be other dimension e.g. Person can be used to describe granularity of a dataset about average income. See <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> for more info."
-msgstr "Esto suele ser geográfico o temporal, pero también puede ser de otra dimensión, por ejemplo, la persona se puede utilizar para describir la granularidad de un conjunto de datos sobre el ingreso promedio. Consulte <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> para obtener más información."
+msgstr "Esto suele ser geográfico o temporal, pero también puede ser de otra dimensión, por ejemplo, la persona se puede utilizar para describir la granularidad de un datos sobre el ingreso promedio. Consulte <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> para obtener más información."
 
 # field:field_granularity:dataset:label
 msgctxt "field_granularity:dataset:label"
@@ -479,17 +479,17 @@ msgstr "Granularidad"
 # field:field_harvest_source_issued:dataset:label
 msgctxt "field_harvest_source_issued:dataset:label"
 msgid "Harvest Source Issued"
-msgstr "Fuente de recolección emitida"
+msgstr "Fuente de los datos emitida"
 
 # field:field_harvest_source_modified:dataset:label
 msgctxt "field_harvest_source_modified:dataset:label"
 msgid "Harvest Source Modified"
-msgstr "Fuente de recolección modificada"
+msgstr "Fuente de los datos modificada"
 
 # field:field_harvest_source_ref:dataset:label
 msgctxt "field_harvest_source_ref:dataset:label"
 msgid "Harvest Source"
-msgstr "Fuente de recolección"
+msgstr "Fuente de los datos"
 
 # field:field_icon_type:#allowed_values:font
 msgctxt "field_icon_type:#allowed_values:font"
@@ -524,7 +524,7 @@ msgstr "Imagen"
 # field:field_is_part_of:dataset:description
 msgctxt "field_is_part_of:dataset:description"
 msgid "This field allows the grouping of multiple datasets into a “collection”. This field should be employed by the individual datasets that together make up a collection. The value for this field should match the identifier of the parent dataset."
-msgstr "Este campo permite agrupar varios conjuntos de datos en una \"colección\". Este campo debe ser empleado por los conjuntos de datos individuales que juntos forman una colección. El valor de este campo debe coincidir con el identificador del conjunto de datos principal."
+msgstr "Este campo permite agrupar varios datos en una \"colección\". Este campo debe ser empleado por los datos individuales que juntos forman una colección. El valor de este campo debe coincidir con el identificador del datos principal."
 
 # field:field_is_part_of:dataset:label
 msgctxt "field_is_part_of:dataset:label"
@@ -534,7 +534,7 @@ msgstr "Es parte de"
 # field:field_landing_page:dataset:description
 msgctxt "field_landing_page:dataset:description"
 msgid "This field is not intended for an agency’s homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset."
-msgstr "Este campo no está destinado a la página principal de una agencia (por ejemplo, www.agency.gov), sino más bien si un conjunto de datos tiene un hub o una página de aterrizaje amigable a la que los usuarios pueden dirigirse para todos los recursos vinculados al conjunto de datos."
+msgstr "Este campo no está destinado a la página principal de una agencia (por ejemplo, www.agency.gov), sino más bien si un datos tiene un hub o una página de aterrizaje amigable a la que los usuarios pueden dirigirse para todos los recursos vinculados al datos."
 
 # field:field_landing_page:dataset:label
 msgctxt "field_landing_page:dataset:label"
@@ -624,7 +624,7 @@ msgstr "Restringido"
 # field:field_public_access_level:dataset:description
 msgctxt "field_public_access_level:dataset:description"
 msgid "The degree to which this dataset <em>could</em> be made publicly-available, regardless of whether it has been made available. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info."
-msgstr "El grado en que este conjunto de datos <em>podría</em> estar disponible públicamente, independientemente de si se ha puesto a disposición. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información."
+msgstr "El grado en que este datos <em>podría</em> estar disponible públicamente, independientemente de si se ha puesto a disposición. Consulte <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> para obtener más información."
 
 # field:field_public_access_level:dataset:label
 msgctxt "field_public_access_level:dataset:label"
@@ -639,7 +639,7 @@ msgstr "Enlaces"
 # field:field_related_content:dataset:description
 msgctxt "field_related_content:dataset:description"
 msgid "An internal link or link to an outside resource that provides additional context to the dataset."
-msgstr "Un enlace o enlace interno a un recurso externo que proporciona contexto adicional al conjunto de datos."
+msgstr "Un enlace o enlace interno a un recurso externo que proporciona contexto adicional al datos."
 
 # field:field_related_content:dataset:label
 msgctxt "field_related_content:dataset:label"
@@ -653,8 +653,8 @@ msgstr "Recursos"
 
 # field:field_rights:dataset:description
 msgctxt "field_rights:dataset:description"
-msgid "If you set your dataset to a public access level other than \"public\", you must provide an explanation for why this dataset cannot be made fully public. Include any useful information regarding access or restrictions based on privacy, security, or other policies. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
-msgstr "Si establece su conjunto de datos a un nivel de acceso público distinto de \"público\", debe proporcionar una explicación de por qué este conjunto de datos no puede hacerse completamente público. Incluya cualquier información útil relacionada con el acceso o las restricciones basadas en la privacidad, la seguridad u otras políticas. Consulte <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
+msgid "If you set your dataset to a public access level other than \"public\" or \"none\", you must provide an explanation for why this dataset cannot be made fully public. Include any useful information regarding access or restrictions based on privacy, security, or other policies. See <a href=\"https://project-open-data.cio.gov/v1.1/schema/#rights\">Rights on Project Open Data</a>."
+msgstr ""
 
 # field:field_rights:dataset:label
 msgctxt "field_rights:dataset:label"
@@ -664,7 +664,7 @@ msgstr "Derechos"
 # field:field_spatial:dataset:description
 msgctxt "field_spatial:dataset:description"
 msgid "Spatial coverage of the dataset. Will be rendered as GeoJSON. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
-msgstr "Cobertura espacial del conjunto de datos. Se renderizará como GeoJSON. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
+msgstr "Cobertura espacial del datos. Se renderizará como GeoJSON. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
 
 # field:field_spatial:dataset:label
 msgctxt "field_spatial:dataset:label"
@@ -674,7 +674,7 @@ msgstr "Área de cobertura geográfica/espacial"
 # field:field_spatial_geographical_cover:dataset:description
 msgctxt "field_spatial_geographical_cover:dataset:description"
 msgid "Spatial location of the dataset. Could be Address, City, State, part of the world or other description. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
-msgstr "Ubicación espacial del conjunto de datos. Podría ser Dirección, Ciudad, Estado, parte del mundo u otra descripción. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
+msgstr "Ubicación espacial del datos. Podría ser Dirección, Ciudad, Estado, parte del mundo u otra descripción. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> para obtener más información."
 
 # field:field_spatial_geographical_cover:dataset:label
 msgctxt "field_spatial_geographical_cover:dataset:label"
@@ -699,7 +699,7 @@ msgstr "Etiquetas"
 # field:field_temporal_coverage:dataset:description
 msgctxt "field_temporal_coverage:dataset:description"
 msgid "The temporal period that the dataset covers. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> for more info."
-msgstr "El período temporal que cubre el conjunto de datos. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> para obtener más información."
+msgstr "El período temporal que cubre el datos. Consulte DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> para obtener más información."
 
 # field:field_temporal_coverage:dataset:label
 msgctxt "field_temporal_coverage:dataset:label"
@@ -779,7 +779,7 @@ msgstr "Editor"
 # field:og_group_ref:feedback:label
 msgctxt "og_group_ref:feedback:label"
 msgid "Agency"
-msgstr "Agencia"
+msgstr "Dependencia"
 
 # field:og_group_ref:resource:label
 msgctxt "og_group_ref:resource:label"

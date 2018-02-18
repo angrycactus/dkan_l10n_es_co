@@ -16,3 +16,5 @@ dependecies[] = i18n_panels
 dependecies[] = i18n_block
 dependecies[] = i18n_taxonomy
 dependecies[] = i18n_translation
+dependecies[] = i18n_variable
+dependecies[] = path_breadcrumbs_i18n

@@ -7,24 +7,24 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-08-29T11:11:23+00:00\n"
-"PO-Revision-Date: 2017-08-29T11:11:23+00:00\n"
+"POT-Creation-Date: 2017-10-12T08:22:01+00:00\n"
+"PO-Revision-Date: 2017-10-12T08:22:01+00:00\n"
 "Language: es_CO\n"
 
 # panels:display_configuration:2b15dd64-2e38-4fef-b312-eba3d938312f:title
 msgctxt "display_configuration:2b15dd64-2e38-4fef-b312-eba3d938312f:title"
 msgid "%node:title"
-msgstr "%node:título"
+msgstr "%node:title"
 
 # panels:display_configuration:903225a4-77c6-466f-a0b8-201b722bde0b:title
 msgctxt "display_configuration:903225a4-77c6-466f-a0b8-201b722bde0b:title"
 msgid "Add a %node:content-type"
-msgstr "Agrega un %node: tipo-de-contenido"
+msgstr "Agrega un %node:content-type"
 
 # panels:display_configuration:9efb0f32-3597-48d6-9201-bc0c0b463e89:title
 msgctxt "display_configuration:9efb0f32-3597-48d6-9201-bc0c0b463e89:title"
 msgid "%node:title"
-msgstr "%node:título"
+msgstr "%node:title"
 
 # panels:display_configuration:a3180d51-5e38-4887-8a53-9f3561b1a654:title
 msgctxt "display_configuration:a3180d51-5e38-4887-8a53-9f3561b1a654:title"
@@ -34,7 +34,7 @@ msgstr "Grupos"
 # panels:display_configuration:bb105d8e-a7ef-405d-9f67-42ec8c1f968a:title
 msgctxt "display_configuration:bb105d8e-a7ef-405d-9f67-42ec8c1f968a:title"
 msgid "%node:title"
-msgstr "%node:título"
+msgstr "%node:title"
 
 # panels:pane_configuration:0541c9a5-2e8c-488f-8db4-4cd064bdc903:override_title_text
 msgctxt "pane_configuration:0541c9a5-2e8c-488f-8db4-4cd064bdc903:override_title_text"
@@ -79,12 +79,12 @@ msgstr "Etiquetas"
 # panels:pane_configuration:3b15fd88-4e94-4c1e-9cd0-603f26518943:override_title_text
 msgctxt "pane_configuration:3b15fd88-4e94-4c1e-9cd0-603f26518943:override_title_text"
 msgid "%user:name's content"
-msgstr "%user:contenido del nombre"
+msgstr "%user:name contenido"
 
 # panels:pane_configuration:3b15fd88-4e94-4c1e-9cd0-603f26518943:title
 msgctxt "pane_configuration:3b15fd88-4e94-4c1e-9cd0-603f26518943:title"
 msgid "%user:name's content"
-msgstr "%user:contenido del nombre"
+msgstr "%user:name contenido"
 
 # panels:pane_configuration:3c7762b7-844a-4f01-afc0-36da301160e6:override_title_text
 msgctxt "pane_configuration:3c7762b7-844a-4f01-afc0-36da301160e6:override_title_text"
@@ -119,12 +119,12 @@ msgstr "Últimas historias de datos"
 # panels:pane_configuration:4f78ddf7-f8ca-4e4b-b0b5-a2611cfc4d58:override_title_text
 msgctxt "pane_configuration:4f78ddf7-f8ca-4e4b-b0b5-a2611cfc4d58:override_title_text"
 msgid "Dashboards"
-msgstr "Cuadro de mando"
+msgstr "Cuadros de mando"
 
 # panels:pane_configuration:4f78ddf7-f8ca-4e4b-b0b5-a2611cfc4d58:title
 msgctxt "pane_configuration:4f78ddf7-f8ca-4e4b-b0b5-a2611cfc4d58:title"
 msgid "Dashboards"
-msgstr "Cuadro de mando"
+msgstr "Cuadros de mando"
 
 # panels:pane_configuration:51f2a5b5-ab6a-474a-b0f8-4a0b297160a8:override_title_text
 msgctxt "pane_configuration:51f2a5b5-ab6a-474a-b0f8-4a0b297160a8:override_title_text"
@@ -179,12 +179,12 @@ msgstr "Funciones de publicación y gestión de datos"
 # panels:pane_configuration:7a0c91ca-bf36-42df-b89a-f4d3a73f44a8:override_title_text
 msgctxt "pane_configuration:7a0c91ca-bf36-42df-b89a-f4d3a73f44a8:override_title_text"
 msgid "%node:title"
-msgstr "%node:título"
+msgstr "%node:title"
 
 # panels:pane_configuration:7a0c91ca-bf36-42df-b89a-f4d3a73f44a8:title
 msgctxt "pane_configuration:7a0c91ca-bf36-42df-b89a-f4d3a73f44a8:title"
 msgid "%node:title"
-msgstr "%node:título"
+msgstr "%node:title"
 
 # panels:pane_configuration:7c352aa7-4c3a-44d6-9063-2b61cfcb4aba:override_title_text
 msgctxt "pane_configuration:7c352aa7-4c3a-44d6-9063-2b61cfcb4aba:override_title_text"
@@ -274,12 +274,12 @@ msgstr "Características de la Narración de Cuentos y de las Perspectivas"
 # panels:pane_configuration:dbba36e8-a75c-4fec-b189-d8c3cae601e9:override_title_text
 msgctxt "pane_configuration:dbba36e8-a75c-4fec-b189-d8c3cae601e9:override_title_text"
 msgid "%node:title"
-msgstr "%node:título"
+msgstr "%node:title"
 
 # panels:pane_configuration:dbba36e8-a75c-4fec-b189-d8c3cae601e9:title
 msgctxt "pane_configuration:dbba36e8-a75c-4fec-b189-d8c3cae601e9:title"
 msgid "%node:title"
-msgstr "%node:título"
+msgstr "%node:title"
 
 # panels:pane_configuration:dff3ab78-497e-4b4b-9821-3c971ad02b5a:override_title_text
 msgctxt "pane_configuration:dff3ab78-497e-4b4b-9821-3c971ad02b5a:override_title_text"

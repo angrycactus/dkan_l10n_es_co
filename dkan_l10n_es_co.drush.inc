@@ -33,7 +33,17 @@ function dkan_l10n_es_co_drush_command() {
     'drupal dependencies' => array('dkan_l10n_es_co'),
   );
 
-  $items['dkan-po-export'] = array(
+  $items['dkan-po-import-variables'] = array(
+    'aliases' => array('dkan-poimport-vars'),
+    'description' => 'Import po variables file from the provided source directory.',
+    'arguments' => array(
+      'source-file-path' => 'Where the source po file is located.',
+    ),
+    'options' => array(),
+    'drupal dependencies' => array('i18n_variable'),
+  );
+
+  $items['dkan-po-export-textgroups'] = array(
     'aliases' => array('dkan-poexport'),
     'description' => 'Export po files (segregated by text group, using the dkan_l10n_es_co.%textgroup.po convension.) from DB.',
     'arguments' => array(
@@ -41,6 +51,15 @@ function dkan_l10n_es_co_drush_command() {
     ),
     'options' => array(),
     'drupal dependencies' => array('dkan_l10n_es_co'),
+  );
+
+  $items['dkan-po-export-variables'] = array(
+    'aliases' => array('dkan-poexport-vars'),
+    'description' => 'Export po files for multilinguale variables from DB.',
+    'arguments' => array(
+      'destination-dir-path' => 'Destination directory where to process and generate per text group po files. Defaults to ' . $dkan_l10n_es_co_default_directory_source,
+    ),
+    'drupal dependencies' => array('i18n_variable'),
   );
 
   $items['dkan-po-onefile-dump'] = array(
@@ -60,7 +79,9 @@ function dkan_l10n_es_co_drush_command() {
       'source-file-path' => 'Source file to process and generate per text group po files',
       'destination-dir-path' => 'Destination directory where to process and generate per text group po files. Defaults to ' . $dkan_l10n_es_co_default_directory_source,
     ),
-    'options' => array(),
+    'options' => array(
+      'include-variables' => 'Include variables from the "language" > "es" realm.',
+    ),
     'drupal dependencies' => array('dkan_l10n_es_co'),
   );
 
@@ -68,7 +89,7 @@ function dkan_l10n_es_co_drush_command() {
 }
 
 /**
- * Import po files.
+ * Import text groups po files.
  *
  * Import po files (segregated by text group, using the
  * dkan_l10n_es_co.%textgroup.po convension.) from the provided source
@@ -77,15 +98,60 @@ function dkan_l10n_es_co_drush_command() {
 function drush_dkan_l10n_es_co_dkan_po_import($source_dir_path = NULL) {
   // The function supports empty source dir.
   dkan_l10n_es_co_import_po_from_dir($source_dir_path);
+  dkan_l10n_es_co_menu_links_update();
 }
 
 /**
- * Export po files from DB.
+ * Import variables po files.
+ *
+ * Import po files (segregated by text group, using the
+ * dkan_l10n_es_co.%textgroup.po convension.) from the provided source
+ * directory.
+ */
+function drush_dkan_l10n_es_co_dkan_po_import_variables($source_file_path = NULL) {
+  $realm_name = 'language';
+  $realm_key = DKAN_L10N_ES_CO_LANGCODE;
+
+  if (!file_exists($source_file_path)) {
+    return drush_set_error('dkan_l10n_es_co', dt("Failed to find source file '" . $source_file_path . "'. Quitting."));
+  }
+
+  // Import from a .po file:
+  $variables_translations = Translations::fromPoFile($source_file_path);
+
+  $controller = variable_realm_controller($realm_name);
+
+  $variables = array();
+
+  foreach ($variables_translations as $translation) {
+    $variables[$translation->getContext()] = $translation->getTranslation();
+    variable_realm_set($realm_name, $realm_key, $translation->getContext(), $translation->getTranslation());
+  }
+  $controller->addStore($realm_key, $variables);
+
+  $variables = array_keys(array_filter($variables));
+
+  // Apply some transformation to the variables keys.
+  $variables = array_map(function ($key) {
+    if (strpos($key, 'user_mail_') === 0) {
+      $key = preg_replace("/(.*)_.*/", "$1_[mail_part]", $key);
+    }
+
+    return $key;
+  }, $variables);
+
+  $variables = array_unique($variables);
+
+  $controller->setRealmVariable('list', $variables);
+}
+
+/**
+ * Export text groups po files from DB.
  *
  * Export po files (segregated by text group, using the
  * dkan_l10n_es_co.%textgroup.po convension.) from DB.
  */
-function drush_dkan_l10n_es_co_dkan_po_export($destination_dir_path = NULL) {
+function drush_dkan_l10n_es_co_dkan_po_export_textgroups($destination_dir_path = NULL) {
   if (!$destination_dir_path) {
     $destination_dir_path = dkan_l10n_es_co_default_directory_source();
   }
@@ -96,8 +162,7 @@ function drush_dkan_l10n_es_co_dkan_po_export($destination_dir_path = NULL) {
     }
   }
 
-  $current_time = date('c');
-  $headers_array = dkan_l10n_es_co_po_headers_array($current_time);
+  $headers_array = dkan_l10n_es_co_po_headers_array();
 
   foreach (dkan_l10n_es_co_textgroups_list() as $textgroup) {
     if ($textgroup == 'default') {
@@ -118,6 +183,55 @@ function drush_dkan_l10n_es_co_dkan_po_export($destination_dir_path = NULL) {
 }
 
 /**
+ * Export variables po files from DB.
+ *
+ * Export po files (segregated by text group, using the
+ * dkan_l10n_es_co.%textgroup.po convension.) from DB.
+ */
+function drush_dkan_l10n_es_co_dkan_po_export_variables($destination_dir_path = NULL) {
+  if (!$destination_dir_path) {
+    $destination_dir_path = dkan_l10n_es_co_default_directory_source();
+  }
+  elseif (!file_exists($destination_dir_path)) {
+    if (!mkdir($destination_dir_path)) {
+      return drush_set_error('dkan_l10n_es_co', dt("Failed to create directory '" . $destination_dir_path . "'. Quitting."));
+    }
+  }
+
+  // Get the variables from the "languages" realm with the
+  // DKAN_L10N_ES_CO_LANGCODE key.
+  $variables = variable_realm('language', DKAN_L10N_ES_CO_LANGCODE)->variable_list();
+
+  if (empty($variables)) {
+    drush_print(sprintf("No variables found in the \"%s\" realm key.", DKAN_L10N_ES_CO_LANGCODE));
+    return;
+  }
+  else {
+    drush_print(sprintf("Found %d items.", count($variables)));
+  }
+
+  $resultset = array();
+  foreach ($variables as $name => $value) {
+    if (!empty($value)) {
+      // Make sure we have a source string to translate.
+      $record = new stdClass();
+      $record->context = $name;
+      $record->source = $value;
+      $record->tagret = NULL;
+      $record->location = NULL;
+
+      $resultset[$name] = $record;
+    }
+  }
+
+  $headers_array = dkan_l10n_es_co_po_headers_array();
+
+  dkan_l10n_es_co_resultset2po($resultset, 'variables', $destination_dir_path, $headers_array);
+  drush_print();
+  drush_print(sprintf("Written po file for the multilingual variables containing %d (non empty) entries.", count($resultset)));
+}
+
+/**
  * Export a single po file from DB.
  *
  * Export a single po file from DB stripped from all the context and containing
@@ -134,8 +248,7 @@ function drush_dkan_l10n_es_co_dkan_po_onefile_dump($destination_file_path = NUL
     }
   }
 
-  $current_time = date('c');
-  $headers_array = dkan_l10n_es_co_po_headers_array($current_time);
+  $headers_array = dkan_l10n_es_co_po_headers_array();
 
   $resultset_notdefault = array();
 
@@ -175,8 +288,7 @@ function drush_dkan_l10n_es_co_dkan_po_onefile_dump($destination_file_path = NUL
   drush_print();
   drush_print(sprintf("Total source strings to include in the dump file count: %s", count($resultset)));
 
-  $current_time = date('c');
-  $headers_array = dkan_l10n_es_co_po_headers_array($current_time);
+  $headers_array = dkan_l10n_es_co_po_headers_array();
 
   $translations = new Translations();
 
@@ -231,17 +343,18 @@ function drush_dkan_l10n_es_co_dkan_po_onefile_process($source_file_path = NULL,
   // Import from a .po file:
   $onefile_translations = Translations::fromPoFile($source_file_path);
 
-  $current_time = date('c');
-  $headers_array = dkan_l10n_es_co_po_headers_array($current_time);
+  $headers_array = dkan_l10n_es_co_po_headers_array();
 
-  $msg_format = "Processed translation string(s) for %s textgroup: %d found / %d total (%d %%)";
+  $msg_format = "[Textgroup Status] Processed translation string(s) for %s textgroup: %d found / %d total (%d %%)";
 
   foreach (dkan_l10n_es_co_textgroups_list() as $textgroup) {
     if ($textgroup == 'default') {
-      continue;
+      // Default textgroup have additional params.
+      $resultset = dkan_l10n_es_co_db_query_locales('default', TRUE, "%dkan%");
     }
-
-    $resultset = dkan_l10n_es_co_db_query_locales($textgroup, TRUE);
+    else {
+      $resultset = dkan_l10n_es_co_db_query_locales($textgroup);
+    }
 
     // Update the textgroup resultset with translation from the onefile.
     $translated_count = 0;
@@ -253,85 +366,64 @@ function drush_dkan_l10n_es_co_dkan_po_onefile_process($source_file_path = NULL,
         $translated_count++;
       }
       else {
-        drush_print();
         drush_print(sprintf("Failed to find source for the \"%s\" source string.", $record->source));
       }
     }
 
-    drush_print();
-    $percent = count($resultset) == 0 ? "0" : ($translated_count * 100 / count($resultset));
+    $percent = count($resultset) == 0 ? "N/A" : ($translated_count * 100 / count($resultset));
     drush_print(sprintf($msg_format, $textgroup, $translated_count, count($resultset), $percent));
 
     dkan_l10n_es_co_resultset2po($resultset, $textgroup, $destination_dir_path, $headers_array);
-    drush_print();
     drush_print("Written po file for the \"" . $textgroup . "\" text group containing " . count($resultset) . " entries.");
+    drush_print();
   }
-
-  // Process default textgroup.
-  $resultset = dkan_l10n_es_co_db_query_locales('default', TRUE, "%dkan%");
-
-  // Update the default resultset with translation from the onefile.
-  $translated_count = 0;
-  foreach ($resultset as &$record) {
-    $translation = $onefile_translations->find(NULL, $record->source);
-
-    if (is_a($translation, 'Gettext\Translation') && !empty($translation->getTranslation())) {
-      $record->target = $translation->getTranslation();
-      $translated_count++;
-    }
-    else {
-      drush_print(sprintf("Failed to find source for the \"%s\" source string.", $record->source));
-    }
-  }
-
-  drush_print();
-  $percent = count($resultset) == 0 ? "0" : ($translated_count * 100 / count($resultset));
-  drush_print(sprintf($msg_format, 'default', $translated_count, count($resultset), $percent));
-
-  dkan_l10n_es_co_resultset2po($resultset, 'default', $destination_dir_path, $headers_array);
-  drush_print();
-  drush_print("Written po file for the \"" . "default" . "\" text group containing " . count($resultset) . " entries.");
 }
 
 /**
+ * Query the database to get the locales strings.
+ *
  * @return mixed
  *   Drupal SQL query ResultSet.
  */
 function dkan_l10n_es_co_db_query_locales($textgroup = NULL, $translated = FALSE, $filter_metadata = "") {
   $query = db_select('locales_source', 's');
 
-  $query->leftJoin('locales_target', 't',
-    's.lid = t.lid AND t.language = :language',
-    array(":language" => DKAN_L10N_ES_CO_LANGCODE));
-
-  $query->fields('s', array('lid', 'location', 'source', 'context'))
-    ->addField('t', 'translation', 'target');
+  $query->fields('s', array('lid', 'location', 'source', 'context'));
 
   if ($textgroup) {
     $query->condition('s.textgroup', $textgroup);
   }
 
-  if ($translated === TRUE) {
-    $or_translated = db_or();
-    $or_translated->isNotNull('t.translation');
-    $or_translated->condition('t.translation', "", "<>");
+  // Add the "locales_target" table as a left join.
+  if ($translated || !empty($filter_metadata)) {
+    $query->leftJoin('locales_target', 't',
+      's.lid = t.lid AND t.language = :language',
+      array(":language" => DKAN_L10N_ES_CO_LANGCODE));
 
-    $query->condition($or_translated);
-  }
-  elseif ($translated === FALSE) {
-    $or_translated = db_or();
-    $or_translated->isNull('t.translation');
-    $or_translated->condition('t.translation', "");
+    $query->addField('t', 'translation', 'target');
 
-    $query->condition($or_translated);
-  }
+    if ($translated === TRUE) {
+      $or_translated = db_or();
+      $or_translated->isNotNull('t.translation');
+      $or_translated->condition('t.translation', "", "<>");
 
-  if (!empty($filter_metadata)) {
-    $or_string_filter = db_or();
-    $or_string_filter->condition('s.context', $filter_metadata, 'LIKE');
-    $or_string_filter->condition('s.location', $filter_metadata, 'LIKE');
+      $query->condition($or_translated);
+    }
+    elseif ($translated === FALSE) {
+      $or_translated = db_or();
+      $or_translated->isNull('t.translation');
+      $or_translated->condition('t.translation', "");
 
-    $query->condition($or_string_filter);
+      $query->condition($or_translated);
+    }
+
+    if (!empty($filter_metadata)) {
+      $or_string_filter = db_or();
+      $or_string_filter->condition('s.context', $filter_metadata, 'LIKE');
+      $or_string_filter->condition('s.location', $filter_metadata, 'LIKE');
+
+      $query->condition($or_string_filter);
+    }
   }
 
   return $query->execute()
@@ -371,7 +463,11 @@ function dkan_l10n_es_co_resultset2po($resultset, $textgroup, $destination_dir, 
 /**
  * Construct an array with PO file header as key value pairs.
  */
-function dkan_l10n_es_co_po_headers_array($time) {
+function dkan_l10n_es_co_po_headers_array($time = NULL) {
+  if (!isset($time)) {
+    $time = date('c');
+  }
+
   $po_headers = array(
     'Project-Id-Version' => 'dkan_l10n_es_co-7.x.1.x',
     'Language' => 'es_CO',
