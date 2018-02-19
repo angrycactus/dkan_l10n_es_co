@@ -4,8 +4,6 @@
  * @file
  */
 
-include_once __DIR__ . '/vendor/autoload.php';
-
 use Gettext\Translation;
 use Gettext\Translations;
 use Gettext\Generators\Po;
